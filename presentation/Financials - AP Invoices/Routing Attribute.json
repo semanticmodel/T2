@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Routing Attribute",
+    "presentationColumns" : [ {
+      "name" : "Routing Attribute 1",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Invoice Details.Routing Attribute 1",
+      "localization" : {
+        "localizationKey" : "Routing Attribute 1",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_1)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_1)"
+      }
+    }, {
+      "name" : "Routing Attribute 2",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Invoice Details.Routing Attribute 2",
+      "localization" : {
+        "localizationKey" : "Routing Attribute 2",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_2)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_2)"
+      }
+    }, {
+      "name" : "Routing Attribute 3",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Invoice Details.Routing Attribute 3",
+      "localization" : {
+        "localizationKey" : "Routing Attribute 3",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_3)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_3)"
+      }
+    }, {
+      "name" : "Routing Attribute 4",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Invoice Details.Routing Attribute 4",
+      "localization" : {
+        "localizationKey" : "Routing Attribute 4",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_4)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_4)"
+      }
+    }, {
+      "name" : "Routing Attribute 5",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Invoice Details.Routing Attribute 5",
+      "localization" : {
+        "localizationKey" : "Routing Attribute 5",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_5)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute_Routing_Attribute_5)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Routing Attribute",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Invoices_Routing_Attribute)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Invoices_Routing_Attribute)"
+    }
+  }
+}

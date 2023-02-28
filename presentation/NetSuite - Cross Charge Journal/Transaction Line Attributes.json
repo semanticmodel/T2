@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Line Attributes",
+    "presentationColumns" : [ {
+      "name" : "Cross Charge Journal Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Cross Charge Journal Details.Cross Charge Journal Line Number",
+      "localization" : {
+        "localizationKey" : "Cross Charge Journal Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Number)"
+      }
+    }, {
+      "name" : "Cross Charge Journal Line Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Cross Charge Journal Details.Cross Charge Journal Line Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Cross Charge Journal Line Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Cross Charge Journal - Main Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Cross Charge Journal Details.Cross Charge Journal - Main Line",
+      "localization" : {
+        "localizationKey" : "Cross Charge Journal - Main Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_-_Main_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_-_Main_Line)"
+      }
+    }, {
+      "name" : "Cross Charge Journal - Eliminate",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Cross Charge Journal Details.Cross Charge Journal - Eliminate",
+      "localization" : {
+        "localizationKey" : "Cross Charge Journal - Eliminate",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_-_Eliminate)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_-_Eliminate)"
+      }
+    }, {
+      "name" : "Cross Charge Journal Line Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Cross Charge Journal Details.Cross Charge Journal Line Memo",
+      "localization" : {
+        "localizationKey" : "Cross Charge Journal Line Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes_Cross_Charge_Journal_Line_Memo)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Line Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Cross_Charge_Journal_Transaction_Line_Attributes)"
+    }
+  }
+}

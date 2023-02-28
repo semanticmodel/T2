@@ -1,0 +1,146 @@
+{
+  "presentationTable" : {
+    "name" : "Transferred Date",
+    "presentationColumns" : [ {
+      "name" : "Transferred Fiscal Calendar Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Calendar Name",
+      "localization" : {
+        "localizationKey" : "Transferred Fiscal Calendar Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoices_Transferred_Date_Transferred_Fiscal_Calendar_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoices_Transferred_Date_Transferred_Fiscal_Calendar_Name)"
+      }
+    }, {
+      "name" : "Transferred Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Date",
+      "alternateNames" : [ "Invoice Transferred Date" ],
+      "localization" : {
+        "localizationKey" : "Transferred Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date)"
+      }
+    }, {
+      "name" : "Transferred Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Day Name",
+      "alternateNames" : [ "Invoice Transferred Day Name" ],
+      "localization" : {
+        "localizationKey" : "Transferred Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Day_Name)"
+      }
+    }, {
+      "name" : "Transferred Fiscal Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Period",
+      "alternateNames" : [ "Invoice Transferred Fiscal Period" ],
+      "localization" : {
+        "localizationKey" : "Transferred Fiscal Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Period)"
+      }
+    }, {
+      "name" : "Transferred Fiscal Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Quarter",
+      "alternateNames" : [ "Invoice Transferred Fiscal Quarter" ],
+      "localization" : {
+        "localizationKey" : "Transferred Fiscal Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Quarter)"
+      }
+    }, {
+      "name" : "Transferred Fiscal Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Year",
+      "alternateNames" : [ "Invoice Transferred Fiscal Year" ],
+      "localization" : {
+        "localizationKey" : "Transferred Fiscal Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Fiscal_Year)"
+      }
+    }, {
+      "name" : "Transferred Trailing Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Date Trailing Period Number",
+      "alternateNames" : [ "Invoice Transferred Date Trailing Period Number" ],
+      "localization" : {
+        "localizationKey" : "Transferred Trailing Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Period_Number)"
+      }
+    }, {
+      "name" : "Transferred Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Date Trailing Quarter Number",
+      "alternateNames" : [ "Invoice Transferred Date Trailing Quarter Number" ],
+      "localization" : {
+        "localizationKey" : "Transferred Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Transferred Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Date Trailing Year Number",
+      "alternateNames" : [ "Invoice Transferred Date Trailing Year Number" ],
+      "localization" : {
+        "localizationKey" : "Transferred Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Trailing_Year_Number)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "Invoice Transferred Date Fiscal Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - Invoice Transferred Date Fiscal Calendar",
+      "localization" : {
+        "localizationKey" : "Invoice Transferred Date Fiscal Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Invoice Transferred Fiscal Calendar",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Calendar",
+        "displayColumn" : "presentationColumn:PPM - Project Invoices.Transferred Date.Transferred Fiscal Calendar Name",
+        "localization" : {
+          "localizationKey" : "Invoice Transferred Fiscal Calendar",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoices_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Calendar)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoices_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Calendar)"
+        }
+      }, {
+        "name" : "Invoice Transferred Fiscal Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Year",
+        "displayColumn" : "presentationColumn:PPM - Project Invoices.Transferred Date.Transferred Fiscal Year",
+        "localization" : {
+          "localizationKey" : "Invoice Transferred Fiscal Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Year)"
+        }
+      }, {
+        "name" : "Invoice Transferred Fiscal Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Quarter",
+        "displayColumn" : "presentationColumn:PPM - Project Invoices.Transferred Date.Transferred Fiscal Quarter",
+        "localization" : {
+          "localizationKey" : "Invoice Transferred Fiscal Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Quarter)"
+        }
+      }, {
+        "name" : "Invoice Transferred Fiscal Period",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Fiscal Period",
+        "displayColumn" : "presentationColumn:PPM - Project Invoices.Transferred Date.Transferred Fiscal Period",
+        "localization" : {
+          "localizationKey" : "Invoice Transferred Fiscal Period",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Period)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Fiscal_Period)"
+        }
+      }, {
+        "name" : "Invoice Transferred Day Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Invoice Transferred Date Fiscal Calendar.Invoice Transferred Day Detail",
+        "displayColumn" : "presentationColumn:PPM - Project Invoices.Transferred Date.Transferred Date",
+        "localization" : {
+          "localizationKey" : "Invoice Transferred Day Detail",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Day_Detail)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date_Invoice_Transferred_Date_Fiscal_Calendar_Invoice_Transferred_Day_Detail)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Transferred Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Invoice_Transferred_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Invoice_Transferred_Date)"
+    }
+  }
+}

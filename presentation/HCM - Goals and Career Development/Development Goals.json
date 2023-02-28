@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Development Goals",
+    "localization" : {
+      "localizationKey" : "Development Goals",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Development_Goals)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Development_Goals)"
+    }
+  }
+}

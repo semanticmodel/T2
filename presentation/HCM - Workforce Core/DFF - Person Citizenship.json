@@ -1,0 +1,23 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Person Citizenship",
+    "description" : "Citizenship Attributes",
+    "presentationColumns" : [ {
+      "name" : "PER_CITIZENSHIPS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.PER_CITIZENSHIPS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PER_CITIZENSHIPS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Citizenship_PER_CITIZENSHIPS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Citizenship_PER_CITIZENSHIPS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Person Citizenship",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Citizenship)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Citizenship)"
+    }
+  }
+}

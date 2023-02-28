@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Inventory Count Details",
+    "localization" : {
+      "localizationKey" : "Inventory Count Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Count_Inventory_Count_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Count_Inventory_Count_Details)"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Statement Charge Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Statement Charge Status.Statement Charge Status Code",
+      "localization" : {
+        "localizationKey" : "Statement Charge Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Statement_Charge_Status_Statement_Charge_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Statement_Charge_Status_Statement_Charge_Status_Code)"
+      }
+    }, {
+      "name" : "Statement Charge Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Statement Charge Status.Statement Charge Status",
+      "localization" : {
+        "localizationKey" : "Statement Charge Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Statement_Charge_Status_Statement_Charge_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Statement_Charge_Status_Statement_Charge_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Statement_Charge_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Statement_Charge_Status)"
+    }
+  }
+}

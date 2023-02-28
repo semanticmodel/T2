@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Facts",
+    "localization" : {
+      "localizationKey" : "Facts",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Activity_Analysis_Facts)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Activity_Analysis_Facts)"
+    }
+  }
+}

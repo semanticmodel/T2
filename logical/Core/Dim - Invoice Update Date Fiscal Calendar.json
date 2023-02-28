@@ -1,0 +1,287 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Invoice Update Date Fiscal Calendar",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Date", "Invoice Update Adjustment Period Flag" ],
+    "logicalColumns" : [ {
+      "name" : "Invoice Update Fiscal Calendar Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_PERIOD_SET_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Calendar"
+    }, {
+      "name" : "Invoice Update Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Invoice Update Adjustment Period Flag",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.ADJUSTMENT_PERIOD_FLAG" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Period"
+    }, {
+      "name" : "Invoice Update Fiscal Year",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999), 47121231) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_YEAR_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Year"
+    }, {
+      "name" : "Invoice Update Fiscal Quarter",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_QUARTER_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Quarter"
+    }, {
+      "name" : "Invoice Update Fiscal Quarter Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_QUARTER_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Quarter"
+    }, {
+      "name" : "Invoice Update Fiscal Period",
+      "dataType" : "VARCHAR",
+      "sortBy" : "Invoice Update Fiscal Period Sort Key",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_PERIOD_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Period"
+    }, {
+      "name" : "Invoice Update Fiscal Period Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_PERIOD_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Period"
+    }, {
+      "name" : "Invoice Update Fiscal Period Sort Key",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_PERIOD_SORT_KEY" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Period"
+    }, {
+      "name" : "Invoice Update Day Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE %2 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Invoice Update Day Name",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Invoice Update Day Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 IN (-(99999)) THEN  NULL  ELSE  LOOKUP( SPARSE %2, %3, %3,  VALUEOF(NQ_SESSION.%4)) END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_DATE_ID", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_DAYS_OF_WEEK_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_DAY_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Invoice Update Date Trailing Period Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_TRAILING_PERIOD_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Period"
+    }, {
+      "name" : "Invoice Update Date Trailing Quarter Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_TRAILING_QUARTER_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Quarter"
+    }, {
+      "name" : "Invoice Update Date Trailing Year Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar.FISCAL_TRAILING_YEAR_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Fiscal Year"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_FISCAL_DAY_D_InvoiceUpdateDate_Fiscal_Calendar" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Invoice Update Date Fiscal Calendar.Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "TIME",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Fiscal Calendar",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Invoice Update Fiscal Calendar Name" ],
+        "displayKey" : "Invoice Update Fiscal Calendar Name",
+        "chronologicalKey" : [ "Invoice Update Fiscal Calendar Name" ]
+      }, {
+        "name" : "Fiscal Year",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Fiscal Year" ],
+        "displayKey" : "Invoice Update Fiscal Year",
+        "additionalKeys" : [ [ "Invoice Update Fiscal Year" ] ],
+        "chronologicalKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Fiscal Year" ]
+      }, {
+        "name" : "Fiscal Quarter",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Fiscal Quarter" ],
+        "displayKey" : "Invoice Update Fiscal Quarter",
+        "additionalKeys" : [ [ "Invoice Update Fiscal Quarter" ] ],
+        "chronologicalKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Fiscal Quarter" ]
+      }, {
+        "name" : "Fiscal Period",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Adjustment Period Flag", "Invoice Update Fiscal Period" ],
+        "displayKey" : "Invoice Update Fiscal Period",
+        "additionalKeys" : [ [ "Invoice Update Fiscal Period" ] ],
+        "chronologicalKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Adjustment Period Flag", "Invoice Update Fiscal Period" ]
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Date", "Invoice Update Adjustment Period Flag" ],
+        "displayKey" : "Invoice Update Date",
+        "additionalKeys" : [ [ "Invoice Update Date" ] ],
+        "chronologicalKey" : [ "Invoice Update Fiscal Calendar Name", "Invoice Update Date", "Invoice Update Adjustment Period Flag" ]
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Invoice Update Date Fiscal Calendar",
+        "levels" : [ "Total", "Fiscal Calendar", "Fiscal Year", "Fiscal Quarter", "Fiscal Period", "Detail" ]
+      } ]
+    }
+  }
+}

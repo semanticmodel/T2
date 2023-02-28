@@ -1,0 +1,446 @@
+{
+  "presentationTable" : {
+    "name" : "Asset Line Task Hierarchy",
+    "presentationColumns" : [ {
+      "name" : "Asset Line Task - Base Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Base Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Base Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Base Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Base Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Base Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Base Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Base Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Base Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Base Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Base Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Base Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Base_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 2 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 2 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 2 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 2 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_2_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 3 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 3 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 3 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 3 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_3_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 4 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 4 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 4 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 4 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_4_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 5 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 5 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 5 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 5 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_5_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 6 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 6 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 6 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 6 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_6_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 7 Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 7 Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 7 Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Level 7 Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Level_7_Task_Outline_Level)"
+      }
+    }, {
+      "name" : "Asset Line Task - Top Task Display Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Top Task Display Sequence",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Top Task Display Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Display_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Display_Sequence)"
+      }
+    }, {
+      "name" : "Asset Line Task - Top Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Top Task Name",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Top Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Name)"
+      }
+    }, {
+      "name" : "Asset Line Task - Top Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Top Task Number",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Top Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Number)"
+      }
+    }, {
+      "name" : "Asset Line Task - Top Task Outline Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Asset Line Task Hierarchy.Asset Line Task - Top Task Outline Level",
+      "localization" : {
+        "localizationKey" : "Asset Line Task - Top Task Outline Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Outline_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_-_Top_Task_Outline_Level)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "Asset Line Task Hierarchy - Asset Line Top Task Name",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - Asset Line Task Hierarchy",
+      "localization" : {
+        "localizationKey" : "Asset Line Task Hierarchy - Asset Line Top Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name)"
+      },
+      "levels" : [ {
+        "name" : "All",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.All",
+        "localization" : {
+          "localizationKey" : "All",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_All)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_All)"
+        }
+      }, {
+        "name" : "Asset Line Top Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Top Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Top Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Top Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Top_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Top_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 2 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 2 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 2 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_2_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_2_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 3 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 3 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 3 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_3_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_3_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 4 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 4 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 4 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_4_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_4_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 5 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 5 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 5 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_5_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_5_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 6 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 6 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 6 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_6_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_6_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Level 7 Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 7 Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 7 Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_7_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Level_7_Task_Name)"
+        }
+      }, {
+        "name" : "Asset Line Base Task Name",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Base Task Name",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Base Task Name",
+        "localization" : {
+          "localizationKey" : "Asset Line Base Task Name",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Base_Task_Name)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Name_Asset_Line_Base_Task_Name)"
+        }
+      } ]
+    }, {
+      "name" : "Asset Line Task Hierarchy - Asset Line Top Task Number",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - Asset Line Task Hierarchy",
+      "localization" : {
+        "localizationKey" : "Asset Line Task Hierarchy - Asset Line Top Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number)"
+      },
+      "levels" : [ {
+        "name" : "All",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.All",
+        "localization" : {
+          "localizationKey" : "All",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_All)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_All)"
+        }
+      }, {
+        "name" : "Asset Line Top Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Top Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Top Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Top Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Top_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Top_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 2 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 2 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 2 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 2 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_2_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_2_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 3 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 3 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 3 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 3 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_3_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_3_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 4 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 4 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 4 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 4 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_4_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_4_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 5 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 5 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 5 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 5 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_5_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_5_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 6 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 6 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 6 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 6 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_6_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_6_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Level 7 Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Level 7 Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Level 7 Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Level 7 Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_7_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Level_7_Task_Number)"
+        }
+      }, {
+        "name" : "Asset Line Base Task Number",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Base Task Number",
+        "displayColumn" : "presentationColumn:PPM - Project Assets.Asset Line Task Hierarchy.Asset Line Task - Base Task Number",
+        "localization" : {
+          "localizationKey" : "Asset Line Base Task Number",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Base_Task_Number)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy_Asset_Line_Task_Hierarchy_-_Asset_Line_Top_Task_Number_Asset_Line_Base_Task_Number)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Asset Line Task Hierarchy",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Asset_Line_Task_Hierarchy)"
+    }
+  }
+}

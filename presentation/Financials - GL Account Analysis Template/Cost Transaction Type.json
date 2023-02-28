@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Cost Transaction Type",
+    "presentationColumns" : [ {
+      "name" : "Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Transaction Type.Transaction Type",
+      "localization" : {
+        "localizationKey" : "Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Transaction_Type_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Transaction_Type_Transaction_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Cost Transaction Type",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Transaction_Type)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Transaction_Type)"
+    }
+  }
+}

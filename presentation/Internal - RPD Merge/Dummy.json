@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Dummy",
+    "presentationColumns" : [ {
+      "name" : "Dummy",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - RPD Merge.Dummy",
+      "localization" : {
+        "localizationKey" : "Dummy",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_RPD_Merge_Dummy_Dummy)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_RPD_Merge_Dummy_Dummy)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Dummy",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_RPD_Merge_Dummy)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_RPD_Merge_Dummy)"
+    }
+  }
+}

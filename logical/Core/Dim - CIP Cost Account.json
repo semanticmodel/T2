@@ -1,0 +1,130 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - CIP Cost Account",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "CIP Cost Code Combination Key" ],
+    "logicalColumns" : [ {
+      "name" : "CIP Cost Code Combination Key",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.CODE_COMBINATION_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "CIP Cost Chart Of Account Code",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.CHART_OF_ACCOUNTS_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CIP Cost Chart of Account Name",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "CIP Cost Chart Of Account Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1,  CAST (%2 AS VARCHAR ( 38 )), %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_CHART_OF_ACC_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.CHART_OF_ACCOUNTS_ID", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CIP Cost Financial Category Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.FINANCIAL_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CIP Cost Financial Category Name",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "CIP Cost Financial Category Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_GROUP_ACC_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.FINANCIAL_CATEGORY", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CIP Cost Account",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount.CONCAT_SEGMENTS" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_CIPCostAccount" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - CIP Cost Account.Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "CIP Cost Code Combination Key" ],
+        "displayKey" : "CIP Cost Code Combination Key"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "CIP Cost Account",
+        "levels" : [ "Total", "Detail" ]
+      } ]
+    }
+  }
+}

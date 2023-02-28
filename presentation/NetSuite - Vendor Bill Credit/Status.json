@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Vendor Bill Credit Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Credit Status.Vendor Bill Credit Status Code",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Credit Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Credit_Status_Vendor_Bill_Credit_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Credit_Status_Vendor_Bill_Credit_Status_Code)"
+      }
+    }, {
+      "name" : "Vendor Bill Credit Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Credit Status.Vendor Bill Credit Status",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Credit Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Credit_Status_Vendor_Bill_Credit_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Credit_Status_Vendor_Bill_Credit_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Credit_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Credit_Status)"
+    }
+  }
+}

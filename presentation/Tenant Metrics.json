@@ -1,0 +1,27 @@
+{
+  "subjectArea" : {
+    "name" : "Tenant Metrics",
+    "tags" : [ "Project:Oracle Analytics for Fusion Common" ],
+    "sourceBusinessModel" : "businessModel:Core",
+    "implicitFactColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Record Count",
+    "tableOrder" : [ {
+      "name" : "presentationTable:Tenant Metrics.Time"
+    }, {
+      "name" : "presentationTable:Tenant Metrics.Tenant Metrics Attributes"
+    }, {
+      "name" : "presentationTable:Tenant Metrics.Fact - Tenant Metrics"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:AuthenticatedUser",
+      "access" : "NO_ACCESS"
+    }, {
+      "accessor" : "role:OA4F_STORAGE_USAGE_TRACKING_ANALYSIS_DUTY",
+      "access" : "READ"
+    } ],
+    "localization" : {
+      "localizationKey" : "Tenant Metrics",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics)"
+    }
+  }
+}

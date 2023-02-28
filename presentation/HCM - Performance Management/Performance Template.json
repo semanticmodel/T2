@@ -1,0 +1,75 @@
+{
+  "presentationTable" : {
+    "name" : "Performance Template",
+    "presentationColumns" : [ {
+      "name" : "Template Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Identifier",
+      "localization" : {
+        "localizationKey" : "Template Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Identifier)"
+      }
+    }, {
+      "name" : "Template Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Name",
+      "localization" : {
+        "localizationKey" : "Template Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Name)"
+      }
+    }, {
+      "name" : "Template Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Type Code",
+      "localization" : {
+        "localizationKey" : "Template Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Type_Code)"
+      }
+    }, {
+      "name" : "Template Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Type",
+      "localization" : {
+        "localizationKey" : "Template Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Type)"
+      }
+    }, {
+      "name" : "Template Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Status Code",
+      "localization" : {
+        "localizationKey" : "Template Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Status_Code)"
+      }
+    }, {
+      "name" : "Template Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.Template Status",
+      "localization" : {
+        "localizationKey" : "Template Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_Template_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_Template_Status)"
+      }
+    }, {
+      "name" : "From Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.From Date",
+      "localization" : {
+        "localizationKey" : "From Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_From_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_From_Date)"
+      }
+    }, {
+      "name" : "To Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Template.To Date",
+      "localization" : {
+        "localizationKey" : "To Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template_To_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template_To_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Performance Template",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Template)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Template)"
+    }
+  }
+}

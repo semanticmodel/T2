@@ -1,0 +1,79 @@
+{
+  "presentationTable" : {
+    "name" : "Metadata",
+    "presentationColumns" : [ {
+      "name" : "Driving Dimension Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type Code",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Driving_Dimension_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Driving_Dimension_Type_Code)"
+      }
+    }, {
+      "name" : "Driving Dimension Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Driving_Dimension_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Driving_Dimension_Type)"
+      }
+    }, {
+      "name" : "Descriptor Identifier Indicator",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Descriptor Identifier Indicator",
+      "localization" : {
+        "localizationKey" : "Descriptor Identifier Indicator",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Descriptor_Identifier_Indicator)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Descriptor_Identifier_Indicator)"
+      }
+    }, {
+      "name" : "Default Dimension Type Indicator",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Metadata for Appshell.Default Dimension Type Indicator",
+      "localization" : {
+        "localizationKey" : "Default Dimension Type Indicator",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Default_Dimension_Indicator)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Default_Dimension_Indicator)"
+      }
+    }, {
+      "name" : "Subject Area",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Metadata for Appshell.Subject Area",
+      "localization" : {
+        "localizationKey" : "Subject Area",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Subject_Area)"
+      }
+    }, {
+      "name" : "Presentation Table",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Metadata for Appshell.Presentation Table",
+      "localization" : {
+        "localizationKey" : "Presentation Table",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Presentation_Table)"
+      }
+    }, {
+      "name" : "Presentation Column",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Metadata for Appshell.Presentation Column",
+      "localization" : {
+        "localizationKey" : "Presentation Column",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Presentation_Column)"
+      }
+    }, {
+      "name" : "Source",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Source",
+      "localization" : {
+        "localizationKey" : "Source",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Source)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Source)"
+      }
+    }, {
+      "name" : "Record Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Multiple Calendar Driving Dimension Metadata for Appshell.Record Count",
+      "localization" : {
+        "localizationKey" : "Record Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata_Record_Count)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Metadata",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_Metadata_Metadata)"
+    }
+  }
+}

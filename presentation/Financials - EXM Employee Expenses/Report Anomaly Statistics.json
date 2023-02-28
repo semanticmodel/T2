@@ -1,0 +1,39 @@
+{
+  "presentationTable" : {
+    "name" : "Report Anomaly Statistics",
+    "hideIfTrue" : {
+      "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+      "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+    },
+    "presentationColumns" : [ {
+      "name" : "Report Anomaly Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - EXM Employee Expenses Report.Report Anomaly Status",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+      },
+      "localization" : {
+        "localizationKey" : "Report Anomaly Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics_Report_Anomaly_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics_Report_Anomaly_Status)"
+      }
+    }, {
+      "name" : "Report Anomaly Score",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - EXM Employee Expenses Report.Report Anomaly Score",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+      },
+      "localization" : {
+        "localizationKey" : "Report Anomaly Score",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics_Report_Anomaly_Score)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics_Report_Anomaly_Score)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Report Anomaly Statistic",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Anomaly_Statistics)"
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "presentationTable" : {
+    "name" : "Service Request Close Date",
+    "presentationColumns" : [ {
+      "name" : "Service Request Close Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Date",
+      "localization" : {
+        "localizationKey" : "Service Request Close Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date)"
+      }
+    }, {
+      "name" : "Service Request Close Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Year",
+      "localization" : {
+        "localizationKey" : "Service Request Close Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Year)"
+      }
+    }, {
+      "name" : "Service Request Close Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Month",
+      "localization" : {
+        "localizationKey" : "Service Request Close Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month)"
+      }
+    }, {
+      "name" : "Service Request Close Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Quarter",
+      "localization" : {
+        "localizationKey" : "Service Request Close Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Quarter)"
+      }
+    }, {
+      "name" : "Service Request Close Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Week",
+      "localization" : {
+        "localizationKey" : "Service Request Close Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Week)"
+      }
+    }, {
+      "name" : "Service Request Close Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Day Code",
+      "localization" : {
+        "localizationKey" : "Service Request Close Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Day_Code)"
+      }
+    }, {
+      "name" : "Service Request Close Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Quarter Number",
+      "localization" : {
+        "localizationKey" : "Service Request Close Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Quarter_Number)"
+      }
+    }, {
+      "name" : "Service Request Close Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Month Number",
+      "localization" : {
+        "localizationKey" : "Service Request Close Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month_Number)"
+      }
+    }, {
+      "name" : "Service Request Close Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Month Name",
+      "localization" : {
+        "localizationKey" : "Service Request Close Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Month_Name)"
+      }
+    }, {
+      "name" : "Service Request Close Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Service Request Close Day Name",
+      "localization" : {
+        "localizationKey" : "Service Request Close Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Day_Name)"
+      }
+    }, {
+      "name" : "Service Request Close Enterprise Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Service Request Close Enterprise Year",
+      "localization" : {
+        "localizationKey" : "Service Request Close Enterprise Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Year)"
+      }
+    }, {
+      "name" : "Service Request Close Enterprise Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Service Request Close Enterprise Quarter",
+      "localization" : {
+        "localizationKey" : "Service Request Close Enterprise Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Quarter)"
+      }
+    }, {
+      "name" : "Service Request Close Enterprise Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Service Request Close Enterprise Period",
+      "localization" : {
+        "localizationKey" : "Service Request Close Enterprise Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Period)"
+      }
+    }, {
+      "name" : "Service Request Close Enterprise Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Service Request Close Enterprise Date",
+      "localization" : {
+        "localizationKey" : "Service Request Close Enterprise Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Enterprise_Date)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "Service Request Close Date Gregorian Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar",
+      "localization" : {
+        "localizationKey" : "Service Request Close Date Gregorian Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Year",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Year",
+        "localization" : {
+          "localizationKey" : "Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Year)"
+        }
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Quarter",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Quarter",
+        "localization" : {
+          "localizationKey" : "Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Quarter)"
+        }
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Month",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Month",
+        "localization" : {
+          "localizationKey" : "Month",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Month)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Month)"
+        }
+      }, {
+        "name" : "Day",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Gregorian Calendar.Day",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Date",
+        "localization" : {
+          "localizationKey" : "Day",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Day)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Gregorian_Calendar_Day)"
+        }
+      } ]
+    }, {
+      "name" : "Service Request Close Date Enterprise Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar",
+      "localization" : {
+        "localizationKey" : "Service Request Close Date Enterprise Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Enterprise Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Enterprise Year",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Enterprise Year",
+        "localization" : {
+          "localizationKey" : "Enterprise Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Year)"
+        }
+      }, {
+        "name" : "Enterprise Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Enterprise Quarter",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Enterprise Quarter",
+        "localization" : {
+          "localizationKey" : "Enterprise Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Quarter)"
+        }
+      }, {
+        "name" : "Enterprise Period",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Enterprise Period",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Enterprise Period",
+        "localization" : {
+          "localizationKey" : "Enterprise Period",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Period)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Enterprise_Period)"
+        }
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Close Date Enterprise Calendar.Detail",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Close Date.Service Request Close Enterprise Date",
+        "localization" : {
+          "localizationKey" : "Detail",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Detail)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date_Service_Request_Close_Date_Enterprise_Calendar_Detail)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Service Request Close Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Close_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Close_Date)"
+    }
+  }
+}

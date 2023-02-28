@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Purchase Contract",
+    "localization" : {
+      "localizationKey" : "Fact - Purchase Contract",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Contract_Fact_-_Purchase_Contract)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Contract_Fact_-_Purchase_Contract)"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Job Offer",
+    "presentationColumns" : [ {
+      "name" : "IRC_OFFERS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Offer.IRC_OFFERS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "IRC_OFFERS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_DFF_-_Job_Offer_IRC_OFFERS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_DFF_-_Job_Offer_IRC_OFFERS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Job Offer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_DFF_-_Job_Offer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_DFF_-_Job_Offer)"
+    }
+  }
+}

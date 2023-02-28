@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Fulfillment Request",
+    "localization" : {
+      "localizationKey" : "Fact - Fulfillment Request",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Fulfillment_Request_Fact_-_Fulfillment_Request)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Fulfillment_Request_Fact_-_Fulfillment_Request)"
+    }
+  }
+}

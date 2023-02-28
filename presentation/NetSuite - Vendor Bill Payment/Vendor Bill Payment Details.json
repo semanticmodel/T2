@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Vendor Bill Payment Details",
+    "localization" : {
+      "localizationKey" : "Vendor Bill Payment Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Payment_Vendor_Bill_Payment_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Payment_Vendor_Bill_Payment_Details)"
+    }
+  }
+}

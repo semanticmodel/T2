@@ -1,0 +1,91 @@
+{
+  "presentationTable" : {
+    "name" : "Driving Dimension",
+    "presentationColumns" : [ {
+      "name" : "Driving Dimension Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type Code",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Code)"
+      }
+    }, {
+      "name" : "Driving Dimension Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type)"
+      }
+    }, {
+      "name" : "Driving Dimension Type Label",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type Label",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type Label",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Label)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Label)"
+      }
+    }, {
+      "name" : "Driving Dimension Type Language",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type Language",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type Language",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Language)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Driving_Dimension_Type_Language)"
+      }
+    }, {
+      "name" : "Descriptor Identifier Indicator",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Descriptor Identifier Indicator",
+      "localization" : {
+        "localizationKey" : "Descriptor Identifier Indicator",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Descriptor_Identifier_Indicator)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Descriptor_Identifier_Indicator)"
+      }
+    }, {
+      "name" : "Activated Indicator",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension for Functional Areas.Activated Indicator",
+      "localization" : {
+        "localizationKey" : "Activated Indicator",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Activated_Indicator)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Activated_Indicator)"
+      }
+    }, {
+      "name" : "Calendar Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension for Functional Areas.Calendar Type",
+      "localization" : {
+        "localizationKey" : "Calendar Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Calendar_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Calendar_Type)"
+      }
+    }, {
+      "name" : "Module Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension for Functional Areas.Module Code",
+      "localization" : {
+        "localizationKey" : "Module Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Module_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Module_Code)"
+      }
+    }, {
+      "name" : "Source",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension for Functional Areas.Source",
+      "localization" : {
+        "localizationKey" : "Source",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Source)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Source)"
+      }
+    }, {
+      "name" : "Record Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Multiple Calendar Driving Dimension for Functional Areas.Record Count",
+      "localization" : {
+        "localizationKey" : "Record Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Record_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension_Record_Count)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Driving Dimension",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Driving_Dimension)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Driving_Dimension_for_Functional_Areas_Presentation_Table)"
+    }
+  }
+}

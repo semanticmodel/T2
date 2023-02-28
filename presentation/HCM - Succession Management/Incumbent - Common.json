@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Incumbent - Common",
+    "localization" : {
+      "localizationKey" : "Incumbent - Common",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Common)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Common)"
+    }
+  }
+}

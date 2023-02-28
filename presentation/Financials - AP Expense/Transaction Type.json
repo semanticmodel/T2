@@ -1,0 +1,38 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Type",
+    "presentationColumns" : [ {
+      "name" : "Transaction Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Transaction Type.Transaction Type Code",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Transaction Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Code)"
+      }
+    }, {
+      "name" : "Transaction Type Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Transaction Type.Transaction Type Name",
+      "localization" : {
+        "localizationKey" : "Transaction Type Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Name)"
+      }
+    }, {
+      "name" : "Transaction Type Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Transaction Type.Transaction Type Description",
+      "localization" : {
+        "localizationKey" : "Transaction Type Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Transaction_Type_Transaction_Type_Description)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Type",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Transaction_Type)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Transaction_Type)"
+    }
+  }
+}

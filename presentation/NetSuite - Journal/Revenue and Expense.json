@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Revenue and Expense",
+    "localization" : {
+      "localizationKey" : "Revenue and Expense",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Revenue_and_Expense)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Revenue_and_Expense)"
+    }
+  }
+}

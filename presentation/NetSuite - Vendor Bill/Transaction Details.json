@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Details",
+    "presentationColumns" : [ {
+      "name" : "Transaction Display Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transaction Details.Transaction Display Name",
+      "localization" : {
+        "localizationKey" : "Transaction Display Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Display_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Display_Name)"
+      }
+    }, {
+      "name" : "Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transaction Details.Transaction Type",
+      "localization" : {
+        "localizationKey" : "Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Type)"
+      }
+    }, {
+      "name" : "Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transaction Details.Transaction Number",
+      "localization" : {
+        "localizationKey" : "Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Details_Transaction_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Details)"
+    }
+  }
+}

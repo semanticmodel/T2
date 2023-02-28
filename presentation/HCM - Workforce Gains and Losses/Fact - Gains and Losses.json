@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Gains and Losses",
+    "localization" : {
+      "localizationKey" : "Fact - Gains and Losses",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Fact_-_Gains_and_Losses)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Fact_-_Gains_and_Losses)"
+    }
+  }
+}

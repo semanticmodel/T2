@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction",
+    "presentationColumns" : [ {
+      "name" : "Total Number of Vendor Prepayments",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Vendor Prepayment.Total Number of Vendor Prepayments",
+      "localization" : {
+        "localizationKey" : "Total Number of Vendor Prepayments",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Total_Number_of_Vendor_Prepayments)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Total_Number_of_Vendor_Prepayments)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction)"
+    }
+  }
+}

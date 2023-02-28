@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Return Authorization Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Return Authorization Status.Return Authorization Status Code",
+      "localization" : {
+        "localizationKey" : "Return Authorization Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Return_Authorization_Status_Return_Authorization_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Return_Authorization_Status_Return_Authorization_Status_Code)"
+      }
+    }, {
+      "name" : "Return Authorization Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Return Authorization Status.Return Authorization Status",
+      "localization" : {
+        "localizationKey" : "Return Authorization Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Return_Authorization_Status_Return_Authorization_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Return_Authorization_Status_Return_Authorization_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Return_Authorization_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Return_Authorization_Status)"
+    }
+  }
+}

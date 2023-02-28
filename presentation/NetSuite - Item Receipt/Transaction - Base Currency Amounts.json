@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction - Base Currency Amounts",
+    "presentationColumns" : [ {
+      "name" : "Estimated Gross Profit In Base Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Item Receipt.Estimated Gross Profit In Base Currency",
+      "localization" : {
+        "localizationKey" : "Estimated Gross Profit In Base Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts_Estimated_Gross_Profit_In_Base_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts_Estimated_Gross_Profit_In_Base_Currency)"
+      }
+    }, {
+      "name" : "Total Amount in Base Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Item Receipt.Total Amount in Base Currency",
+      "localization" : {
+        "localizationKey" : "Total Amount in Base Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts_Total_Amount_in_Base_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts_Total_Amount_in_Base_Currency)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction - Base Currency Amounts",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Receipt_Transaction_-_Base_Currency_Amounts)"
+    }
+  }
+}

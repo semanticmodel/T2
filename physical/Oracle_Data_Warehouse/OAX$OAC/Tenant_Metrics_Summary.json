@@ -1,0 +1,27 @@
+{
+  "physicalTable": {
+    "name": "Tenant_Metrics_Summary",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.OAX_TENANT_METRICS_SUMMARY",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_APPS_DAY_D_CommonGregorianCalendar",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.SNAPSHOT_DATE",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_APPS_DAY_D_CommonGregorianCalendar.CALENDAR_DATE"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "ATTRIBUTE1",
+        "ATTRIBUTE2",
+        "CREATION_DATE",
+        "METRIC_NAME",
+        "SOURCE_TYPE_CODE"
+      ]
+    ]
+  }
+}

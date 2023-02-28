@@ -1,0 +1,22 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Locator",
+    "presentationColumns" : [ {
+      "name" : "INV_ITEM_LOCATIONS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Locator.INV_ITEM_LOCATIONS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "INV_ITEM_LOCATIONS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Balances_DFF_-_Locator_INV_ITEM_LOCATIONS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Balances_DFF_-_Locator_INV_ITEM_LOCATIONS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Locator",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Balances_DFF_-_Locator)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Balances_DFF_-_Locator)"
+    }
+  }
+}

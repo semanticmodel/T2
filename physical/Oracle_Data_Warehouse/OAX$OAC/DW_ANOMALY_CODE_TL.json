@@ -1,0 +1,27 @@
+{
+  "physicalTable" : {
+    "name" : "DW_ANOMALY_CODE_TL",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "IS_ANOMALY",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LANGUAGE",
+      "dataType" : "VARCHAR",
+      "length" : 32,
+      "nullable" : false
+    }, {
+      "name" : "PREDICTION_DESCRIPTION",
+      "dataType" : "VARCHAR",
+      "length" : 128,
+      "nullable" : true
+    } ],
+    "additionalKeys" : [ [ "IS_ANOMALY", "LANGUAGE" ] ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Depreciation Expense Account",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Depreciation Expense Code Combination Key" ],
+    "logicalColumns" : [ {
+      "name" : "Depreciation Expense Code Combination Key",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.CODE_COMBINATION_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Depreciation Expense Chart Of Account Code",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.CHART_OF_ACCOUNTS_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Depreciation Expense Chart Of Account Name",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Depreciation Expense Chart Of Account Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1,  CAST (%2 AS VARCHAR ( 38 )), %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_CHART_OF_ACC_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.CHART_OF_ACCOUNTS_ID", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Depreciation Expense Financial Category Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.FINANCIAL_CATEGORY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Depreciation Expense Financial Category Name",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Depreciation Expense Financial Category Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_GROUP_ACC_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.FINANCIAL_CATEGORY", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Depreciation Expense Account",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount.CONCAT_SEGMENTS" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_GL_CODE_COMBINATION_D_DepreciationExpenseAccount" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Depreciation Expense Account.Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Depreciation Expense Code Combination Key" ],
+        "displayKey" : "Depreciation Expense Code Combination Key"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Depreciation Expense Account",
+        "levels" : [ "Total", "Detail" ]
+      } ]
+    }
+  }
+}

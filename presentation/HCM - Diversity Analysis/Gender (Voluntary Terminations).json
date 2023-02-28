@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Gender (Voluntary Terminations)",
+    "localization" : {
+      "localizationKey" : "Gender (Voluntary Terminations)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Gender_(Voluntary_Terminations))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Gender_(Voluntary_Terminations))"
+    }
+  }
+}

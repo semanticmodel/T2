@@ -1,0 +1,22 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Transaction Types",
+    "presentationColumns" : [ {
+      "name" : "INV_TRANSACTION_TYPES_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.INV_TRANSACTION_TYPES_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "INV_TRANSACTION_TYPES_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_DFF_-_Transaction_Types_INV_TRANSACTION_TYPES_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_DFF_-_Transaction_Types_INV_TRANSACTION_TYPES_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Transaction Types",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_DFF_-_Transaction_Types)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_DFF_-_Transaction_Types)"
+    }
+  }
+}

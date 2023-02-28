@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Ethnicity (Involuntary Terminations)",
+    "localization" : {
+      "localizationKey" : "Ethnicity (Involuntary Terminations)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Ethnicity_(Involuntary_Terminations))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Ethnicity_(Involuntary_Terminations))"
+    }
+  }
+}

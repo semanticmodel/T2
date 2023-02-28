@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Assembly Unbuild",
+    "localization" : {
+      "localizationKey" : "Fact - Assembly Unbuild",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Assembly_Unbuild_Fact_-_Assembly_Unbuild)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Assembly_Unbuild_Fact_-_Assembly_Unbuild)"
+    }
+  }
+}

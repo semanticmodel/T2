@@ -1,0 +1,115 @@
+{
+  "presentationTable" : {
+    "name" : "Subscription Aggregate Date",
+    "presentationColumns" : [ {
+      "name" : "Subscription Aggregate Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Day Name",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Day_Name)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Month",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Month Number",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Number)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Month Name",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Name)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Month Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Month Start Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Month Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_Start_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Month End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Month End Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Month End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Month_End_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Quarter",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Quarter Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Quarter Start Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Quarter Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter_Start_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Quarter End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Quarter End Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Quarter End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Quarter_End_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Year",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Year Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Year Start Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Year Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year_Start_Date)"
+      }
+    }, {
+      "name" : "Subscription Aggregate Year End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Aggregate Date Gregorian Calendar.Subscription Aggregate Year End Date",
+      "localization" : {
+        "localizationKey" : "Subscription Aggregate Year End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date_Subscription_Aggregate_Year_End_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Subscription Aggregate Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscription_Historical_Trend_Subscription_Aggregate_Date)"
+    }
+  }
+}

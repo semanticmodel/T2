@@ -1,0 +1,83 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Lines",
+    "presentationColumns" : [ {
+      "name" : "Total Number of Transfer Order Lines",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Total Number of Transfer Order Lines",
+      "localization" : {
+        "localizationKey" : "Total Number of Transfer Order Lines",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Total_Number_of_Transfer_Order_Lines)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Total_Number_of_Transfer_Order_Lines)"
+      }
+    }, {
+      "name" : "Item Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Item Quantity",
+      "localization" : {
+        "localizationKey" : "Item Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Item_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Item_Quantity)"
+      }
+    }, {
+      "name" : "Quantity Allocated",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Quantity Allocated",
+      "localization" : {
+        "localizationKey" : "Quantity Allocated",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Allocated)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Allocated)"
+      }
+    }, {
+      "name" : "Quantity Back Ordered",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Quantity Back Ordered",
+      "localization" : {
+        "localizationKey" : "Quantity Back Ordered",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Back_Ordered)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Back_Ordered)"
+      }
+    }, {
+      "name" : "Quantity Committed",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Quantity Committed",
+      "localization" : {
+        "localizationKey" : "Quantity Committed",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Committed)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Committed)"
+      }
+    }, {
+      "name" : "Quantity Picked",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Quantity Picked",
+      "localization" : {
+        "localizationKey" : "Quantity Picked",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Picked)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Picked)"
+      }
+    }, {
+      "name" : "Quantity Shipped/Received/Picked Up",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Quantity Shipped/Received/Picked Up",
+      "localization" : {
+        "localizationKey" : "Quantity Shipped/Received/Picked Up",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Shipped/Received/Picked_Up)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Quantity_Shipped/Received/Picked_Up)"
+      }
+    }, {
+      "name" : "Line Estimated Gross Profit Percent",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Line Estimated Gross Profit Percent",
+      "localization" : {
+        "localizationKey" : "Line Estimated Gross Profit Percent",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Line_Estimated_Gross_Profit_Percent)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Line_Estimated_Gross_Profit_Percent)"
+      }
+    }, {
+      "name" : "Item Rate Percent",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Transfer Order.Item Rate Percent",
+      "localization" : {
+        "localizationKey" : "Item Rate Percent",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines_Item_Rate_Percent)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines_Item_Rate_Percent)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Lines",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Transaction_Lines)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Transaction_Lines)"
+    }
+  }
+}

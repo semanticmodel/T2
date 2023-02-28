@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Currency Exchange Details",
+    "localization" : {
+      "localizationKey" : "Currency Exchange Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Budgets_Currency_Exchange_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Budgets_Currency_Exchange_Details)"
+    }
+  }
+}

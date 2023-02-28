@@ -1,0 +1,269 @@
+{
+  "presentationTable" : {
+    "name" : "Time - Job Application Date",
+    "description" : "A folder containing time dimensional attributes, e.g. Year, Quarter, Month, Week, Day, and a Time hierarchy.",
+    "presentationColumns" : [ {
+      "name" : "Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Year",
+      "localization" : {
+        "localizationKey" : "Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Year)"
+      }
+    }, {
+      "name" : "Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Quarter",
+      "localization" : {
+        "localizationKey" : "Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Quarter)"
+      }
+    }, {
+      "name" : "Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Quarter Number",
+      "localization" : {
+        "localizationKey" : "Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Quarter_Number)"
+      }
+    }, {
+      "name" : "Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Month Name",
+      "localization" : {
+        "localizationKey" : "Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month_Name)"
+      }
+    }, {
+      "name" : "Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Month",
+      "localization" : {
+        "localizationKey" : "Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month)"
+      }
+    }, {
+      "name" : "Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Month Number",
+      "localization" : {
+        "localizationKey" : "Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Month_Number)"
+      }
+    }, {
+      "name" : "Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Week",
+      "localization" : {
+        "localizationKey" : "Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Week)"
+      }
+    }, {
+      "name" : "Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Date",
+      "localization" : {
+        "localizationKey" : "Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Date)"
+      }
+    }, {
+      "name" : "Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Day Code",
+      "localization" : {
+        "localizationKey" : "Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Day_Code)"
+      }
+    }, {
+      "name" : "Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Gregorian.Day Name",
+      "localization" : {
+        "localizationKey" : "Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Day_Name)"
+      }
+    }, {
+      "name" : "Enterprise Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Year",
+      "localization" : {
+        "localizationKey" : "Enterprise Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Year)"
+      }
+    }, {
+      "name" : "Enterprise Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Quarter",
+      "localization" : {
+        "localizationKey" : "Enterprise Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Quarter)"
+      }
+    }, {
+      "name" : "Enterprise Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Quarter Number",
+      "localization" : {
+        "localizationKey" : "Enterprise Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Quarter_Number)"
+      }
+    }, {
+      "name" : "Enterprise Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Period",
+      "localization" : {
+        "localizationKey" : "Enterprise Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Period)"
+      }
+    }, {
+      "name" : "Enterprise Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Period Number",
+      "localization" : {
+        "localizationKey" : "Enterprise Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Period_Number)"
+      }
+    }, {
+      "name" : "Enterprise Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Week",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "Enterprise Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Week)"
+      }
+    }, {
+      "name" : "Enterprise Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Date",
+      "localization" : {
+        "localizationKey" : "Enterprise Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Date)"
+      }
+    }, {
+      "name" : "Enterprise Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Day Code",
+      "localization" : {
+        "localizationKey" : "Enterprise Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Day_Code)"
+      }
+    }, {
+      "name" : "Enterprise Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job Application Date Enterprise.Enterprise Day Name",
+      "localization" : {
+        "localizationKey" : "Enterprise Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Enterprise_Day_Name)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "Job Application Date Gregorian",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - Job Application Date Gregorian",
+      "localization" : {
+        "localizationKey" : "Job Application Date Gregorian",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Gregorian)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Gregorian)"
+      },
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Gregorian.Total",
+        "localization" : {
+          "localizationKey" : "Total",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_Time_-_Job_Application_Date_Job_Application_Date_Gregorian_Total)"
+        }
+      }, {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Gregorian.Year",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Year",
+        "localization" : {
+          "localizationKey" : "Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_Time_-_Job_Application_Date_Job_Application_Date_Gregorian_Year)"
+        }
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Gregorian.Quarter",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Quarter",
+        "localization" : {
+          "localizationKey" : "Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_Time_-_Job_Application_Date_Job_Application_Date_Gregorian_Quarter)"
+        }
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Gregorian.Month",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Month",
+        "localization" : {
+          "localizationKey" : "Month",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_Time_-_Job_Application_Date_Job_Application_Date_Gregorian_Month)"
+        }
+      }, {
+        "name" : "Day",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Gregorian.Day",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Date",
+        "localization" : {
+          "localizationKey" : "Day",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_Time_-_Job_Application_Date_Job_Application_Date_Gregorian_Day)"
+        }
+      } ]
+    }, {
+      "name" : "Job Application Date Enterprise",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - Job Application Date Enterprise",
+      "localization" : {
+        "localizationKey" : "Job Application Date Enterprise",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise)"
+      },
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Enterprise.Total",
+        "localization" : {
+          "localizationKey" : "Total",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Total)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Total)"
+        }
+      }, {
+        "name" : "Enterprise Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Enterprise.Enterprise Year",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Enterprise Year",
+        "localization" : {
+          "localizationKey" : "Enterprise Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Year)"
+        }
+      }, {
+        "name" : "Enterprise Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Enterprise.Enterprise Quarter",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Enterprise Quarter",
+        "localization" : {
+          "localizationKey" : "Enterprise Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Quarter)"
+        }
+      }, {
+        "name" : "Enterprise Period",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Enterprise.Enterprise Period",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Enterprise Period",
+        "localization" : {
+          "localizationKey" : "Enterprise Period",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Period)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Enterprise_Period)"
+        }
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - Job Application Date Enterprise.Detail",
+        "displayColumn" : "presentationColumn:HCM - Talent Acquisition.Time - Job Application Date.Enterprise Date",
+        "localization" : {
+          "localizationKey" : "Detail",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Detail)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date_Job_Application_Date_Enterprise_Detail)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Time - Job Application Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Time_-_Job_Application_Date)"
+    }
+  }
+}

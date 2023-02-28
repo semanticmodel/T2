@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Performance Goal Ratings",
+    "localization" : {
+      "localizationKey" : "Performance Goal Ratings",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Performance_Goal_Ratings)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Performance_Goal_Ratings)"
+    }
+  }
+}

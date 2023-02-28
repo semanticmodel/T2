@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Subinventory",
+    "presentationColumns" : [ {
+      "name" : "Subinventory",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory.Subinventory",
+      "localization" : {
+        "localizationKey" : "Subinventory",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory_Subinventory)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory_Subinventory)"
+      }
+    }, {
+      "name" : "Subinventory Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory.Subinventory Description",
+      "localization" : {
+        "localizationKey" : "Subinventory Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory_Subinventory_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory_Subinventory_Description)"
+      }
+    }, {
+      "name" : "Subinventory Location City",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory Location.Subinventory Location City",
+      "localization" : {
+        "localizationKey" : "Subinventory Location City",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory_Subinventory_Location_City)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory_Subinventory_Location_City)"
+      }
+    }, {
+      "name" : "Subinventory Location State",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory Location.Subinventory Location State",
+      "localization" : {
+        "localizationKey" : "Subinventory Location State",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory_Subinventory_Location_State)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory_Subinventory_Location_State)"
+      }
+    }, {
+      "name" : "Subinventory Location Country",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory Location.Subinventory Location Country",
+      "localization" : {
+        "localizationKey" : "Subinventory Location Country",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory_Subinventory_Location_Country)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory_Subinventory_Location_Country)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Subinventory",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Subinventory)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Subinventory)"
+    }
+  }
+}

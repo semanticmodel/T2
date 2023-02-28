@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "Transfer Owning Party",
+    "presentationColumns" : [ {
+      "name" : "Transfer Owning Party Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transfer Owning Party Type",
+      "localization" : {
+        "localizationKey" : "Transfer Owning Party Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party_Type)"
+      }
+    }, {
+      "name" : "Transfer Owning Party",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transfer Owning Party",
+      "localization" : {
+        "localizationKey" : "Transfer Owning Party",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party)"
+      }
+    }, {
+      "name" : "Transfer Owning Party Site",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transfer Owning Party Site",
+      "localization" : {
+        "localizationKey" : "Transfer Owning Party Site",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party_Site)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transfer_Owning_Party_Transfer_Owning_Party_Site)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transfer Owning Party",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transfer_Owning_Party)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transfer_Owning_Party)"
+    }
+  }
+}

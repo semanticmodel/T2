@@ -1,0 +1,60 @@
+{
+  "presentationTable" : {
+    "name" : "Customer",
+    "description" : "This is anchored to Sold-to Customer.",
+    "presentationColumns" : [ {
+      "name" : "Customer",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Name",
+      "localization" : {
+        "localizationKey" : "Customer",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_Customer)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_Customer)"
+      }
+    }, {
+      "name" : "Line of Business",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Line of Business",
+      "localization" : {
+        "localizationKey" : "Line of Business",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_Line_of_Business)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_Line_of_Business)"
+      }
+    }, {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.City",
+      "localization" : {
+        "localizationKey" : "City",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_City)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_City)"
+      }
+    }, {
+      "name" : "Country",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Country",
+      "localization" : {
+        "localizationKey" : "Country",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_Country)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_Country)"
+      }
+    }, {
+      "name" : "State",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.State",
+      "localization" : {
+        "localizationKey" : "State",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_State)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_State)"
+      }
+    }, {
+      "name" : "Postal Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Postal Code",
+      "localization" : {
+        "localizationKey" : "Postal Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer_Postal_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer_Postal_Code)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Customer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Receipts_Customer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Receipts_Customer)"
+    }
+  }
+}

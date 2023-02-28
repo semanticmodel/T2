@@ -1,0 +1,22 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Transfer Order",
+    "presentationColumns" : [ {
+      "name" : "INV_TRANSFER_ORDER_HEADERS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Transfer Order Details.INV_TRANSFER_ORDER_HEADERS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "INV_TRANSFER_ORDER_HEADERS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Transfer_Orders_DFF_-_Transfer_Order_INV_TRANSFER_ORDER_HEADERS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Transfer_Orders_DFF_-_Transfer_Order_INV_TRANSFER_ORDER_HEADERS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Transfer Order",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Transfer_Orders_DFF_-_Transfer_Order)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Transfer_Orders_DFF_-_Transfer_Order)"
+    }
+  }
+}

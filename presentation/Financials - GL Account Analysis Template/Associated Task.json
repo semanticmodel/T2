@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Associated Task",
+    "presentationColumns" : [ {
+      "name" : "Associated Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Associated Task.Associated Task Name",
+      "localization" : {
+        "localizationKey" : "Associated Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Associated_Task_Associated_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Associated_Task_Associated_Task_Name)"
+      }
+    }, {
+      "name" : "Associated Task Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Associated Task.Associated Task Number",
+      "localization" : {
+        "localizationKey" : "Associated Task Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Associated_Task_Associated_Task_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Associated_Task_Associated_Task_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Associated Task",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Associated_Task)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Associated_Task)"
+    }
+  }
+}

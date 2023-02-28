@@ -1,0 +1,23 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Purchase Order Lines",
+    "presentationColumns" : [ {
+      "name" : "PO_AGRMNT_LINES_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - PO Line Details.PO_AGRMNT_LINES_S_K_5000",
+      "alternateNames" : [ "PO_AGRMNT_LINES_ S_K_5000", "PO_PURCHASE_ORDER_LINES_S_K_5000", "PURCHASE_ORDER_LINES_S_K_5000" ],
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PO_AGRMNT_LINES_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Purchase_Orders_DFF_-_Purchase_Order_Lines_PO_AGRMNT_LINES__S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Purchase_Orders_DFF_-_Purchase_Order_Lines_PO_AGRMNT_LINES__S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Purchase Order Lines",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Purchase_Orders_DFF_-_Purchase_Order_Lines)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Purchase_Orders_DFF_-_Purchase_Order_Lines)"
+    }
+  }
+}

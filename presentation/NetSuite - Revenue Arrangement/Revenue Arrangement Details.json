@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Revenue Arrangement Details",
+    "localization" : {
+      "localizationKey" : "Revenue Arrangement Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Revenue_Arrangement_Revenue_Arrangement_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Revenue_Arrangement_Revenue_Arrangement_Details)"
+    }
+  }
+}

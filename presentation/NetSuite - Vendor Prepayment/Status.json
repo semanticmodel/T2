@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Vendor Prepayment Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Status.Vendor Prepayment Status Code",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Status_Vendor_Prepayment_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Status_Vendor_Prepayment_Status_Code)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Status.Vendor Prepayment Status",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Status_Vendor_Prepayment_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Status_Vendor_Prepayment_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Status)"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Customer Growth",
+    "presentationColumns" : [ {
+      "name" : "Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transaction Details.Transaction Type",
+      "localization" : {
+        "localizationKey" : "Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Customer_Growth_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Customer_Growth_Transaction_Type)"
+      }
+    }, {
+      "name" : "Transaction Display Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transaction Details.Transaction Display Name",
+      "localization" : {
+        "localizationKey" : "Transaction Display Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Customer_Growth_Transaction_Display_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Customer_Growth_Transaction_Display_Name)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Customer Growth",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Customer_Growth)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Customer_Growth)"
+    }
+  }
+}

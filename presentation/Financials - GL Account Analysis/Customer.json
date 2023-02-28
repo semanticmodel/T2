@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Customer",
+    "presentationColumns" : [ {
+      "name" : "Customer Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Name",
+      "localization" : {
+        "localizationKey" : "Customer Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer_Customer_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer_Customer_Name)"
+      }
+    }, {
+      "name" : "Customer Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Number",
+      "localization" : {
+        "localizationKey" : "Customer Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer_Customer_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer_Customer_Number)"
+      }
+    }, {
+      "name" : "Customer Category Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Category Name",
+      "localization" : {
+        "localizationKey" : "Customer Category Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer_Customer_Category_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer_Customer_Category_Name)"
+      }
+    }, {
+      "name" : "Customer Account",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer Account.Customer Account Name",
+      "localization" : {
+        "localizationKey" : "Customer Account",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer_Customer_Account)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer_Customer_Account)"
+      }
+    }, {
+      "name" : "Customer Account Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer Account.Customer Account Number",
+      "localization" : {
+        "localizationKey" : "Customer Account Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer_Customer_Account_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer_Customer_Account_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Customer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Customer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Customer)"
+    }
+  }
+}

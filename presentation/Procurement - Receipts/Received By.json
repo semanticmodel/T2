@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Received By",
+    "presentationColumns" : [ {
+      "name" : "Receiver Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Received By.Received By Name",
+      "localization" : {
+        "localizationKey" : "Receiver Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Received_By_Receiver_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Received_By_Receiver_Name)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Received By",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Received_By)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Received_By)"
+    }
+  }
+}

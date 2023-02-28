@@ -1,0 +1,39 @@
+{
+  "presentationTable" : {
+    "name" : "Customer Risk Prediction",
+    "hideIfTrue" : {
+      "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+      "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_AR_PREDICTION" ]
+    },
+    "presentationColumns" : [ {
+      "name" : "Customer Risk Decile",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Risk Decile",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_AR_PREDICTION" ]
+      },
+      "localization" : {
+        "localizationKey" : "Customer Risk Decile",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Customer_Risk_Prediction_Customer_Risk_Decile)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Customer_Risk_Prediction_Customer_Risk_Decile)"
+      }
+    }, {
+      "name" : "Customer Risk Percentile",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer.Customer Risk Percentile",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_AR_PREDICTION" ]
+      },
+      "localization" : {
+        "localizationKey" : "Customer Risk Percentile",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Customer_Risk_Prediction_Customer_Risk_Percentile)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Customer_Risk_Prediction_Customer_Risk_Percentile)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Customer Risk Prediction",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Customer_Risk_Prediction)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Customer_Risk_Prediction)"
+    }
+  }
+}

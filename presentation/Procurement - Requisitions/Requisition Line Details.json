@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Requisition Line Details",
+    "localization" : {
+      "localizationKey" : "Requisition Line Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Requisition_Line_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Requisition_Line_Details)"
+    }
+  }
+}

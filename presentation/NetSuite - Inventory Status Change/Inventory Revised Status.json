@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Inventory Revised Status",
+    "presentationColumns" : [ {
+      "name" : "Inventory Revised Status External Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Revised Status.Inventory Revised Status External Identifier",
+      "localization" : {
+        "localizationKey" : "Inventory Revised Status External Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_External_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_External_Identifier)"
+      }
+    }, {
+      "name" : "Inventory Revised Status Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Revised Status.Inventory Revised Status Name",
+      "localization" : {
+        "localizationKey" : "Inventory Revised Status Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_Name)"
+      }
+    }, {
+      "name" : "Inventory Revised Status Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Revised Status.Inventory Revised Status Description",
+      "localization" : {
+        "localizationKey" : "Inventory Revised Status Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_Description)"
+      }
+    }, {
+      "name" : "Inventory Revised Status - Is Inventory Available",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Revised Status.Inventory Revised Status - Is Inventory Available",
+      "localization" : {
+        "localizationKey" : "Inventory Revised Status - Is Inventory Available",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_-_Is_Inventory_Available)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_-_Is_Inventory_Available)"
+      }
+    }, {
+      "name" : "Inventory Revised Status - Is Inactive",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Revised Status.Inventory Revised Status - Is Inactive",
+      "localization" : {
+        "localizationKey" : "Inventory Revised Status - Is Inactive",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_-_Is_Inactive)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status_Inventory_Revised_Status_-_Is_Inactive)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Inventory Revised Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Status_Change_Inventory_Revised_Status)"
+    }
+  }
+}

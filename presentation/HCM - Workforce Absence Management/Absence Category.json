@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Absence Category",
+    "presentationColumns" : [ {
+      "name" : "Absence Category",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Absence Category.Absence Category",
+      "localization" : {
+        "localizationKey" : "Absence Category",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Absence_Management_Absence_Category_Absence_Category)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Absence_Management_Absence_Category_Absence_Category)"
+      }
+    }, {
+      "name" : "Absence Category Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Absence Category.Absence Category Identifier",
+      "localization" : {
+        "localizationKey" : "Absence Category Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Absence_Management_Absence_Category_Absence_Category_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Absence_Management_Absence_Category_Absence_Category_Identifier)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Absence Category",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Absence_Management_Absence_Category)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Absence_Management_Absence_Category)"
+    }
+  }
+}

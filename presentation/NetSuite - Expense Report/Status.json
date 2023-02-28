@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Expense Report Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Expense Report Status.Expense Report Status Code",
+      "localization" : {
+        "localizationKey" : "Expense Report Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Expense_Report_Status_Expense_Report_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Expense_Report_Status_Expense_Report_Status_Code)"
+      }
+    }, {
+      "name" : "Expense Report Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Expense Report Status.Expense Report Status",
+      "localization" : {
+        "localizationKey" : "Expense Report Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Expense_Report_Status_Expense_Report_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Expense_Report_Status_Expense_Report_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Expense_Report_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Expense_Report_Status)"
+    }
+  }
+}

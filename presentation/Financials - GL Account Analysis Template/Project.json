@@ -1,0 +1,163 @@
+{
+  "presentationTable" : {
+    "name" : "Project",
+    "presentationColumns" : [ {
+      "name" : "Project Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Number",
+      "localization" : {
+        "localizationKey" : "Project Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Number)"
+      }
+    }, {
+      "name" : "Project Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Name",
+      "localization" : {
+        "localizationKey" : "Project Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Name)"
+      }
+    }, {
+      "name" : "Project Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Description",
+      "localization" : {
+        "localizationKey" : "Project Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Description)"
+      }
+    }, {
+      "name" : "Project Manager",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Manager",
+      "localization" : {
+        "localizationKey" : "Project Manager",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Manager)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Manager)"
+      }
+    }, {
+      "name" : "Project Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Status",
+      "localization" : {
+        "localizationKey" : "Project Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Status)"
+      }
+    }, {
+      "name" : "Project Priority",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Priority",
+      "localization" : {
+        "localizationKey" : "Project Priority",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Priority)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Priority)"
+      }
+    }, {
+      "name" : "Service Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Service Type",
+      "localization" : {
+        "localizationKey" : "Service Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Service_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Service_Type)"
+      }
+    }, {
+      "name" : "Project Work Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Work Type",
+      "localization" : {
+        "localizationKey" : "Project Work Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Work_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Work_Type)"
+      }
+    }, {
+      "name" : "Project Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Start Date",
+      "localization" : {
+        "localizationKey" : "Project Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Start_Date)"
+      }
+    }, {
+      "name" : "Project Finish Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Finish Date",
+      "localization" : {
+        "localizationKey" : "Project Finish Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Finish_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Finish_Date)"
+      }
+    }, {
+      "name" : "Project Business Unit Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Business Unit Name",
+      "localization" : {
+        "localizationKey" : "Project Business Unit Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Business_Unit_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Business_Unit_Name)"
+      }
+    }, {
+      "name" : "Project Organization Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Organization Name",
+      "localization" : {
+        "localizationKey" : "Project Organization Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Organization_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Organization_Name)"
+      }
+    }, {
+      "name" : "Project Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Type",
+      "localization" : {
+        "localizationKey" : "Project Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Type)"
+      }
+    }, {
+      "name" : "Project Type Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Type Description",
+      "localization" : {
+        "localizationKey" : "Project Type Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Description)"
+      }
+    }, {
+      "name" : "Project Type Billable Flag",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Type Billable Flag",
+      "localization" : {
+        "localizationKey" : "Project Type Billable Flag",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Billable_Flag)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Billable_Flag)"
+      }
+    }, {
+      "name" : "Project Type Capitalizable Flag",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Type Capitalizable Flag",
+      "localization" : {
+        "localizationKey" : "Project Type Capitalizable Flag",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Capitalizable_Flag)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Capitalizable_Flag)"
+      }
+    }, {
+      "name" : "Project Type Capital Cost Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Type Capital Cost Type",
+      "localization" : {
+        "localizationKey" : "Project Type Capital Cost Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Capital_Cost_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Type_Capital_Cost_Type)"
+      }
+    }, {
+      "name" : "Project Customer Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Customer Name",
+      "localization" : {
+        "localizationKey" : "Project Customer Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Customer_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Customer_Name)"
+      }
+    }, {
+      "name" : "Project Customer Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project.Project Customer Number",
+      "localization" : {
+        "localizationKey" : "Project Customer Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Project_Customer_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Project_Customer_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Project",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project)"
+    }
+  }
+}

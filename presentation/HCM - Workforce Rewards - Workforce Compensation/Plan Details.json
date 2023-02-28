@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Plan Details",
+    "localization" : {
+      "localizationKey" : "Plan Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Rewards_-_Workforce_Compensation_Plan_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Rewards_-_Workforce_Compensation_Plan_Details)"
+    }
+  }
+}

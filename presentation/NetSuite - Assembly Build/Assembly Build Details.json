@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Assembly Build Details",
+    "localization" : {
+      "localizationKey" : "Assembly Build Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Assembly_Build_Assembly_Build_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Assembly_Build_Assembly_Build_Details)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Ownership Transfer",
+    "localization" : {
+      "localizationKey" : "Fact - Ownership Transfer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Ownership_Transfer_Fact_-_Ownership_Transfer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Ownership_Transfer_Fact_-_Ownership_Transfer)"
+    }
+  }
+}

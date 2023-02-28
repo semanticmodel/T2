@@ -1,0 +1,284 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - PRC - Receipt Header Creation Date Gregorian Calendar",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Receipt Header Creation Date ID" ],
+    "logicalColumns" : [ {
+      "name" : "Receipt Header Creation Date ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_DAY_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Day"
+    }, {
+      "name" : "Receipt Header Creation Year",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_YEAR_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Year"
+    }, {
+      "name" : "Receipt Header Creation Quarter",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_QUARTER_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Quarter"
+    }, {
+      "name" : "Receipt Header Creation Quarter Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_QUARTER_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Quarter"
+    }, {
+      "name" : "Receipt Header Creation Month Name",
+      "dataType" : "CHAR",
+      "sortBy" : "Receipt Header Creation Month",
+      "descriptorColumn" : "Receipt Header Creation Month",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : " MONTHNAME(%1)",
+          "expressionObjects" : [ "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Date" ]
+        }
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "Receipt Header Creation Month",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_MONTH_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "Receipt Header Creation Month Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_MONTH_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "Receipt Header Creation Week",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CAL_WEEK_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Receipt Header Creation Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.CALENDAR_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Day"
+    }, {
+      "name" : "Receipt Header Creation Day Code",
+      "dataType" : "VARCHAR",
+      "sortBy" : "Receipt Header Creation Day Of Week",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.DAY_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Receipt Header Creation Day Of Week",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.DAY_OF_WEEK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Receipt Header Creation Day Name",
+      "dataType" : "CHAR",
+      "sortBy" : "Receipt Header Creation Day Of Week",
+      "descriptorColumn" : "Receipt Header Creation Day Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : " DAYNAME(%1)",
+          "expressionObjects" : [ "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Date" ]
+        }
+      }
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Year Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.TRAILING_YEAR_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Year"
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Quarter Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.TRAILING_QUARTER_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Quarter"
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Month Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar.TRAILING_MONTH_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Month"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_PRC_ReceiptHeaderCreationDate_GregorianCalendar" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "TIME",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Year",
+        "numberOfElements" : 50,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Receipt Header Creation Year" ],
+        "displayKey" : "Receipt Header Creation Year",
+        "chronologicalKey" : [ "Receipt Header Creation Year" ]
+      }, {
+        "name" : "Quarter",
+        "numberOfElements" : 200,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Receipt Header Creation Quarter" ],
+        "displayKey" : "Receipt Header Creation Quarter",
+        "chronologicalKey" : [ "Receipt Header Creation Quarter" ]
+      }, {
+        "name" : "Month",
+        "numberOfElements" : 800,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Receipt Header Creation Month" ],
+        "displayKey" : "Receipt Header Creation Month",
+        "chronologicalKey" : [ "Receipt Header Creation Month" ]
+      }, {
+        "name" : "Day",
+        "numberOfElements" : 10000,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Receipt Header Creation Date" ],
+        "displayKey" : "Receipt Header Creation Date",
+        "chronologicalKey" : [ "Receipt Header Creation Date ID" ]
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "PRC - Receipt Header Creation Date Gregorian Calendar",
+        "levels" : [ "Total", "Year", "Quarter", "Month", "Day" ]
+      } ]
+    }
+  }
+}

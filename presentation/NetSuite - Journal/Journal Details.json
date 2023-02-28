@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Journal Details",
+    "localization" : {
+      "localizationKey" : "Journal Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Journal_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Journal_Details)"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Tenant Metrics Attributes",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Source Type Code", "Metric Subtype", "Metric Detail", "Metric Name" ],
+    "logicalColumns" : [ {
+      "name" : "Source Type Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.SOURCE_TYPE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    }, {
+      "name" : "Metric Subtype",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE1" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    }, {
+      "name" : "Metric Detail",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    }, {
+      "name" : "Created By",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.CREATED_BY" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    }, {
+      "name" : "Is Latest",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.IS_LATEST" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    }, {
+      "name" : "Metric Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attributes Detail"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Tenant_Metrics_Summary",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Tenant Metrics Attributes.Dim - Tenant Metrics Attributes Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Dim - Tenant Metrics Attributes Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Dim - Tenant Metrics Attributes Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Dim - Tenant Metrics Attributes Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Source Type Code", "Metric Subtype", "Metric Detail", "Metric Name" ],
+        "displayKey" : "Source Type Code"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Tenant Metrics Attributes",
+        "levels" : [ "Dim - Tenant Metrics Attributes Total", "Dim - Tenant Metrics Attributes Detail" ]
+      } ]
+    }
+  }
+}

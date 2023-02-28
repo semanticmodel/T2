@@ -1,0 +1,403 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - EXM Employee Expenses Report",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Expense Report Identifier" ],
+    "logicalColumns" : [ {
+      "name" : "Expense Report Identifier",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.EXPENSE_REPORT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Expense Report Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.EXPENSE_REPORT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Purpose",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.PURPOSE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Payment Method Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.PAYMENT_METHOD_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Payment Method",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Payment Method Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_AP_PAYMENT_METHOD_LKP_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.PAYMENT_METHOD_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Status Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.EXPENSE_STATUS_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Status",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Report Status Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_EXM_REPORT_STATUS_D_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.EXPENSE_STATUS_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Preparer Identifier",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.PREPARER_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Audit Type Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.AUDIT_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Audit Type",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Audit Type Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_EXM_AUDIT_CODE_D_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.AUDIT_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Short Pay Indicator Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.SHORTPAY_TYPE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Short Pay Indicator",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Short Pay Indicator Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_EXM_YES_NO_D_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.SHORTPAY_TYPE_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Receipt Status Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.RECEIPTS_STATUS_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Receipt Status",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Receipt Status Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_EXM_RECEIPT_STATUS_D_TL.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.RECEIPTS_STATUS_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Receipts Received Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.RECEIPTS_RECEIVED_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Submit Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.REPORT_SUBMIT_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Approval Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.FINAL_APPROVAL_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Creation Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.CREATION_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF.EXPENSE_REPORT_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "--------Report Anomaly------------------------------------------------------",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "'n/a'"
+        }
+      }
+    }, {
+      "name" : "Report Anomaly Status Code",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P.IS_ANOMALY" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Anomaly Status",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Report Anomaly Status Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1,  CAST (%2 AS VARCHAR ( 38 )), %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Lookup_DW_ANOMALY_CODE_TL.PREDICTION_DESCRIPTION", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P.IS_ANOMALY", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Report Anomaly Score",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P.ANOMALY_SCORE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Fact_DW_EMPLOYEE_EXPENSE_CF",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF", "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P" ],
+        "logicalTableSourceJoins" : [ {
+          "leftTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_CF",
+          "rightTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P",
+          "joinType" : "LEFT_OUTER",
+          "disable" : false
+        } ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - EXM Employee Expenses Report.Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Expense Report Identifier" ],
+        "displayKey" : "Expense Report Identifier"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "EXM Employee Expenses Report",
+        "levels" : [ "Total", "Detail" ]
+      } ]
+    },
+    "dataFilters" : [ {
+      "accessor" : "role:OA4F_FIN_AP_BUSINESS_UNIT_DATA",
+      "functionalGroup" : "AP_BU",
+      "status" : "ENABLED",
+      "filter" : {
+        "expressionTemplate" : "%1 = 'OA4F_SEC_FIN_AP_BUSINESSUNIT_LIST'",
+        "expressionObjects" : [ "logicalColumn:Core.Dim - Payables Invoicing Business Unit.Security Context Code - AP Invoicing BU" ]
+      }
+    } ]
+  }
+}

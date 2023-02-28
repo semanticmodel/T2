@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Release Details",
+    "localization" : {
+      "localizationKey" : "Release Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Holds_Release_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Holds_Release_Details)"
+    }
+  }
+}

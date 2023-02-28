@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Transfer Order Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transfer Order Status.Transfer Order Status Code",
+      "localization" : {
+        "localizationKey" : "Transfer Order Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Status_Transfer_Order_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Status_Transfer_Order_Status_Code)"
+      }
+    }, {
+      "name" : "Transfer Order Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Transfer Order Status.Transfer Order Status",
+      "localization" : {
+        "localizationKey" : "Transfer Order Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Status_Transfer_Order_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Status_Transfer_Order_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Order_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Order_Status)"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "presentationTable" : {
+    "name" : "Receipt Header Creation Date",
+    "presentationColumns" : [ {
+      "name" : "Receipt Header Creation Fiscal Calendar Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Calendar Name",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Calendar Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Calendar_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Calendar_Name)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Year",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Year)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Quarter",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Quarter)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Period",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Period)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Date",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Date)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Day Code",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Day_Code)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Day",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Day",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Day",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Day)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Day)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Trailing Year Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Year_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Trailing Quarter Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Fiscal Trailing Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date.Receipt Header Creation Fiscal Trailing Period Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Fiscal Trailing Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Fiscal_Trailing_Period_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Year",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Year)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Quarter",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Quarter)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Quarter Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Quarter_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Month Name",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month_Name)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Month",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Month Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Month_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Week",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Week)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Date",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Date)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Day Code",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Day_Code)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Day Name",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Day_Name)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Gregorian Trailing Year Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Gregorian Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Year_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Gregorian Trailing Quarter Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Gregorian Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Receipt Header Creation Gregorian Trailing Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Receipt Header Creation Date Gregorian Calendar.Receipt Header Creation Gregorian Trailing Month Number",
+      "localization" : {
+        "localizationKey" : "Receipt Header Creation Gregorian Trailing Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date_Receipt_Header_Creation_Gregorian_Trailing_Month_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Receipt Header Creation Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipt_Header_Creation_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Receipt_Header_Creation_Date)"
+    }
+  }
+}

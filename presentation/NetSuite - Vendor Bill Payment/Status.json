@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Vendor Bill Payment Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Payment Status.Vendor Bill Payment Status Code",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Payment Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Payment_Status_Vendor_Bill_Payment_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Payment_Status_Vendor_Bill_Payment_Status_Code)"
+      }
+    }, {
+      "name" : "Vendor Bill Payment Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Payment Status.Vendor Bill Payment Status",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Payment Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Payment_Status_Vendor_Bill_Payment_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Payment_Status_Vendor_Bill_Payment_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Payment_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Payment_Status)"
+    }
+  }
+}

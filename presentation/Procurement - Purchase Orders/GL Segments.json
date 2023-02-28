@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "GL Segments",
+    "description" : "This folder shows distribution charge account details by segments.",
+    "localization" : {
+      "localizationKey" : "GL Segments",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Purchase_Orders_GL_Segments)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Purchase_Orders_GL_Segments)"
+    }
+  }
+}

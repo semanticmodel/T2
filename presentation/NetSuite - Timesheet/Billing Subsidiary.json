@@ -1,0 +1,107 @@
+{
+  "presentationTable" : {
+    "name" : "Billing Subsidiary",
+    "presentationColumns" : [ {
+      "name" : "Billing Subsidiary Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Name",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Name)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Hierarchy",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Hierarchy",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Hierarchy",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Hierarchy)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Hierarchy)"
+      }
+    }, {
+      "name" : "Billing Subsidiary State/Province",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary State/Province",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary State/Province",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_State/Province)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_State/Province)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Employer Identification Number (EIN)",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Employer Identification Number (EIN)",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Employer Identification Number (EIN)",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Employer_Identification_Number_(EIN))",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Employer_Identification_Number_(EIN))"
+      }
+    }, {
+      "name" : "Billing Subsidiary - GL Impact Locking",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary - GL Impact Locking",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary - GL Impact Locking",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_GL_Impact_Locking)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_GL_Impact_Locking)"
+      }
+    }, {
+      "name" : "Billing Subsidiary - Elimination",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary - Elimination",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary - Elimination",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_Elimination)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_Elimination)"
+      }
+    }, {
+      "name" : "Billing Subsidiary - Is Inactive",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary - Is Inactive",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary - Is Inactive",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_Is_Inactive)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_-_Is_Inactive)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Language",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Language",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Language",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Language)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Language)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Legal Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Legal Name",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Legal Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Legal_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Legal_Name)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Currency",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Currency)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Calendar",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Calendar",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Calendar)"
+      }
+    }, {
+      "name" : "Billing Subsidiary Country",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Billing Subsidiary.Billing Subsidiary Country",
+      "localization" : {
+        "localizationKey" : "Billing Subsidiary Country",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Country)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary_Billing_Subsidiary_Country)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Billing Subsidiary",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Timesheet_Billing_Subsidiary)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Timesheet_Billing_Subsidiary)"
+    }
+  }
+}

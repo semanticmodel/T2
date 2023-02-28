@@ -1,0 +1,93 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - CX - Primary Campaign Status",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Primary CX Campaign Status Code" ],
+    "logicalColumns" : [ {
+      "name" : "Primary CX Campaign Status Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly.CODE" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary.CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Primary CX Campaign Status",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Primary CX Campaign Status Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly.CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary.CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary_PromptOnly" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    }, {
+      "name" : "Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary",
+      "disable" : false,
+      "priority" : 5,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Primary CX Campaign Status Code" ],
+        "displayKey" : "Primary CX Campaign Status Code"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "CX - Primary Campaign Status",
+        "levels" : [ "Total", "Detail" ]
+      } ]
+    }
+  }
+}

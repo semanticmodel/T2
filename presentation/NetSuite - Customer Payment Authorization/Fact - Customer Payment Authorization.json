@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Customer Payment Authorization",
+    "localization" : {
+      "localizationKey" : "Fact - Customer Payment Authorization",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Payment_Authorization_Fact_-_Customer_Payment_Authorization)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Payment_Authorization_Fact_-_Customer_Payment_Authorization)"
+    }
+  }
+}

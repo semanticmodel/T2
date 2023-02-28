@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Deliver To Location",
+    "presentationColumns" : [ {
+      "name" : "Deliver To Location",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Deliver To Location.Deliver To Location",
+      "localization" : {
+        "localizationKey" : "Deliver To Location",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Deliver_To_Location_Deliver_To_Location)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Deliver_To_Location_Deliver_To_Location)"
+      }
+    }, {
+      "name" : "Deliver To Location Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Deliver to Location Type.Deliver To Location Type",
+      "localization" : {
+        "localizationKey" : "Deliver To Location Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Deliver_To_Location_Deliver_To_Location_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Deliver_To_Location_Deliver_To_Location_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Deliver To Location",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Deliver_To_Location)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Deliver_To_Location)"
+    }
+  }
+}

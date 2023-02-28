@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Transfer Details",
+    "localization" : {
+      "localizationKey" : "Transfer Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Transfer_Transfer_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Transfer_Transfer_Details)"
+    }
+  }
+}

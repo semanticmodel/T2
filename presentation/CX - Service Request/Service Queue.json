@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Service Queue",
+    "presentationColumns" : [ {
+      "name" : "Queue Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Service Queue.Queue Identifier",
+      "localization" : {
+        "localizationKey" : "Queue Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue_Queue_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue_Queue_Identifier)"
+      }
+    }, {
+      "name" : "Queue Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Service Queue.Queue Name",
+      "localization" : {
+        "localizationKey" : "Queue Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue_Queue_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue_Queue_Name)"
+      }
+    }, {
+      "name" : "Queue Enabled Flag",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Service Queue.Queue Enabled Flag",
+      "localization" : {
+        "localizationKey" : "Queue Enabled Flag",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue_Queue_Enabled_Flag)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue_Queue_Enabled_Flag)"
+      }
+    }, {
+      "name" : "Queue Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Service Queue.Queue Description",
+      "localization" : {
+        "localizationKey" : "Queue Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue_Queue_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue_Queue_Description)"
+      }
+    }, {
+      "name" : "Queue Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Service Queue.Queue Number",
+      "localization" : {
+        "localizationKey" : "Queue Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue_Queue_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue_Queue_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Service Queue",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Queue)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Queue)"
+    }
+  }
+}

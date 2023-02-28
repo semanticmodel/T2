@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Purchase Details",
+    "localization" : {
+      "localizationKey" : "Purchase Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Spend_Purchase_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Spend_Purchase_Details)"
+    }
+  }
+}

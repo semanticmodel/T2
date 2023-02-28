@@ -1,0 +1,99 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Attributes",
+    "presentationColumns" : [ {
+      "name" : "Vendor Prepayment Transaction Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Transaction Name",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Transaction Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Name)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Transaction Number",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Number)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Transaction Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Transaction Date",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Transaction Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Transaction_Date)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Document Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Document Number",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Document Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Document_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Document_Number)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Reference Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Reference Number",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Reference Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Reference_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Reference_Number)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Creation Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Creation Date",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Creation Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Creation_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Creation_Date)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Vendor Prepayment Closed Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment Closed Date",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment Closed Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Closed_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_Closed_Date)"
+      }
+    }, {
+      "name" : "Vendor Prepayment - Posting",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment - Posting",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment - Posting",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Posting)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Posting)"
+      }
+    }, {
+      "name" : "Vendor Prepayment - Is Book Specific",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment - Is Book Specific",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment - Is Book Specific",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Is_Book_Specific)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Is_Book_Specific)"
+      }
+    }, {
+      "name" : "Vendor Prepayment - Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Prepayment Details.Vendor Prepayment - Memo",
+      "localization" : {
+        "localizationKey" : "Vendor Prepayment - Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes_Vendor_Prepayment_-_Memo)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Transaction_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Transaction_Attributes)"
+    }
+  }
+}

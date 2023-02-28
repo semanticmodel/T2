@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "From Bin Zone",
+    "presentationColumns" : [ {
+      "name" : "From Bin Zone Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite From Bin.From Bin Zone Name",
+      "localization" : {
+        "localizationKey" : "From Bin Zone Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_Name)"
+      }
+    }, {
+      "name" : "From Bin Zone Location",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite From Bin.From Bin Zone Location",
+      "localization" : {
+        "localizationKey" : "From Bin Zone Location",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_Location)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_Location)"
+      }
+    }, {
+      "name" : "From Bin Zone - Is Inactive",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite From Bin.From Bin Zone - Is Inactive",
+      "localization" : {
+        "localizationKey" : "From Bin Zone - Is Inactive",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_-_Is_Inactive)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Bin_Transfer_From_Bin_Zone_From_Bin_Zone_-_Is_Inactive)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "From Bin Zone",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Bin_Transfer_From_Bin_Zone)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Bin_Transfer_From_Bin_Zone)"
+    }
+  }
+}

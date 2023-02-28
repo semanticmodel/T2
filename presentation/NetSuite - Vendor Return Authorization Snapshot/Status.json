@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Vendor Return Authorization Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Return Authorization Status.Vendor Return Authorization Status Code",
+      "localization" : {
+        "localizationKey" : "Vendor Return Authorization Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status_Vendor_Return_Authorization_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status_Vendor_Return_Authorization_Status_Code)"
+      }
+    }, {
+      "name" : "Vendor Return Authorization Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Return Authorization Status.Vendor Return Authorization Status",
+      "localization" : {
+        "localizationKey" : "Vendor Return Authorization Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status_Vendor_Return_Authorization_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status_Vendor_Return_Authorization_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Return_Authorization_Snapshot_Status)"
+    }
+  }
+}

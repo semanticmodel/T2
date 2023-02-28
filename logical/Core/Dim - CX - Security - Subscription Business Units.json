@@ -1,0 +1,70 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - CX - Security - Subscription Business Units",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Business Unit Id" ],
+    "logicalColumns" : [ {
+      "name" : "Business Unit Id",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU.BUSINESS_UNIT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Detail"
+    }, {
+      "name" : "Security Enabled Flag",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU.SECURITY_ENABLE_FLG" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Business Unit Id" ],
+        "displayKey" : "Business Unit Id"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "CX - Security - Subscription Business Units",
+        "levels" : [ "Total", "Detail" ]
+      } ]
+    }
+  }
+}

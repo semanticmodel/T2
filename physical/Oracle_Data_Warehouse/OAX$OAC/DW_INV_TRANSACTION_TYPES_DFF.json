@@ -1,0 +1,16 @@
+{
+  "physicalTable" : {
+    "name" : "DW_INV_TRANSACTION_TYPES_DFF",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "S_K_5000",
+      "dataType" : "DOUBLE",
+      "length" : 18,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

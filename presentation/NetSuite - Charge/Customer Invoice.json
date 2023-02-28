@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Customer Invoice",
+    "localization" : {
+      "localizationKey" : "Customer Invoice",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Charge_Customer_Invoice)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Charge_Customer_Invoice)"
+    }
+  }
+}

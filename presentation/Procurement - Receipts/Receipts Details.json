@@ -1,0 +1,9 @@
+{
+  "presentationTable" : {
+    "name" : "Receipts Details",
+    "localization" : {
+      "localizationKey" : "Receipts Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Receipts_Details)"
+    }
+  }
+}

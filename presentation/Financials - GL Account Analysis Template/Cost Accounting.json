@@ -1,0 +1,83 @@
+{
+  "presentationTable" : {
+    "name" : "Cost Accounting",
+    "presentationColumns" : [ {
+      "name" : "Inventory Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Inventory Transaction Number",
+      "localization" : {
+        "localizationKey" : "Inventory Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Inventory_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Inventory_Transaction_Number)"
+      }
+    }, {
+      "name" : "Reference Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Transaction Source Reference Number",
+      "localization" : {
+        "localizationKey" : "Reference Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Reference_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Reference_Number)"
+      }
+    }, {
+      "name" : "Transaction Reference Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Transaction Reference Type",
+      "localization" : {
+        "localizationKey" : "Transaction Reference Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Transaction_Reference_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Transaction_Reference_Type)"
+      }
+    }, {
+      "name" : "Transaction Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Cost Transaction Quantity",
+      "localization" : {
+        "localizationKey" : "Transaction Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Transaction_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Transaction_Quantity)"
+      }
+    }, {
+      "name" : "Accounting Line Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Accounting Line Type",
+      "localization" : {
+        "localizationKey" : "Accounting Line Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Accounting_Line_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Accounting_Line_Type)"
+      }
+    }, {
+      "name" : "Interfaced to Projects",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Interfaced to Projects",
+      "localization" : {
+        "localizationKey" : "Interfaced to Projects",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Interfaced_to_Projects)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Interfaced_to_Projects)"
+      }
+    }, {
+      "name" : "Cost Distribution Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Cost Distribution Identifier",
+      "localization" : {
+        "localizationKey" : "Cost Distribution Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Cost_Distribution_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Cost_Distribution_Identifier)"
+      }
+    }, {
+      "name" : "Costed Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Costed Fiscal Date",
+      "localization" : {
+        "localizationKey" : "Costed Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Costed_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Costed_Date)"
+      }
+    }, {
+      "name" : "Cost Transaction Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Cost Transaction Date",
+      "localization" : {
+        "localizationKey" : "Cost Transaction Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Cost_Transaction_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting_Cost_Transaction_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Cost Accounting",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Accounting)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Accounting)"
+    }
+  }
+}

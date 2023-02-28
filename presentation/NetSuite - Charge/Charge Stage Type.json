@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Charge Stage Type",
+    "presentationColumns" : [ {
+      "name" : "Charge Stage Type Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Charge Stage Type.Charge Stage Type Name",
+      "localization" : {
+        "localizationKey" : "Charge Stage Type Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Charge_Charge_Stage_Type_Charge_Stage_Type_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Charge_Charge_Stage_Type_Charge_Stage_Type_Name)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Charge Stage Type",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Charge_Charge_Stage_Type)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Charge_Charge_Stage_Type)"
+    }
+  }
+}

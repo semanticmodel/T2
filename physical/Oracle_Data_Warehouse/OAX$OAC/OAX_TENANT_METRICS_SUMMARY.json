@@ -1,0 +1,71 @@
+{
+  "physicalTable" : {
+    "name" : "OAX_TENANT_METRICS_SUMMARY",
+    "sourceType" : "SELECT",
+    "selectStatements" : [ {
+      "databaseType" : "DEFAULT",
+      "query" : "SELECT\r\nATTRIBUTE1,\r\nATTRIBUTE2,\r\nCREATED_BY,\r\nCREATION_DATE,\r\nIS_LATEST,\r\nMETRIC_NAME,\r\nMETRIC_VALUE_DATATYPE,\r\nMETRIC_VALUE_NUM,\r\nREMARKS,\r\nSNAPSHOT_DATE,\r\nSOURCE_TYPE_CODE\r\nFROM OAX_TENANT_METRICS_SUMMARY WHERE SOURCE_TYPE_CODE NOT IN ('FUSION','NETSUITE', '$FAWAPPL', 'System')"
+    } ],
+    "physicalColumns" : [ {
+      "name" : "ATTRIBUTE1",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "ATTRIBUTE2",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "CREATED_BY",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "CREATION_DATE",
+      "dataType" : "TIMESTAMP",
+      "length" : 50,
+      "nullable" : true
+    }, {
+      "name" : "IS_LATEST",
+      "dataType" : "VARCHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "METRIC_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 512,
+      "nullable" : true
+    }, {
+      "name" : "METRIC_VALUE_DATATYPE",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    }, {
+      "name" : "METRIC_VALUE_NUM",
+      "dataType" : "DOUBLE",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "REMARKS",
+      "dataType" : "VARCHAR",
+      "length" : 4000,
+      "nullable" : true
+    }, {
+      "name" : "SNAPSHOT_DATE",
+      "dataType" : "DATETIME",
+      "length" : 4000,
+      "nullable" : true
+    }, {
+      "name" : "SOURCE_TYPE_CODE",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "additionalKeys" : [ [ "ATTRIBUTE1", "ATTRIBUTE2", "CREATION_DATE", "METRIC_NAME", "SOURCE_TYPE_CODE" ] ]
+  }
+}

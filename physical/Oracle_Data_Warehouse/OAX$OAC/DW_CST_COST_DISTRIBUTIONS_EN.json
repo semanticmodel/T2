@@ -1,0 +1,31 @@
+{
+  "physicalTable" : {
+    "name" : "DW_CST_COST_DISTRIBUTIONS_EN",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "SUBLEDGER_LINKAGE_HDR_ENTITY_ID",
+      "dataType" : "VARCHAR",
+      "length" : 64,
+      "nullable" : true
+    }, {
+      "name" : "COST_BOOK_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "COST_ORGANIZATION_ID",
+      "dataType" : "DOUBLE",
+      "length" : 38,
+      "nullable" : true
+    }, {
+      "name" : "TRANSACTION_NUMBER",
+      "dataType" : "VARCHAR",
+      "length" : 256,
+      "nullable" : true
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

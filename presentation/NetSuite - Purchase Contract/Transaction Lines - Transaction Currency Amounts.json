@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Lines - Transaction Currency Amounts",
+    "presentationColumns" : [ {
+      "name" : "Item Rate in Transaction Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Purchase Contract.Item Rate in Transaction Currency",
+      "localization" : {
+        "localizationKey" : "Item Rate in Transaction Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Contract_Transaction_Lines_-_Transaction_Currency_Amounts_Item_Rate_in_Transaction_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Contract_Transaction_Lines_-_Transaction_Currency_Amounts_Item_Rate_in_Transaction_Currency)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Lines - Transaction Currency Amounts",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Contract_Transaction_Lines_-_Transaction_Currency_Amounts)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Contract_Transaction_Lines_-_Transaction_Currency_Amounts)"
+    }
+  }
+}

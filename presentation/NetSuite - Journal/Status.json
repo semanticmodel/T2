@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Journal Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Status.Journal Status Code",
+      "localization" : {
+        "localizationKey" : "Journal Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Status_Journal_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Status_Journal_Status_Code)"
+      }
+    }, {
+      "name" : "Journal Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Status.Journal Status",
+      "localization" : {
+        "localizationKey" : "Journal Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Status_Journal_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Status_Journal_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Status)"
+    }
+  }
+}

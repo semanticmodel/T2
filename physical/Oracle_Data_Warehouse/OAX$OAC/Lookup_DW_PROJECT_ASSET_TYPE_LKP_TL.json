@@ -1,0 +1,15 @@
+{
+  "physicalTable": {
+    "name": "Lookup_DW_PROJECT_ASSET_TYPE_LKP_TL",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_PROJECT_ASSET_TYPE_LKP_TL",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "LANGUAGE",
+        "PROJECT_ASSET_TYPE_CODE"
+      ]
+    ]
+  }
+}

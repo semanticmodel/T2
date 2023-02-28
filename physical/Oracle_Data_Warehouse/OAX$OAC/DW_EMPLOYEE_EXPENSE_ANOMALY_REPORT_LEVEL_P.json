@@ -1,0 +1,37 @@
+{
+  "physicalTable" : {
+    "name" : "DW_EMPLOYEE_EXPENSE_ANOMALY_REPORT_LEVEL_P",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "EXPENSE_REPORT_ID",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "IS_ANOMALY",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ANOMALY_SCORE",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ANOMALY_RISK",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "ANOMALY_RANK",
+      "dataType" : "DOUBLE",
+      "length" : 0,
+      "nullable" : true
+    } ],
+    "additionalKeys" : [ [ "EXPENSE_REPORT_ID" ] ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    }
+  }
+}

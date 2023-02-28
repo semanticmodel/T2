@@ -1,0 +1,28 @@
+{
+  "physicalTable": {
+    "name": "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_INV_SUBINVENTORY_D",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly.ORGANIZATION_ID",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF.S_K_5001"
+          },
+          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly.SECONDARY_INVENTORY_NAME",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF.S_K_5000"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "ORGANIZATION_ID",
+        "SECONDARY_INVENTORY_NAME"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "presentationTable" : {
+    "name" : "Service Request Resolution Date",
+    "presentationColumns" : [ {
+      "name" : "Service Request Resolution Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Date",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date)"
+      }
+    }, {
+      "name" : "Service Request Resolution Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Year",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Year)"
+      }
+    }, {
+      "name" : "Service Request Resolution Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Month",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month)"
+      }
+    }, {
+      "name" : "Service Request Resolution Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Quarter",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Quarter)"
+      }
+    }, {
+      "name" : "Service Request Resolution Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Week",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Week)"
+      }
+    }, {
+      "name" : "Service Request Resolution Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Day Code",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Day_Code)"
+      }
+    }, {
+      "name" : "Service Request Resolution Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Quarter Number",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Quarter_Number)"
+      }
+    }, {
+      "name" : "Service Request Resolution Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Month Number",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month_Number)"
+      }
+    }, {
+      "name" : "Service Request Resolution Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Month Name",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Month_Name)"
+      }
+    }, {
+      "name" : "Service Request Resolution Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Service Request Resolution Day Name",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Day_Name)"
+      }
+    }, {
+      "name" : "Service Request Resolution Enterprise Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Service Request Resolution Enterprise Year",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Enterprise Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Year)"
+      }
+    }, {
+      "name" : "Service Request Resolution Enterprise Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Service Request Resolution Enterprise Quarter",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Enterprise Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Quarter)"
+      }
+    }, {
+      "name" : "Service Request Resolution Enterprise Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Service Request Resolution Enterprise Period",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Enterprise Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Period)"
+      }
+    }, {
+      "name" : "Service Request Resolution Enterprise Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Service Request Resolution Enterprise Date",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Enterprise Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Enterprise_Date)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "Service Request Resolution Date Gregorian Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Date Gregorian Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Year",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Year",
+        "localization" : {
+          "localizationKey" : "Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Year)"
+        }
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Quarter",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Quarter",
+        "localization" : {
+          "localizationKey" : "Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Quarter)"
+        }
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Month",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Month",
+        "localization" : {
+          "localizationKey" : "Month",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Month)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Month)"
+        }
+      }, {
+        "name" : "Day",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Gregorian Calendar.Day",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Date",
+        "localization" : {
+          "localizationKey" : "Day",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Day)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Gregorian_Calendar_Day)"
+        }
+      } ]
+    }, {
+      "name" : "Service Request Resolution Date Enterprise Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar",
+      "localization" : {
+        "localizationKey" : "Service Request Resolution Date Enterprise Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Enterprise Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Enterprise Year",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Enterprise Year",
+        "localization" : {
+          "localizationKey" : "Enterprise Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Year)"
+        }
+      }, {
+        "name" : "Enterprise Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Enterprise Quarter",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Enterprise Quarter",
+        "localization" : {
+          "localizationKey" : "Enterprise Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Quarter)"
+        }
+      }, {
+        "name" : "Enterprise Period",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Enterprise Period",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Enterprise Period",
+        "localization" : {
+          "localizationKey" : "Enterprise Period",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Period)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Enterprise_Period)"
+        }
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Service Request Resolution Date Enterprise Calendar.Detail",
+        "displayColumn" : "presentationColumn:CX - Service Request.Service Request Resolution Date.Service Request Resolution Enterprise Date",
+        "localization" : {
+          "localizationKey" : "Detail",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Detail)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date_Service_Request_Resolution_Date_Enterprise_Calendar_Detail)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Service Request Resolution Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Service_Request_Service_Request_Resolution_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Service_Request_Service_Request_Resolution_Date)"
+    }
+  }
+}

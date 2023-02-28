@@ -1,0 +1,75 @@
+{
+  "presentationTable" : {
+    "name" : "Project Revenue",
+    "presentationColumns" : [ {
+      "name" : "Event Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Project Event Number",
+      "localization" : {
+        "localizationKey" : "Event Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Event_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Event_Number)"
+      }
+    }, {
+      "name" : "Event Completion Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Project Event Completion Date",
+      "localization" : {
+        "localizationKey" : "Event Completion Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Event_Completion_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Event_Completion_Date)"
+      }
+    }, {
+      "name" : "Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Revenue Transaction Number",
+      "localization" : {
+        "localizationKey" : "Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Transaction_Number)"
+      }
+    }, {
+      "name" : "Transaction Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Revenue Transaction Date",
+      "localization" : {
+        "localizationKey" : "Transaction Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Transaction_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Transaction_Date)"
+      }
+    }, {
+      "name" : "Revenue Distribution Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Revenue Distribution Number",
+      "localization" : {
+        "localizationKey" : "Revenue Distribution Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Revenue_Distribution_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Revenue_Distribution_Number)"
+      }
+    }, {
+      "name" : "Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Revenue Line Number",
+      "localization" : {
+        "localizationKey" : "Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Line_Number)"
+      }
+    }, {
+      "name" : "Revenue Billing Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Revenue Billing Type",
+      "localization" : {
+        "localizationKey" : "Revenue Billing Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Revenue_Billing_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Revenue_Billing_Type)"
+      }
+    }, {
+      "name" : "Billing Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - GL Account Analysis Template Details.Billing Transaction Type",
+      "localization" : {
+        "localizationKey" : "Billing Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Billing_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue_Billing_Transaction_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Project Revenue",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Project_Revenue)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Project_Revenue)"
+    }
+  }
+}

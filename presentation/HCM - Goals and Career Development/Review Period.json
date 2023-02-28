@@ -1,0 +1,59 @@
+{
+  "presentationTable" : {
+    "name" : "Review Period",
+    "presentationColumns" : [ {
+      "name" : "Review Period Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Review Period Identifier",
+      "localization" : {
+        "localizationKey" : "Review Period Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Identifier)"
+      }
+    }, {
+      "name" : "Review Period Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Review Period Name",
+      "localization" : {
+        "localizationKey" : "Review Period Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Name)"
+      }
+    }, {
+      "name" : "Review Period Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Review Period Status Code",
+      "localization" : {
+        "localizationKey" : "Review Period Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Status_Code)"
+      }
+    }, {
+      "name" : "Review Period Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Review Period Status",
+      "localization" : {
+        "localizationKey" : "Review Period Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Review_Period_Status)"
+      }
+    }, {
+      "name" : "Period Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Period Start Date",
+      "localization" : {
+        "localizationKey" : "Period Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Period_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Period_Start_Date)"
+      }
+    }, {
+      "name" : "Period End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Review Period.Period End Date",
+      "localization" : {
+        "localizationKey" : "Period End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period_Period_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period_Period_End_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Review Period",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Review_Period)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Review_Period)"
+    }
+  }
+}

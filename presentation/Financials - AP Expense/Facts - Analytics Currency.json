@@ -1,0 +1,56 @@
+{
+  "presentationTable" : {
+    "name" : "Facts - Analytics Currency",
+    "presentationColumns" : [ {
+      "name" : "Expense Distribution Amount",
+      "description" : "Shows the invoice expense distribution amount for AP Invoices and considers all invoice types. Excludes cancelled distributions.\r\n",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Fins - AP Expense Distributions.Expense Distribution Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Expense Distribution Amount",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Expense_Distribution_Amount)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Expense_Distribution_Amount)"
+      }
+    }, {
+      "name" : "Expense Distribution Count",
+      "description" : "Shows the invoice expense distribution count for AP Invoices and considers all invoice types. Excludes cancelled distributions.\r\n",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Fins - AP Expense Distributions.Expense Distribution Count",
+      "localization" : {
+        "localizationKey" : "Expense Distribution Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Expense_Distribution_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Expense_Distribution_Count)"
+      }
+    }, {
+      "name" : "Prepayment Amount",
+      "description" : "Shows the Prepayment amount for invoices of type Prepayment. This metric should be used with the Prepayment Invoice Number and Prepayment Line Number attributes to show the Prepayment or Prepayment line level amounts.",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Fins - AP Expense Distributions.Prepayment Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Prepayment Amount",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Prepayment_Amount)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Prepayment_Amount)"
+      }
+    }, {
+      "name" : "Applied Prepayment Amount",
+      "description" : "Shows the prepayment amount applied to invoices. This metric should be used with the Prepayment Invoice Number and Prepayment Line Number attributes to show the Prepayment or Prepayment line level amounts.",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Fins - AP Expense Distributions.Applied Prepayment Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Applied Prepayment Amount",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Applied_Prepayment_Amount)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Applied_Prepayment_Amount)"
+      }
+    }, {
+      "name" : "Available Prepayment Amount",
+      "description" : "Shows the available prepayment amount, calculated as Prepayment Amount - Applied Prepayment Amount. This metric should be used with the Prepayment Invoice Number and Prepayment Line Number attributes to show the Prepayment or Prepayment line level amounts.",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Fins - AP Expense Distributions.Available Prepayment Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Available Prepayment Amount",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Available_Prepayment_Amount)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency_Available_Prepayment_Amount)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Facts - Analytics Currency",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Facts_-_Analytics_Currency)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Facts_-_Analytics_Currency)"
+    }
+  }
+}

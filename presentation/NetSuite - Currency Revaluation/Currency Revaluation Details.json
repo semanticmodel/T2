@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Currency Revaluation Details",
+    "localization" : {
+      "localizationKey" : "Currency Revaluation Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Currency_Revaluation_Currency_Revaluation_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Currency_Revaluation_Currency_Revaluation_Details)"
+    }
+  }
+}

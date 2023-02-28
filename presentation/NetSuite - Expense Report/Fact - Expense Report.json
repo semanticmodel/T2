@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Expense Report",
+    "localization" : {
+      "localizationKey" : "Fact - Expense Report",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Expense_Report_Fact_-_Expense_Report)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Expense_Report_Fact_-_Expense_Report)"
+    }
+  }
+}

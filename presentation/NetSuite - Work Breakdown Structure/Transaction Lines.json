@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Lines",
+    "presentationColumns" : [ {
+      "name" : "Total Number of Work Breakdown Structure Lines",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Work Breakdown Structure.Total Number of Work Breakdown Structure Lines",
+      "localization" : {
+        "localizationKey" : "Total Number of Work Breakdown Structure Lines",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines_Total_Number_of_Work_Breakdown_Structure_Lines)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines_Total_Number_of_Work_Breakdown_Structure_Lines)"
+      }
+    }, {
+      "name" : "Revenue Markup Percent",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Work Breakdown Structure.Revenue Markup Percent",
+      "localization" : {
+        "localizationKey" : "Revenue Markup Percent",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines_Revenue_Markup_Percent)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines_Revenue_Markup_Percent)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Lines",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Breakdown_Structure_Transaction_Lines)"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "presentationTable" : {
+    "name" : "Expenditure Category",
+    "presentationColumns" : [ {
+      "name" : "Expenditure Category",
+      "description" : "Expenditure Category Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Expenditure Category.Expenditure Category",
+      "localization" : {
+        "localizationKey" : "Expenditure Category",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Expenditure_Category_Expenditure_Category)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Expenditure_Category_Expenditure_Category)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Expenditure Category",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Expenditure_Category)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Expenditure_Category)"
+    }
+  }
+}

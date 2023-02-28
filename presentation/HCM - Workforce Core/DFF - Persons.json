@@ -1,0 +1,23 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Persons",
+    "description" : "Person Additional Attributes",
+    "presentationColumns" : [ {
+      "name" : "PER_PERSONS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.PER_PERSONS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PER_PERSONS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Persons_PER_PERSONS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Persons_PER_PERSONS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Persons",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Persons)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Persons)"
+    }
+  }
+}

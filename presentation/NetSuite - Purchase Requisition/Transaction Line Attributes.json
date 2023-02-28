@@ -1,0 +1,67 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Line Attributes",
+    "presentationColumns" : [ {
+      "name" : "Purchase Requisition Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition Line Number",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Number)"
+      }
+    }, {
+      "name" : "Purchase Requisition Line Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition Line Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition Line Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Purchase Requisition Expected Receipt Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition Expected Receipt Date",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition Expected Receipt Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Expected_Receipt_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Expected_Receipt_Date)"
+      }
+    }, {
+      "name" : "Purchase Requisition - To Be Fulfilled",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition - To Be Fulfilled",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition - To Be Fulfilled",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_To_Be_Fulfilled)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_To_Be_Fulfilled)"
+      }
+    }, {
+      "name" : "Purchase Requisition - Is Billable",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition - Is Billable",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition - Is Billable",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_Is_Billable)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_Is_Billable)"
+      }
+    }, {
+      "name" : "Purchase Requisition Line Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition Line Memo",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition Line Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_Line_Memo)"
+      }
+    }, {
+      "name" : "Purchase Requisition - Main Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Purchase Requisition Details.Purchase Requisition - Main Line",
+      "localization" : {
+        "localizationKey" : "Purchase Requisition - Main Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_Main_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes_Purchase_Requisition_-_Main_Line)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Line Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Transaction_Line_Attributes)"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "presentationTable" : {
+    "name" : "Candidate - Basic Information",
+    "description" : "Candidate's basic information like number, name, type, etc",
+    "presentationColumns" : [ {
+      "name" : "Candidate Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Candidate.Candidate Number",
+      "alternateNames" : [ "CANDIDATE_NUMBER" ],
+      "localization" : {
+        "localizationKey" : "Candidate Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Number)"
+      }
+    }, {
+      "name" : "Candidate Person Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Candidate.Candidate Person Number",
+      "localization" : {
+        "localizationKey" : "Candidate Person Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Number)"
+      }
+    }, {
+      "name" : "Candidate Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Candidate.Candidate Name",
+      "localization" : {
+        "localizationKey" : "Candidate Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Name)"
+      }
+    }, {
+      "name" : "Candidate Person Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Candidate.Candidate Person Type Code",
+      "localization" : {
+        "localizationKey" : "Candidate Person Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Type_Code)"
+      }
+    }, {
+      "name" : "Candidate Person Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Candidate.Candidate Person Type",
+      "localization" : {
+        "localizationKey" : "Candidate Person Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information_Candidate_Person_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Candidate - Basic Information",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Acquisition_Candidate_-_Basic_Information)"
+    }
+  }
+}

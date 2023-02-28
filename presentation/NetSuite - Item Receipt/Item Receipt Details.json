@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Item Receipt Details",
+    "localization" : {
+      "localizationKey" : "Item Receipt Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Receipt_Item_Receipt_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Receipt_Item_Receipt_Details)"
+    }
+  }
+}

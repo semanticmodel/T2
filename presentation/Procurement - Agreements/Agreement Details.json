@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Agreement Details",
+    "localization" : {
+      "localizationKey" : "Agreement Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Agreements_Agreement_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Agreements_Agreement_Details)"
+    }
+  }
+}

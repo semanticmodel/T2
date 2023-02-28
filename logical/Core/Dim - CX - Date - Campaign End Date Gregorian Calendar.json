@@ -1,0 +1,256 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - CX - Date - Campaign End Date Gregorian Calendar",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "CX Campaign End Date ID" ],
+    "logicalColumns" : [ {
+      "name" : "CX Campaign End Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CALENDAR_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Day"
+    }, {
+      "name" : "CX Campaign End Year",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_YEAR_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Year"
+    }, {
+      "name" : "CX Campaign End Month",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_MONTH_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "CX Campaign End Quarter",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_QUARTER_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Quarter"
+    }, {
+      "name" : "CX Campaign End Week",
+      "dataType" : "VARCHAR",
+      "sortBy" : "CX Campaign End Week Start Date",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_WEEK_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CX Campaign End Day Code",
+      "dataType" : "VARCHAR",
+      "sortBy" : "CX Campaign End Day Of Week",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.DAY_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CX Campaign End Quarter Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_QUARTER_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Quarter"
+    }, {
+      "name" : "CX Campaign End Month Number",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_MONTH_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "CX Campaign End Month Name",
+      "dataType" : "CHAR",
+      "sortBy" : "CX Campaign End Month",
+      "descriptorColumn" : "CX Campaign End Month",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : " MONTHNAME(%1)",
+          "expressionObjects" : [ "logicalColumn:Core.Dim - CX - Date - Campaign End Date Gregorian Calendar.CX Campaign End Date" ]
+        }
+      },
+      "logicalLevel" : "Month"
+    }, {
+      "name" : "CX Campaign End Day Name",
+      "dataType" : "CHAR",
+      "sortBy" : "CX Campaign End Day Of Week",
+      "descriptorColumn" : "CX Campaign End Day Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : " DAYNAME(%1)",
+          "expressionObjects" : [ "logicalColumn:Core.Dim - CX - Date - Campaign End Date Gregorian Calendar.CX Campaign End Date" ]
+        }
+      }
+    }, {
+      "name" : "CX Campaign End Date ID",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_DAY_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Day"
+    }, {
+      "name" : "CX Campaign End Day Of Week",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.DAY_OF_WEEK" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CX Campaign End Week Start Date",
+      "dataType" : "DATE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_DAY_D_Campaign_End_Date",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date.CAL_WEEK_START_DATE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_DAY_D_Campaign_End_Date",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_DAY_D_Campaign_End_Date" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - CX - Date - Campaign End Date Gregorian Calendar.Day" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "TIME",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Total",
+      "logicalLevels" : [ {
+        "name" : "Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Year",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "CX Campaign End Year" ],
+        "displayKey" : "CX Campaign End Year",
+        "chronologicalKey" : [ "CX Campaign End Year" ]
+      }, {
+        "name" : "Quarter",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "CX Campaign End Quarter" ],
+        "displayKey" : "CX Campaign End Quarter",
+        "chronologicalKey" : [ "CX Campaign End Quarter" ]
+      }, {
+        "name" : "Month",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "CX Campaign End Month" ],
+        "displayKey" : "CX Campaign End Month",
+        "chronologicalKey" : [ "CX Campaign End Month" ]
+      }, {
+        "name" : "Day",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "CX Campaign End Date ID" ],
+        "displayKey" : "CX Campaign End Date",
+        "additionalKeys" : [ [ "CX Campaign End Date" ] ],
+        "chronologicalKey" : [ "CX Campaign End Date ID" ]
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "CX - Campaign End Date Gregorian Calendar",
+        "levels" : [ "Total", "Year", "Quarter", "Month", "Day" ]
+      } ]
+    }
+  }
+}

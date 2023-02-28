@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Age (Hiring)",
+    "localization" : {
+      "localizationKey" : "Age (Hiring)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Age_(Hiring))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Age_(Hiring))"
+    }
+  }
+}

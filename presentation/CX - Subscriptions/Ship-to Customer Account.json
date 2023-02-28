@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Ship-to Customer Account",
+    "presentationColumns" : [ {
+      "name" : "Ship-to Customer Account Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Subscription Customer Account Ship To.Ship-to Customer Account Name",
+      "localization" : {
+        "localizationKey" : "Ship-to Customer Account Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Ship-to_Customer_Account_Ship-to_Customer_Account_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Ship-to_Customer_Account_Ship-to_Customer_Account_Name)"
+      }
+    }, {
+      "name" : "Ship-to Customer Account Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Subscription Customer Account Ship To.Ship-to Customer Account Number",
+      "localization" : {
+        "localizationKey" : "Ship-to Customer Account Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Ship-to_Customer_Account_Ship-to_Customer_Account_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Ship-to_Customer_Account_Ship-to_Customer_Account_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Ship-to Customer Account",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Ship-to_Customer_Account)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Ship-to_Customer_Account)"
+    }
+  }
+}

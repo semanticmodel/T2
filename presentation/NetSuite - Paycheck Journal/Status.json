@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Paycheck Journal Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Paycheck Journal Status.Paycheck Journal Status Code",
+      "localization" : {
+        "localizationKey" : "Paycheck Journal Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Paycheck_Journal_Status_Paycheck_Journal_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Paycheck_Journal_Status_Paycheck_Journal_Status_Code)"
+      }
+    }, {
+      "name" : "Paycheck Journal Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Paycheck Journal Status.Paycheck Journal Status",
+      "localization" : {
+        "localizationKey" : "Paycheck Journal Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Paycheck_Journal_Status_Paycheck_Journal_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Paycheck_Journal_Status_Paycheck_Journal_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Paycheck_Journal_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Paycheck_Journal_Status)"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Prepayment Details",
+    "presentationColumns" : [ {
+      "name" : "Prepayment Invoice Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Expense Distribution Details.Prepayment Invoice Number",
+      "localization" : {
+        "localizationKey" : "Prepayment Invoice Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Prepayment_Details_Prepayment_Invoice_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Prepayment_Details_Prepayment_Invoice_Number)"
+      }
+    }, {
+      "name" : "Prepayment Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AP Expense Distribution Details.Prepayment Line Number",
+      "localization" : {
+        "localizationKey" : "Prepayment Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Prepayment_Details_Prepayment_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Prepayment_Details_Prepayment_Line_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Prepayment Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AP_Expense_Prepayment_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AP_Expense_Prepayment_Details)"
+    }
+  }
+}

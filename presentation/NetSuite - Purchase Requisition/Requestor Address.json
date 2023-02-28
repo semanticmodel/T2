@@ -1,0 +1,115 @@
+{
+  "presentationTable" : {
+    "name" : "Requestor Address",
+    "presentationColumns" : [ {
+      "name" : "Requestor Address",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address",
+      "localization" : {
+        "localizationKey" : "Requestor Address",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address)"
+      }
+    }, {
+      "name" : "Requestor Address 1",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address 1",
+      "localization" : {
+        "localizationKey" : "Requestor Address 1",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_1)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_1)"
+      }
+    }, {
+      "name" : "Requestor Address 2",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address 2",
+      "localization" : {
+        "localizationKey" : "Requestor Address 2",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_2)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_2)"
+      }
+    }, {
+      "name" : "Requestor Address - Override",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address - Override",
+      "localization" : {
+        "localizationKey" : "Requestor Address - Override",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_-_Override)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_-_Override)"
+      }
+    }, {
+      "name" : "Requestor Address Addressee",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Addressee",
+      "localization" : {
+        "localizationKey" : "Requestor Address Addressee",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Addressee)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Addressee)"
+      }
+    }, {
+      "name" : "Requestor Address Phone",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Phone",
+      "localization" : {
+        "localizationKey" : "Requestor Address Phone",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Phone)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Phone)"
+      }
+    }, {
+      "name" : "Requestor Address Attention",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Attention",
+      "localization" : {
+        "localizationKey" : "Requestor Address Attention",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Attention)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Attention)"
+      }
+    }, {
+      "name" : "Requestor Address City",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address City",
+      "localization" : {
+        "localizationKey" : "Requestor Address City",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_City)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_City)"
+      }
+    }, {
+      "name" : "Requestor Address Country",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Country",
+      "localization" : {
+        "localizationKey" : "Requestor Address Country",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Country)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Country)"
+      }
+    }, {
+      "name" : "Requestor Address State",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address State",
+      "localization" : {
+        "localizationKey" : "Requestor Address State",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_State)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_State)"
+      }
+    }, {
+      "name" : "Requestor Address State/Province",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address State/Province",
+      "localization" : {
+        "localizationKey" : "Requestor Address State/Province",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_State/Province)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_State/Province)"
+      }
+    }, {
+      "name" : "Requestor Address Zip",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Zip",
+      "localization" : {
+        "localizationKey" : "Requestor Address Zip",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Zip)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Zip)"
+      }
+    }, {
+      "name" : "Requestor Address Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Requestor.Requestor Address Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Requestor Address Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address_Requestor_Address_Last_Modified_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Requestor Address",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Requestor_Address)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Requestor_Address)"
+    }
+  }
+}

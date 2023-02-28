@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Customer Payment Authorization Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Customer Payment Authorization Status.Customer Payment Authorization Status Code",
+      "localization" : {
+        "localizationKey" : "Customer Payment Authorization Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Payment_Authorization_Status_Customer_Payment_Authorization_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Payment_Authorization_Status_Customer_Payment_Authorization_Status_Code)"
+      }
+    }, {
+      "name" : "Customer Payment Authorization Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Customer Payment Authorization Status.Customer Payment Authorization Status",
+      "localization" : {
+        "localizationKey" : "Customer Payment Authorization Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Payment_Authorization_Status_Customer_Payment_Authorization_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Payment_Authorization_Status_Customer_Payment_Authorization_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Payment_Authorization_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Payment_Authorization_Status)"
+    }
+  }
+}

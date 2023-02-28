@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Vendor Bill Credit Details",
+    "localization" : {
+      "localizationKey" : "Vendor Bill Credit Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Credit_Vendor_Bill_Credit_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Credit_Vendor_Bill_Credit_Details)"
+    }
+  }
+}

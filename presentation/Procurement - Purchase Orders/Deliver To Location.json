@@ -1,0 +1,20 @@
+{
+  "presentationTable" : {
+    "name" : "Deliver To Location",
+    "presentationColumns" : [ {
+      "name" : "Deliver To Location",
+      "description" : "This deliver to location refers to purchase order distributions.",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Deliver To Location.Deliver To Location",
+      "localization" : {
+        "localizationKey" : "Deliver To Location",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Purchase_Orders_Deliver_To_Location_Deliver_To_Location)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Purchase_Orders_Deliver_To_Location_Deliver_To_Location)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Deliver To Location",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Purchase_Orders_Deliver_To_Location)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Purchase_Orders_Deliver_To_Location)"
+    }
+  }
+}

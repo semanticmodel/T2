@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Shipment Details",
+    "presentationColumns" : [ {
+      "name" : "Shipment Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Costing - Cogs and Gross Margin Details.Shipment Number",
+      "localization" : {
+        "localizationKey" : "Shipment Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_COGS_and_Gross_Margin_Shipment_Details_Shipment_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_COGS_and_Gross_Margin_Shipment_Details_Shipment_Number)"
+      }
+    }, {
+      "name" : "Shipment Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Costing - Cogs and Gross Margin Details.Shipment Type",
+      "localization" : {
+        "localizationKey" : "Shipment Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_COGS_and_Gross_Margin_Shipment_Details_Shipment_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_COGS_and_Gross_Margin_Shipment_Details_Shipment_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Shipment Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_COGS_and_Gross_Margin_Shipment_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_COGS_and_Gross_Margin_Shipment_Details)"
+    }
+  }
+}

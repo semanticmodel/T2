@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Processed Time Cards",
+    "description" : "Provides information on processed time cards.",
+    "localization" : {
+      "localizationKey" : "Processed Time Cards",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Time_and_Labor_Management_Processed_Time_Cards)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Time_and_Labor_Management_Processed_Time_Cards)"
+    }
+  }
+}

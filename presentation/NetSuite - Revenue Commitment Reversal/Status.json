@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Revenue Commitment Reversal Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Revenue Commitment Reversal Status.Revenue Commitment Reversal Status Code",
+      "localization" : {
+        "localizationKey" : "Revenue Commitment Reversal Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Revenue_Commitment_Reversal_Status_Revenue_Commitment_Reversal_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Revenue_Commitment_Reversal_Status_Revenue_Commitment_Reversal_Status_Code)"
+      }
+    }, {
+      "name" : "Revenue Commitment Reversal Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Revenue Commitment Reversal Status.Revenue Commitment Reversal Status",
+      "localization" : {
+        "localizationKey" : "Revenue Commitment Reversal Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Revenue_Commitment_Reversal_Status_Revenue_Commitment_Reversal_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Revenue_Commitment_Reversal_Status_Revenue_Commitment_Reversal_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Revenue_Commitment_Reversal_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Revenue_Commitment_Reversal_Status)"
+    }
+  }
+}

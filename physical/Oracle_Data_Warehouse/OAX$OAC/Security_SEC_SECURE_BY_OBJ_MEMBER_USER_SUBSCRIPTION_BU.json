@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "BUSINESS_UNIT_ID"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Commission Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Commission Status.Commission Status Code",
+      "localization" : {
+        "localizationKey" : "Commission Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Commission_Snapshot_Status_Commission_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Commission_Snapshot_Status_Commission_Status_Code)"
+      }
+    }, {
+      "name" : "Commission Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Commission Status.Commission Status",
+      "localization" : {
+        "localizationKey" : "Commission Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Commission_Snapshot_Status_Commission_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Commission_Snapshot_Status_Commission_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Commission_Snapshot_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Commission_Snapshot_Status)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Vendor Bill",
+    "localization" : {
+      "localizationKey" : "Fact - Vendor Bill",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Fact_-_Vendor_Bill)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Fact_-_Vendor_Bill)"
+    }
+  }
+}

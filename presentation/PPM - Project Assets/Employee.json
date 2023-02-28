@@ -1,0 +1,37 @@
+{
+  "presentationTable" : {
+    "name" : "Employee",
+    "presentationColumns" : [ {
+      "name" : "Person Name",
+      "description" : "Person Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.Person Full Name",
+      "alternateNames" : [ "Person Full Name" ],
+      "localization" : {
+        "localizationKey" : "Person Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Employee_Person_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Employee_Person_Name)"
+      }
+    }, {
+      "name" : "Person Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.Person Number",
+      "localization" : {
+        "localizationKey" : "Person Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Employee_Person_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Employee_Person_Number)"
+      }
+    }, {
+      "name" : "Person Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Project Asset Details.Person Type",
+      "localization" : {
+        "localizationKey" : "Person Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Employee_Person_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Employee_Person_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Employee",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets_Employee)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets_Employee)"
+    }
+  }
+}

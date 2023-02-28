@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Credit Card Refund Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Credit Card Refund Status.Credit Card Refund Status Code",
+      "localization" : {
+        "localizationKey" : "Credit Card Refund Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Refund_Status_Credit_Card_Refund_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Refund_Status_Credit_Card_Refund_Status_Code)"
+      }
+    }, {
+      "name" : "Credit Card Refund Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Credit Card Refund Status.Credit Card Refund Status",
+      "localization" : {
+        "localizationKey" : "Credit Card Refund Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Refund_Status_Credit_Card_Refund_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Refund_Status_Credit_Card_Refund_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Refund_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Refund_Status)"
+    }
+  }
+}

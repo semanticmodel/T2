@@ -1,0 +1,249 @@
+{
+  "logicalTable" : {
+    "name" : "Fact - Tenant Metrics",
+    "tags" : [ "Project:Oracle Analytics for Fusion Common" ],
+    "type" : "FACT",
+    "logicalColumns" : [ {
+      "name" : "Record Count",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'recordCount' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Table Count",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'tableCount' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Object Count",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'objectCount' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Storage",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'storage' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Weighted Average Column Count",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'weightedAvgColumnCount' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Total Storage",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'totalStorage' THEN %2 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Custom Storage In GB",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN %1 = 'DE' AND %2 = 'storage' THEN %3 ELSE  NULL  END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE1", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_VALUE_NUM" ]
+          }
+        } ]
+      },
+      "aggregation" : {
+        "rule" : "BASED_ON_DIMENSION",
+        "dimensionBasedRules" : [ {
+          "dimension" : "OTHER",
+          "rule" : "SUM"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+          "rule" : "LAST"
+        }, {
+          "dimension" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+          "rule" : "SUM"
+        } ],
+        "dataIsDense" : false
+      }
+    }, {
+      "name" : "Previous Period Record Count",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "1"
+        }
+      }
+    }, {
+      "name" : "Records Added",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : " CASE  WHEN %1 IS NULL  THEN %2 ELSE %2 - %1 END ",
+          "expressionObjects" : [ "logicalColumn:Core.Fact - Tenant Metrics.Previous Period Record Count", "logicalColumn:Core.Fact - Tenant Metrics.Record Count" ]
+        }
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Tenant_Metrics_Summary",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Tenant Metrics Attributes.Dim - Tenant Metrics Attributes Detail", "logicalLevel:Core.Dim - Tenant Metrics Attribute Details.Dim - Tenant Metrics Attribute Details Detail", "logicalLevel:Core.Dim - Date Common Gregorian Calendar.Day" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Core.Dim - Date Common Gregorian Calendar",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ZERO_OR_ONE"
+    }, {
+      "rightTable" : "logicalTable:Core.Dim - Tenant Metrics Attribute Details",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ZERO_OR_ONE"
+    }, {
+      "rightTable" : "logicalTable:Core.Dim - Tenant Metrics Attributes",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ZERO_OR_ONE"
+    } ]
+  }
+}

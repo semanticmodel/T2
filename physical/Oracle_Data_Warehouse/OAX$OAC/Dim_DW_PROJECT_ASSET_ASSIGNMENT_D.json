@@ -1,0 +1,36 @@
+{
+  "physicalTable": {
+    "name": "Dim_DW_PROJECT_ASSET_ASSIGNMENT_D",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_PROJECT_ASSET_ASSIGNMENT_D",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "useJoinExpression": true,
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_Asset",
+        "joinExpression": {
+          "expressionTemplate": "%1 =  CAST (%2 AS VARCHAR ( 38 ))",
+          "expressionObjects": [
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_Asset.BASE_ELEMENT_ID",
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ASSET_ASSIGNMENT_D.TASK_ID"
+          ]
+        },
+        "cardinality": "MANY_TO_ONE",
+        "joinType": "INNER"
+      },
+      {
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ELEMENT_D_AssetTask",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ASSET_ASSIGNMENT_D.TASK_ID",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ELEMENT_D_AssetTask.PROJ_ELEMENT_ID"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "ASSET_ASSIGNMENT_ID"
+      ]
+    ]
+  }
+}

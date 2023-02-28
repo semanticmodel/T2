@@ -1,0 +1,15 @@
+{
+  "physicalTable": {
+    "name": "Lookup_DW_PJC_CAPITAL_TYPE_LKP_TL",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_PJC_CAPITAL_TYPE_LKP_TL",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "LANGUAGE",
+        "PJC_CAPITAL_TYPE_CODE"
+      ]
+    ]
+  }
+}

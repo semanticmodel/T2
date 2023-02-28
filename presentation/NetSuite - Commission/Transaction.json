@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction",
+    "presentationColumns" : [ {
+      "name" : "Total Number of Commissions",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Commission.Total Number of Commissions",
+      "localization" : {
+        "localizationKey" : "Total Number of Commissions",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Commission_Transaction_Total_Number_of_Commissions)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Commission_Transaction_Total_Number_of_Commissions)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Commission_Transaction)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Commission_Transaction)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Inventory Cost Revaluation Details",
+    "localization" : {
+      "localizationKey" : "Inventory Cost Revaluation Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Cost_Revaluation_Inventory_Cost_Revaluation_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Cost_Revaluation_Inventory_Cost_Revaluation_Details)"
+    }
+  }
+}

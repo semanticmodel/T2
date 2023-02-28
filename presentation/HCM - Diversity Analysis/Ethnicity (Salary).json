@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Ethnicity (Salary)",
+    "localization" : {
+      "localizationKey" : "Ethnicity (Salary)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Ethnicity_(Salary))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Ethnicity_(Salary))"
+    }
+  }
+}

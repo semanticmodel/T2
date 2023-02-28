@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "Destination Type",
+    "presentationColumns" : [ {
+      "name" : "Destination Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - PO Destination Type.Destination Type",
+      "localization" : {
+        "localizationKey" : "Destination Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Destination_Type_Destination_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Destination_Type_Destination_Type)"
+      }
+    }, {
+      "name" : "Destination Inventory Organization",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Inventory Organization.Inventory Organization Name",
+      "localization" : {
+        "localizationKey" : "Destination Inventory Organization",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Destination_Type_Destination_Organization_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Destination_Type_Destination_Organization_Name)"
+      }
+    }, {
+      "name" : "Destination Subinventory",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Sub Inventory.Subinventory",
+      "localization" : {
+        "localizationKey" : "Destination Subinventory",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Destination_Type_Destination_Subinventory)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Destination_Type_Destination_Subinventory)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Destination Type",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_Destination_Type)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_Presentation_Table)"
+    }
+  }
+}

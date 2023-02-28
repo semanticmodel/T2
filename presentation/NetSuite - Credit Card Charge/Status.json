@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Credit Card Charge Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Credit Card Charge Status.Credit Card Charge Status Code",
+      "localization" : {
+        "localizationKey" : "Credit Card Charge Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Charge_Status_Credit_Card_Charge_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Charge_Status_Credit_Card_Charge_Status_Code)"
+      }
+    }, {
+      "name" : "Credit Card Charge Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Credit Card Charge Status.Credit Card Charge Status",
+      "localization" : {
+        "localizationKey" : "Credit Card Charge Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Charge_Status_Credit_Card_Charge_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Charge_Status_Credit_Card_Charge_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Credit_Card_Charge_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Credit_Card_Charge_Status)"
+    }
+  }
+}

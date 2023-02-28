@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Model Profile",
+    "description" : "Model Profile",
+    "localization" : {
+      "localizationKey" : "Model Profile",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Talent_Profile_Model_Profile)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Talent_Profile_Model_Profile)"
+    }
+  }
+}

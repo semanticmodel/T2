@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Incumbent - Bands",
+    "description" : "Contains folders that segment key dimensions into bands for simplified analysis.",
+    "localization" : {
+      "localizationKey" : "Incumbent - Bands",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Bands)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Bands)"
+    }
+  }
+}

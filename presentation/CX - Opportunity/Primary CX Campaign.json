@@ -1,0 +1,123 @@
+{
+  "presentationTable" : {
+    "name" : "Primary CX Campaign",
+    "presentationColumns" : [ {
+      "name" : "Primary CX Campaign Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Identifier",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Identifier)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Name",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Name)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Description",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Description)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Created By User",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Created By User",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Created By User",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Created_By_User)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Created_By_User)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Region Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Region Code",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Region Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Region_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Region_Code)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Product",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Product",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Product",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Product)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Product)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Creation Date Time",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Creation Date Time",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Creation Date Time",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Creation_Date_Time)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Creation_Date_Time)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Start Date Time",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Start Date Time",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Start Date Time",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Start_Date_Time)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Start_Date_Time)"
+      }
+    }, {
+      "name" : "Primary CX Campaign End Date Time",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign End Date Time",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign End Date Time",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_End_Date_Time)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_End_Date_Time)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Status Code",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Status_Code)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Status",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Status)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Type Code",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Type_Code)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Type",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Type)"
+      }
+    }, {
+      "name" : "Primary CX Campaign Active",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Primary Campaign.Primary CX Campaign Active",
+      "localization" : {
+        "localizationKey" : "Primary CX Campaign Active",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Active)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign_Primary_CX_Campaign_Active)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Primary CX Campaign",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Opportunity_Primary_CX_Campaign)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Opportunity_Primary_CX_Campaign)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Purchase Requisition Details",
+    "localization" : {
+      "localizationKey" : "Purchase Requisition Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Purchase_Requisition_Purchase_Requisition_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Purchase_Requisition_Purchase_Requisition_Details)"
+    }
+  }
+}

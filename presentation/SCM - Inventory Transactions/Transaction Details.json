@@ -1,0 +1,75 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Details",
+    "presentationColumns" : [ {
+      "name" : "Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Number",
+      "localization" : {
+        "localizationKey" : "Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Number)"
+      }
+    }, {
+      "name" : "Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Type",
+      "localization" : {
+        "localizationKey" : "Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Type)"
+      }
+    }, {
+      "name" : "Transaction Type Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Type Description",
+      "localization" : {
+        "localizationKey" : "Transaction Type Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Type_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Type_Description)"
+      }
+    }, {
+      "name" : "Transaction Action",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Action",
+      "localization" : {
+        "localizationKey" : "Transaction Action",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Action)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Action)"
+      }
+    }, {
+      "name" : "Transaction Source Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Source Type",
+      "localization" : {
+        "localizationKey" : "Transaction Source Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Source_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Source_Type)"
+      }
+    }, {
+      "name" : "Transaction Source Type Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Source Type Description",
+      "localization" : {
+        "localizationKey" : "Transaction Source Type Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Source_Type_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Source_Type_Description)"
+      }
+    }, {
+      "name" : "Error Explanation",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Error Explanation",
+      "localization" : {
+        "localizationKey" : "Error Explanation",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Error_Explanation)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Error_Explanation)"
+      }
+    }, {
+      "name" : "Transaction Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Inventory Transaction Details.Transaction Quantity",
+      "localization" : {
+        "localizationKey" : "Transaction Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details_Transaction_Quantity)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Transactions_Transaction_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_SCM_-_Inventory_Transactions_Transaction_Details)"
+    }
+  }
+}

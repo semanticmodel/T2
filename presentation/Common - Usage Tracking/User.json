@@ -1,0 +1,71 @@
+{
+  "presentationTable" : {
+    "name" : "User",
+    "hideIfTrue" : {
+      "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'HIDE'",
+      "expressionObjects" : [ "variable:FAW - Enable Usage Tracking.USAGE_TRACKING_FAW_ENABLE" ]
+    },
+    "presentationColumns" : [ {
+      "name" : "Login Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.Login Name",
+      "localization" : {
+        "localizationKey" : "Login Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_Login_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_Login_Name)"
+      }
+    }, {
+      "name" : "User Full Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.User Full Name",
+      "localization" : {
+        "localizationKey" : "User Full Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_User_Full_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_User_Full_Name)"
+      }
+    }, {
+      "name" : "User First Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.User First Name",
+      "localization" : {
+        "localizationKey" : "User First Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_User_First_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_User_First_Name)"
+      }
+    }, {
+      "name" : "User Last Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.User Last Name",
+      "localization" : {
+        "localizationKey" : "User Last Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_User_Last_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_User_Last_Name)"
+      }
+    }, {
+      "name" : "User Middle Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.User Middle Name",
+      "localization" : {
+        "localizationKey" : "User Middle Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_User_Middle_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_User_Middle_Name)"
+      }
+    }, {
+      "name" : "Supervisor Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.Supervisor Name",
+      "localization" : {
+        "localizationKey" : "Supervisor Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_Supervisor_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_Supervisor_Name)"
+      }
+    }, {
+      "name" : "Department Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - User.Department Identifier",
+      "localization" : {
+        "localizationKey" : "Department Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User_Department_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User_Department_Identifier)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "User",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Common_-_Usage_Tracking_User)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Common_-_Usage_Tracking_User)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Netting Settlement Details",
+    "localization" : {
+      "localizationKey" : "Netting Settlement Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Netting_Settlement_Netting_Settlement_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Netting_Settlement_Netting_Settlement_Details)"
+    }
+  }
+}

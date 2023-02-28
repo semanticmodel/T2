@@ -1,0 +1,45 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Person Disability",
+    "description" : "Person Disability Information",
+    "presentationColumns" : [ {
+      "name" : "PER_PERSON_DISABILITY_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.PER_PERSON_DISABILITY_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PER_PERSON_DISABILITY_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5000)"
+      }
+    }, {
+      "name" : "PER_PERSON_DISABILITY_S_K_5001",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.PER_PERSON_DISABILITY_S_K_5001",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PER_PERSON_DISABILITY_S_K_5001",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5001)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5001)"
+      }
+    }, {
+      "name" : "PER_PERSON_DISABILITY_S_K_5002",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.PER_PERSON_DISABILITY_S_K_5002",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "PER_PERSON_DISABILITY_S_K_5002",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5002)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Disability_PER_PERSON_DISABILITY_S_K_5002)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Person Disability",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Core_DFF_-_Person_Disability)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Core_DFF_-_Person_Disability)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Common",
+    "localization" : {
+      "localizationKey" : "Common",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Journeys_Common)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Journeys_Common)"
+    }
+  }
+}

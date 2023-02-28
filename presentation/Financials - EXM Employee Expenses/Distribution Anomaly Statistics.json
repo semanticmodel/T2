@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Distribution Anomaly Statistics",
+    "hideIfTrue" : {
+      "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+      "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+    },
+    "presentationColumns" : [ {
+      "name" : "Expense Distribution Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - EXM Employee Expenses Details.Expense Distribution Identifier",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+      },
+      "localization" : {
+        "localizationKey" : "Expense Distribution Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Expense_Distribution_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Expense_Distribution_Identifier)"
+      }
+    }, {
+      "name" : "Distribution Anomaly Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - EXM Employee Expenses Details.Distribution Anomaly Status",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+      },
+      "localization" : {
+        "localizationKey" : "Distribution Anomaly Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Distribution_Anomaly_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Distribution_Anomaly_Status)"
+      }
+    }, {
+      "name" : "Distribution Anomaly Score",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - EXM Employee Expenses Details.Distribution Anomaly Score",
+      "hideIfTrue" : {
+        "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'N'",
+        "expressionObjects" : [ "variable:undeclaredVariables.AM_FA_EMPLOYEE_EXPENSE_ANOMALY" ]
+      },
+      "localization" : {
+        "localizationKey" : "Distribution Anomaly Score",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Distribution_Anomaly_Score)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics_Distribution_Anomaly_Score)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Distribution Anomaly Statistics",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Distribution_Anomaly_Statistics)"
+    }
+  }
+}

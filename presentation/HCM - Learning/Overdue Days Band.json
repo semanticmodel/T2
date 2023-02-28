@@ -1,0 +1,44 @@
+{
+  "presentationTable" : {
+    "name" : "Overdue Days Band",
+    "description" : "Provides the band configuration based on learning assignment overdue days",
+    "presentationColumns" : [ {
+      "name" : "Range Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Learning Overdue Days Band.Range Identifier",
+      "localization" : {
+        "localizationKey" : "Range Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Learning_Overdue_Days_Band_Range_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Learning_Overdue_Days_Band_Range_Identifier)"
+      }
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Learning Overdue Days Band.Name",
+      "localization" : {
+        "localizationKey" : "Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Learning_Overdue_Days_Band_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Learning_Overdue_Days_Band_Name)"
+      }
+    }, {
+      "name" : "Min Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Learning Overdue Days Band.Min Range",
+      "localization" : {
+        "localizationKey" : "Min Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Learning_Overdue_Days_Band_Min_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Learning_Overdue_Days_Band_Min_Range)"
+      }
+    }, {
+      "name" : "Max Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Learning Overdue Days Band.Max Range",
+      "localization" : {
+        "localizationKey" : "Max Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Learning_Overdue_Days_Band_Max_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Learning_Overdue_Days_Band_Max_Range)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Overdue Days Band",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Learning_Overdue_Days_Band)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Learning_Overdue_Days_Band)"
+    }
+  }
+}

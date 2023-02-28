@@ -1,0 +1,22 @@
+{
+  "presentationTable" : {
+    "name" : "DFF - Requisition Headers",
+    "presentationColumns" : [ {
+      "name" : "POR_REQUISITION_HEADERS_S_K_5000",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Requisition Header Details.POR_REQUISITION_HEADERS_S_K_5000",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1"
+      },
+      "localization" : {
+        "localizationKey" : "POR_REQUISITION_HEADERS_S_K_5000",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_DFF_-_Requisition_Headers_POR_REQUISITION_HEADERS_S_K_5000)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_DFF_-_Requisition_Headers_POR_REQUISITION_HEADERS_S_K_5000)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "DFF - Requisition Headers",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Requisitions_DFF_-_Requisition_Headers)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Requisitions_DFF_-_Requisition_Headers)"
+    }
+  }
+}

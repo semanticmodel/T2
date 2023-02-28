@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Resource Format",
+    "presentationColumns" : [ {
+      "name" : "Resource Format",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Resource.Resource Format",
+      "localization" : {
+        "localizationKey" : "Resource Format",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Forecasts_Resource_Format_Resource_Format)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Forecasts_Resource_Format_Resource_Format)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Resource Format",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Forecasts_Resource_Format)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Forecasts_Resource_Format)"
+    }
+  }
+}

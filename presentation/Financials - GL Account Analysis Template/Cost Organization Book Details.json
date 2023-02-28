@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Cost Organization Book Details",
+    "presentationColumns" : [ {
+      "name" : "Cost Book",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Organization Book.Cost Book",
+      "localization" : {
+        "localizationKey" : "Cost Book",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book)"
+      }
+    }, {
+      "name" : "Cost Book Description",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Organization Book.Cost Book Description",
+      "localization" : {
+        "localizationKey" : "Cost Book Description",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book_Description)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book_Description)"
+      }
+    }, {
+      "name" : "Cost Organization",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Organization Book.Cost Organization",
+      "localization" : {
+        "localizationKey" : "Cost Organization",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Organization)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Organization)"
+      }
+    }, {
+      "name" : "Cost Organization Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Organization Book.Cost Organization Status",
+      "localization" : {
+        "localizationKey" : "Cost Organization Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Organization_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Organization_Status)"
+      }
+    }, {
+      "name" : "Cost Book Ledger",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Cost Organization Book.Cost Book Ledger",
+      "localization" : {
+        "localizationKey" : "Cost Book Ledger",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book_Ledger)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details_Cost_Book_Ledger)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Cost Organization Book Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Cost_Organization_Book_Details)"
+    }
+  }
+}

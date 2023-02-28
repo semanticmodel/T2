@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Journal",
+    "localization" : {
+      "localizationKey" : "Fact - Journal",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Fact_-_Journal)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Fact_-_Journal)"
+    }
+  }
+}

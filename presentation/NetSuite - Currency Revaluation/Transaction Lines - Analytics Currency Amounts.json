@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Lines - Analytics Currency Amounts",
+    "presentationColumns" : [ {
+      "name" : "Linked Amount in Analytics Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Currency Revaluation.Linked Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Linked Amount in Analytics Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Linked_Amount_in_Analytics_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Linked_Amount_in_Analytics_Currency)"
+      }
+    }, {
+      "name" : "Accounting Line Credit Amount in Analytics Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Currency Revaluation.Accounting Line Credit Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Accounting Line Credit Amount in Analytics Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Accounting_Line_Credit_Amount_in_Analytics_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Accounting_Line_Credit_Amount_in_Analytics_Currency)"
+      }
+    }, {
+      "name" : "Accounting Line Debit Amount in Analytics Currency",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Currency Revaluation.Accounting Line Debit Amount in Analytics Currency",
+      "localization" : {
+        "localizationKey" : "Accounting Line Debit Amount in Analytics Currency",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Accounting_Line_Debit_Amount_in_Analytics_Currency)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts_Accounting_Line_Debit_Amount_in_Analytics_Currency)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Lines - Analytics Currency Amounts",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Currency_Revaluation_Transaction_Lines_-_Analytics_Currency_Amounts)"
+    }
+  }
+}

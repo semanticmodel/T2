@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Inventory Organization",
+    "presentationColumns" : [ {
+      "name" : "Inventory Organization Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Inventory Organization.Inventory Organization Name",
+      "localization" : {
+        "localizationKey" : "Inventory Organization Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Inventory_Organization_Inventory_Organization_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Inventory_Organization_Inventory_Organization_Name)"
+      }
+    }, {
+      "name" : "Inventory Organization",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Inventory Organization.Inventory Organization",
+      "localization" : {
+        "localizationKey" : "Inventory Organization",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Inventory_Organization_Inventory_Organization)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Inventory_Organization_Inventory_Organization)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Inventory Organization",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Inventory_Organization)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Inventory_Organization)"
+    }
+  }
+}

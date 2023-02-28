@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Lines",
+    "presentationColumns" : [ {
+      "name" : "Total Number of Customer Refund Lines",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Customer Refund.Total Number of Customer Refund Lines",
+      "localization" : {
+        "localizationKey" : "Total Number of Customer Refund Lines",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Refund_Transaction_Lines_Total_Number_of_Customer_Refund_Lines)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Refund_Transaction_Lines_Total_Number_of_Customer_Refund_Lines)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Lines",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Refund_Transaction_Lines)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Refund_Transaction_Lines)"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Hierarchies",
+    "description" : "A folder that organises the major hierarchies available for inclusion in analyses.",
+    "localization" : {
+      "localizationKey" : "Hierarchies",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Absence_Management_Hierarchies)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Absence_Management_Hierarchies)"
+    }
+  }
+}

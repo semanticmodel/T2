@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Vendor Prepayment Details",
+    "localization" : {
+      "localizationKey" : "Vendor Prepayment Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Prepayment_Vendor_Prepayment_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Prepayment_Vendor_Prepayment_Details)"
+    }
+  }
+}

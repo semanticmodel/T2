@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Ship To Location",
+    "presentationColumns" : [ {
+      "name" : "Ship To Location",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Ship To Location.Ship To Location",
+      "localization" : {
+        "localizationKey" : "Ship To Location",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location_Ship_To_Location)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location_Ship_To_Location)"
+      }
+    }, {
+      "name" : "Location City",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Ship To Location.Location City",
+      "localization" : {
+        "localizationKey" : "Location City",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location_Location_City)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location_Location_City)"
+      }
+    }, {
+      "name" : "Location Country",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Ship To Location.Location Country",
+      "localization" : {
+        "localizationKey" : "Location Country",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location_Location_Country)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location_Location_Country)"
+      }
+    }, {
+      "name" : "Location State",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Ship To Location.Location State",
+      "localization" : {
+        "localizationKey" : "Location State",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location_Location_State)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location_Location_State)"
+      }
+    }, {
+      "name" : "Location Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - PRC - Ship To Location.Location Type",
+      "localization" : {
+        "localizationKey" : "Location Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location_Location_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location_Location_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Ship To Location",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Procurement_-_Receipts_Ship_To_Location)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Procurement_-_Receipts_Ship_To_Location)"
+    }
+  }
+}

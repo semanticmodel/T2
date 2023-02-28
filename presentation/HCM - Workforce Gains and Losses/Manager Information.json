@@ -1,0 +1,140 @@
+{
+  "presentationTable" : {
+    "name" : "Manager Information",
+    "description" : "A folder containing the manager details of the worker assignment.",
+    "presentationColumns" : [ {
+      "name" : "Manager Person Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Person Number",
+      "localization" : {
+        "localizationKey" : "Manager Person Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Person_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Person_Number)"
+      }
+    }, {
+      "name" : "Manager Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Identifier",
+      "localization" : {
+        "localizationKey" : "Manager Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Identifier)"
+      }
+    }, {
+      "name" : "Manager Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Name",
+      "localization" : {
+        "localizationKey" : "Manager Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Name)"
+      }
+    }, {
+      "name" : "Manager Assignment Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Number",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Number)"
+      }
+    }, {
+      "name" : "Manager Assignment Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Name",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Name)"
+      }
+    }, {
+      "name" : "Manager Assignment Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Start Date",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Start_Date)"
+      }
+    }, {
+      "name" : "Manager Assignment End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment End Date",
+      "localization" : {
+        "localizationKey" : "Manager Assignment End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_End_Date)"
+      }
+    }, {
+      "name" : "Manager Assignment Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Type",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Type)"
+      }
+    }, {
+      "name" : "Manager Job",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Job",
+      "localization" : {
+        "localizationKey" : "Manager Job",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Job)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Job)"
+      }
+    }, {
+      "name" : "Manager Grade",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Grade",
+      "localization" : {
+        "localizationKey" : "Manager Grade",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Grade)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Grade)"
+      }
+    }, {
+      "name" : "Manager Department",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Department",
+      "localization" : {
+        "localizationKey" : "Manager Department",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Department)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Department)"
+      }
+    }, {
+      "name" : "Manager Position",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Position",
+      "localization" : {
+        "localizationKey" : "Manager Position",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Position)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Position)"
+      }
+    }, {
+      "name" : "Manager Business Unit",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Business Unit",
+      "localization" : {
+        "localizationKey" : "Manager Business Unit",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Business_Unit)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Business_Unit)"
+      }
+    }, {
+      "name" : "Manager User Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager User Name",
+      "localization" : {
+        "localizationKey" : "Manager User Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_User_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_User_Name)"
+      }
+    }, {
+      "name" : "Manager Assignment Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Type Code",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Type_Code)"
+      }
+    }, {
+      "name" : "Manager Assignment Status Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Manager.Manager Assignment Status Type Code",
+      "localization" : {
+        "localizationKey" : "Manager Assignment Status Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Status_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information_Manager_Assignment_Status_Type_Code)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Manager Information",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Manager_Information)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Manager_Information)"
+    }
+  }
+}

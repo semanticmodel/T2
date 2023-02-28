@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Ethnicity (Voluntary Terminations)",
+    "localization" : {
+      "localizationKey" : "Ethnicity (Voluntary Terminations)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Ethnicity_(Voluntary_Terminations))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Ethnicity_(Voluntary_Terminations))"
+    }
+  }
+}

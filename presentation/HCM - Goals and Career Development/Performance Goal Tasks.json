@@ -1,0 +1,99 @@
+{
+  "presentationTable" : {
+    "name" : "Performance Goal Tasks",
+    "presentationColumns" : [ {
+      "name" : "Task Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Task Name",
+      "localization" : {
+        "localizationKey" : "Task Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Name)"
+      }
+    }, {
+      "name" : "Task Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Task Type Code",
+      "localization" : {
+        "localizationKey" : "Task Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Type_Code)"
+      }
+    }, {
+      "name" : "Task Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Task Type",
+      "localization" : {
+        "localizationKey" : "Task Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Type)"
+      }
+    }, {
+      "name" : "Task Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Task Status Code",
+      "localization" : {
+        "localizationKey" : "Task Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Status_Code)"
+      }
+    }, {
+      "name" : "Task Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Task Status",
+      "localization" : {
+        "localizationKey" : "Task Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Task_Status)"
+      }
+    }, {
+      "name" : "Priority Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Priority Code",
+      "localization" : {
+        "localizationKey" : "Priority Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Priority_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Priority_Code)"
+      }
+    }, {
+      "name" : "Priority",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Priority",
+      "localization" : {
+        "localizationKey" : "Priority",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Priority)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Priority)"
+      }
+    }, {
+      "name" : "Completion Percentage Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Completion Percentage Code",
+      "localization" : {
+        "localizationKey" : "Completion Percentage Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Completion_Percentage_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Completion_Percentage_Code)"
+      }
+    }, {
+      "name" : "Completion Percentage",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Completion Percentage",
+      "localization" : {
+        "localizationKey" : "Completion Percentage",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Completion_Percentage)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Completion_Percentage)"
+      }
+    }, {
+      "name" : "Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Start Date",
+      "localization" : {
+        "localizationKey" : "Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Start_Date)"
+      }
+    }, {
+      "name" : "Target Completion Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Performance Goal Task.Target Completion Date",
+      "localization" : {
+        "localizationKey" : "Target Completion Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Target_Completion_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks_Target_Completion_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Performance Goal Tasks",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goal_Tasks)"
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - CX - Primary Campaign",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Primary CX Campaign Identifier" ],
+    "logicalColumns" : [ {
+      "name" : "Primary CX Campaign Identifier",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - CX - Primary Campaign Detail"
+    }, {
+      "name" : "Primary CX Campaign Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Region Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_REGION_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Created By User",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_CREATED_BY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Creation Date",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_CREATION_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Creation Date Time",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN  EXTRACT( YEAR  FROM %1) = '1901' AND  EXTRACT( MONTH  FROM %1) = '01' AND  DAYOFMONTH(%1) = '01' THEN  NULL  ELSE %1 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_CREATION_TIMESTAMP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Start Date",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_START_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Start Date Time",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN  EXTRACT( YEAR  FROM %1) = '1901' AND  EXTRACT( MONTH  FROM %1) = '01' AND  DAYOFMONTH(%1) = '01' THEN  NULL  ELSE %1 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_START_TIMESTAMP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign End Date",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_END_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign End Date Time",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " CASE  WHEN  EXTRACT( YEAR  FROM %1) = '1901' AND  EXTRACT( MONTH  FROM %1) = '01' AND  DAYOFMONTH(%1) = '01' THEN  NULL  ELSE %1 END ",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_END_TIMESTAMP" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Product",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_PRODUCT_DESCRIPTION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Status Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_STATUS_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Type Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_TYPE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Active",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_ACTIVE_FLAG" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Description",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_DESCRIPTION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX ELQ Campaign Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.SOURCE_RECORD_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Status",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Primary CX Campaign Status Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_STATUS_D_TL_Primary.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_STATUS_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Primary CX Campaign Type",
+      "dataType" : "VARCHAR",
+      "descriptorColumn" : "Primary CX Campaign Type Code",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+          "physicalExpression" : {
+            "expressionTemplate" : " LOOKUP( SPARSE %1, %2, %2,  VALUEOF(NQ_SESSION.%3))",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_TYPE_D_TL_Primary.NAME", "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary.CAMPAIGN_TYPE_CODE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_CXM_CAMPAIGN_CF_Primary",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXM_CAMPAIGN_CF_Primary" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Dim - CX - Primary Campaign Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Dim - CX - Primary Campaign Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Dim - CX - Primary Campaign Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Primary CX Campaign Identifier" ],
+        "displayKey" : "Primary CX Campaign Identifier"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "CX - Primary Campaign",
+        "levels" : [ "Dim - CX - Primary Campaign Total", "Dim - CX - Primary Campaign Detail" ]
+      } ]
+    }
+  }
+}

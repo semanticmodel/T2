@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Vendor Bill Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Status.Vendor Bill Status Code",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Snapshot_Status_Vendor_Bill_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Snapshot_Status_Vendor_Bill_Status_Code)"
+      }
+    }, {
+      "name" : "Vendor Bill Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Status.Vendor Bill Status",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Snapshot_Status_Vendor_Bill_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Snapshot_Status_Vendor_Bill_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Snapshot_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Snapshot_Status)"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "presentationTable" : {
+    "name" : "Manufacturing Details",
+    "presentationColumns" : [ {
+      "name" : "Transaction Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Manufacturing Details.Transaction Number",
+      "localization" : {
+        "localizationKey" : "Transaction Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Number)"
+      }
+    }, {
+      "name" : "Transaction Display Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Manufacturing Details.Transaction Display Name",
+      "localization" : {
+        "localizationKey" : "Transaction Display Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Display_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Display_Name)"
+      }
+    }, {
+      "name" : "Transaction Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Manufacturing Details.Transaction Type",
+      "localization" : {
+        "localizationKey" : "Transaction Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Order_Manufacturing_Details_Transaction_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Manufacturing Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Work_Order_Manufacturing_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Work_Order_Manufacturing_Details)"
+    }
+  }
+}

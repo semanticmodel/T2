@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Termination",
+    "description" : "A folder containing metrics related to termination event qualified by age, gender and ethnicities",
+    "localization" : {
+      "localizationKey" : "Termination",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Termination)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Termination)"
+    }
+  }
+}

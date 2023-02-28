@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Journals",
+    "localization" : {
+      "localizationKey" : "Journals",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Journals)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Journals)"
+    }
+  }
+}

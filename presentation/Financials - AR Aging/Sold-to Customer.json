@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Sold-to Customer",
+    "presentationColumns" : [ {
+      "name" : "Sold-to Customer",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer Sold To.Sold-to Customer",
+      "localization" : {
+        "localizationKey" : "Sold-to Customer",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Sold-to_Customer_Sold-to_Customer_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Sold-to_Customer_Sold-to_Customer)"
+      }
+    }, {
+      "name" : "Sold-to Customer Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Customer Sold To.Sold-to Customer Number",
+      "localization" : {
+        "localizationKey" : "Sold-to Customer Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Sold-to_Customer_Sold-to_Customer_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Sold-to_Customer_Sold-to_Customer_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Sold-to Customer",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Aging_Sold-to_Customer)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Aging_Sold-to_Customer)"
+    }
+  }
+}

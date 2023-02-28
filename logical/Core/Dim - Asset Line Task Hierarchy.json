@@ -1,0 +1,803 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Asset Line Task Hierarchy",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Asset Line Task - Base Task Identifier" ],
+    "logicalColumns" : [ {
+      "name" : "Asset Line Task - Base Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Base Task Name"
+    }, {
+      "name" : "Asset Line Task - Base Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Base Task Name"
+    }, {
+      "name" : "Asset Line Task - Base Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Base Task Name"
+    }, {
+      "name" : "Asset Line Task - Base Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Base Task Number"
+    }, {
+      "name" : "Asset Line Task - Base Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Base Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL18_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 2 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL18_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 2 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL18_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 2 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL18_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 2 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 2 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL18_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 2 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL16_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 4 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL16_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 4 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL16_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 4 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL16_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 4 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 4 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL16_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 4 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL15_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 5 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL15_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 5 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL15_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 5 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL15_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 5 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 5 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL15_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 5 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL14_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 6 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL14_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 6 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL14_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 6 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL14_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 6 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 6 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL14_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 6 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL17_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 3 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL17_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 3 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL17_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 3 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL17_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 3 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 3 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL17_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 3 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL13_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 7 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL13_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 7 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL13_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 7 Task Name"
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL13_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 7 Task Number"
+    }, {
+      "name" : "Asset Line Task - Level 7 Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LVL13_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Level 7 Task Name"
+    }, {
+      "name" : "Asset Line Task - Top Task Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TOP_ELEMENT_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Top Task Name"
+    }, {
+      "name" : "Asset Line Task - Top Task Display Sequence",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TOP_DENORM_DISPLAY_SEQ" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Top Task Name"
+    }, {
+      "name" : "Asset Line Task - Top Task Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TOP_ELEMENT_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Top Task Name"
+    }, {
+      "name" : "Asset Line Task - Top Task Number",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TOP_ELEMENT_NUMBER" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Top Task Number"
+    }, {
+      "name" : "Asset Line Task - Top Task Outline Level",
+      "dataType" : "INT",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TOP_DENOM_WBS_LVL" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Asset Line Top Task Name"
+    }, {
+      "name" : "Asset Line Task - Tree Version Identifier",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TREE_VERSION_ID" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Asset Line Task - Tree Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TREE_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "Asset Line Task - Tree Structure Code",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.TREE_STRUCTURE_CODE" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Asset Line Task Hierarchy.Asset Line Base task ID" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "dataFilter" : {
+        "expressionTemplate" : "%1 =  VALUEOF(NQ_SESSION.%2) OR %1 IS NULL ",
+        "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.LANGUAGE", "variable:INIT_USER_LANGUAGE_CODE.USER_LANGUAGE_CODE" ]
+      },
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "All",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "All",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Asset Line Top Task Name",
+        "numberOfElements" : 10,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Top Task Name" ],
+        "displayKey" : "Asset Line Task - Top Task Name"
+      }, {
+        "name" : "Asset Line Level 2 Task Name",
+        "numberOfElements" : 25,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 2 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 2 Task Name"
+      }, {
+        "name" : "Asset Line Level 3 Task Name",
+        "numberOfElements" : 100,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 3 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 3 Task Name"
+      }, {
+        "name" : "Asset Line Level 4 Task Name",
+        "numberOfElements" : 200,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 4 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 4 Task Name"
+      }, {
+        "name" : "Asset Line Level 5 Task Name",
+        "numberOfElements" : 300,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 5 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 5 Task Name"
+      }, {
+        "name" : "Asset Line Level 6 Task Name",
+        "numberOfElements" : 500,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 6 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 6 Task Name"
+      }, {
+        "name" : "Asset Line Level 7 Task Name",
+        "numberOfElements" : 700,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 7 Task Name" ],
+        "displayKey" : "Asset Line Task - Level 7 Task Name"
+      }, {
+        "name" : "Asset Line Base Task Name",
+        "numberOfElements" : 1000,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Base Task Name" ],
+        "displayKey" : "Asset Line Task - Base Task Name"
+      }, {
+        "name" : "Asset Line Base task ID",
+        "numberOfElements" : 2000,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Base Task Identifier" ],
+        "displayKey" : "Asset Line Task - Base Task Identifier"
+      }, {
+        "name" : "Asset Line Top Task Number",
+        "numberOfElements" : 10,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Top Task Number" ],
+        "displayKey" : "Asset Line Task - Top Task Number"
+      }, {
+        "name" : "Asset Line Level 2 Task Number",
+        "numberOfElements" : 25,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 2 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 2 Task Number"
+      }, {
+        "name" : "Asset Line Level 3 Task Number",
+        "numberOfElements" : 100,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 3 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 3 Task Number"
+      }, {
+        "name" : "Asset Line Level 4 Task Number",
+        "numberOfElements" : 200,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 4 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 4 Task Number"
+      }, {
+        "name" : "Asset Line Level 5 Task Number",
+        "numberOfElements" : 300,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 5 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 5 Task Number"
+      }, {
+        "name" : "Asset Line Level 6 Task Number",
+        "numberOfElements" : 500,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 6 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 6 Task Number"
+      }, {
+        "name" : "Asset Line Level 7 Task Number",
+        "numberOfElements" : 700,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Level 7 Task Number" ],
+        "displayKey" : "Asset Line Task - Level 7 Task Number"
+      }, {
+        "name" : "Asset Line Base Task Number",
+        "numberOfElements" : 1000,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Asset Line Task - Base Task Number" ],
+        "displayKey" : "Asset Line Task - Base Task Number"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Asset Line Task Hierarchy",
+        "levels" : [ "All", "Asset Line Top Task Name", "Asset Line Level 2 Task Name", "Asset Line Level 3 Task Name", "Asset Line Level 4 Task Name", "Asset Line Level 5 Task Name", "Asset Line Level 6 Task Name", "Asset Line Level 7 Task Name", "Asset Line Base Task Name", "Asset Line Base task ID" ]
+      }, {
+        "name" : "Asset Line Task Hierarchy",
+        "levels" : [ "All", "Asset Line Top Task Number", "Asset Line Level 2 Task Number", "Asset Line Level 3 Task Number", "Asset Line Level 4 Task Number", "Asset Line Level 5 Task Number", "Asset Line Level 6 Task Number", "Asset Line Level 7 Task Number", "Asset Line Base Task Number", "Asset Line Base task ID" ]
+      } ]
+    }
+  }
+}

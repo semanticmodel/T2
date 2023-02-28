@@ -1,0 +1,162 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Tenant Metrics Attribute Details",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Source Type", "Metric Subtype", "Metric Detail", "Creation Date", "Metric Name" ],
+    "logicalColumns" : [ {
+      "name" : "Source Type",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.SOURCE_TYPE_CODE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Metric Subtype",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE1" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Metric Detail",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.ATTRIBUTE2" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Created By",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.CREATED_BY" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Creation Date",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.CREATION_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Is Latest",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.IS_LATEST" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Metric Name",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.METRIC_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    }, {
+      "name" : "Snapshot Date",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Tenant_Metrics_Summary",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary.SNAPSHOT_DATE" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Tenant Metrics Attribute Details Detail"
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Tenant_Metrics_Summary",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Tenant_Metrics_Summary" ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Tenant Metrics Attribute Details.Dim - Tenant Metrics Attribute Details Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Dim - Tenant Metrics Attribute Details Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Dim - Tenant Metrics Attribute Details Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Dim - Tenant Metrics Attribute Details Detail",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Source Type", "Metric Subtype", "Metric Detail", "Creation Date", "Metric Name" ],
+        "displayKey" : "Source Type"
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Tenant Metrics Attribute Details",
+        "levels" : [ "Dim - Tenant Metrics Attribute Details Total", "Dim - Tenant Metrics Attribute Details Detail" ]
+      } ]
+    }
+  }
+}

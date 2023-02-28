@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Resource",
+    "presentationColumns" : [ {
+      "name" : "Resource",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Resource.Resource",
+      "localization" : {
+        "localizationKey" : "Resource",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Budgets_Resource_Resource)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Budgets_Resource_Resource)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Resource",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Budgets_Resource)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Budgets_Resource)"
+    }
+  }
+}

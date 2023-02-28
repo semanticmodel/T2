@@ -1,0 +1,91 @@
+{
+  "presentationTable" : {
+    "name" : "Employee Details",
+    "presentationColumns" : [ {
+      "name" : "Employee Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.Person Full Name",
+      "localization" : {
+        "localizationKey" : "Person Full Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Employee_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Employee_Name)"
+      }
+    }, {
+      "name" : "Employee Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Worker.Person Number",
+      "localization" : {
+        "localizationKey" : "Person Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Employee_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Employee_Number)"
+      }
+    }, {
+      "name" : "Assignment Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment Type",
+      "localization" : {
+        "localizationKey" : "Assignment Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Type)"
+      }
+    }, {
+      "name" : "Department Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Department.Department Name",
+      "localization" : {
+        "localizationKey" : "Department Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Department_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Department_Name)"
+      }
+    }, {
+      "name" : "Job Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Job.Job Name",
+      "localization" : {
+        "localizationKey" : "Job Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Job_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Job_Name)"
+      }
+    }, {
+      "name" : "Assignment Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment Status",
+      "localization" : {
+        "localizationKey" : "Assignment Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Status)"
+      }
+    }, {
+      "name" : "Assignment Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment Name",
+      "localization" : {
+        "localizationKey" : "Assignment Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Name)"
+      }
+    }, {
+      "name" : "Assignment Category",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment Category",
+      "localization" : {
+        "localizationKey" : "Assignment Category",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Category)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Category)"
+      }
+    }, {
+      "name" : "Assignment Start Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment Start Date",
+      "localization" : {
+        "localizationKey" : "Assignment Start Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Start_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_Start_Date)"
+      }
+    }, {
+      "name" : "Assignment End Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Assignment Details.Assignment End Date",
+      "localization" : {
+        "localizationKey" : "Assignment End Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_End_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details_Assignment_End_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Employee Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Employee_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Employee_Details)"
+    }
+  }
+}

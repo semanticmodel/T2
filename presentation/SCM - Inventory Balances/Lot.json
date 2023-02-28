@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "Lot",
+    "presentationColumns" : [ {
+      "name" : "Lot",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Onhand Details.Lot",
+      "localization" : {
+        "localizationKey" : "Lot",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Balances_Lot_Lot)"
+      }
+    }, {
+      "name" : "Expiration Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - INV - Onhand Details.Expiration Date",
+      "localization" : {
+        "localizationKey" : "Expiration Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Balances_Lot_Expiration_Date)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Lot",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_SCM_-_Inventory_Balances_Lot)"
+    }
+  }
+}

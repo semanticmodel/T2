@@ -1,0 +1,67 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Line Attributes",
+    "presentationColumns" : [ {
+      "name" : "Inventory Adjustment Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment Line Number",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Number)"
+      }
+    }, {
+      "name" : "Inventory Adjustment Line Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment Line Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment Line Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Inventory Adjustment - To Be Fulfilled",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment - To Be Fulfilled",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment - To Be Fulfilled",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_To_Be_Fulfilled)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_To_Be_Fulfilled)"
+      }
+    }, {
+      "name" : "Inventory Adjustment - Is Cost of Goods Sold",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment - Is Cost of Goods Sold",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment - Is Cost of Goods Sold",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Is_Cost_of_Goods_Sold)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Is_Cost_of_Goods_Sold)"
+      }
+    }, {
+      "name" : "Inventory Adjustment - Is Inventory Affecting",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment - Is Inventory Affecting",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment - Is Inventory Affecting",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Is_Inventory_Affecting)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Is_Inventory_Affecting)"
+      }
+    }, {
+      "name" : "Inventory Adjustment Line Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment Line Memo",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment Line Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_Line_Memo)"
+      }
+    }, {
+      "name" : "Inventory Adjustment - Main Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Inventory Adjustment Details.Inventory Adjustment - Main Line",
+      "localization" : {
+        "localizationKey" : "Inventory Adjustment - Main Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Main_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes_Inventory_Adjustment_-_Main_Line)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Line Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Adjustment_Transaction_Line_Attributes)"
+    }
+  }
+}

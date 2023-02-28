@@ -1,0 +1,11 @@
+{
+  "presentationTable" : {
+    "name" : "Hiring",
+    "description" : "A folder containing metrics related to hiring qualified by age, gender and ethnicities",
+    "localization" : {
+      "localizationKey" : "Hiring",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Hiring)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Hiring)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Journey Details",
+    "localization" : {
+      "localizationKey" : "Journey Details",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Journeys_Journey_Details)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Journeys_Journey_Details)"
+    }
+  }
+}

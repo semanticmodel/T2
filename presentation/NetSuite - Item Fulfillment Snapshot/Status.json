@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Item Fulfillment Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Item Fulfillment Status.Item Fulfillment Status Code",
+      "localization" : {
+        "localizationKey" : "Item Fulfillment Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Fulfillment_Snapshot_Status_Item_Fulfillment_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Fulfillment_Snapshot_Status_Item_Fulfillment_Status_Code)"
+      }
+    }, {
+      "name" : "Item Fulfillment Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Item Fulfillment Status.Item Fulfillment Status",
+      "localization" : {
+        "localizationKey" : "Item Fulfillment Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Fulfillment_Snapshot_Status_Item_Fulfillment_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Fulfillment_Snapshot_Status_Item_Fulfillment_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Item_Fulfillment_Snapshot_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Item_Fulfillment_Snapshot_Status)"
+    }
+  }
+}

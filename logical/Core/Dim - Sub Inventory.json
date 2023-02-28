@@ -1,0 +1,178 @@
+{
+  "logicalTable" : {
+    "name" : "Dim - Sub Inventory",
+    "type" : "DIMENSION",
+    "primaryKey" : [ "Subinventory", "Subinventory Organization Key" ],
+    "logicalColumns" : [ {
+      "name" : "Subinventory",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly.SECONDARY_INVENTORY_NAME" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D.SECONDARY_INVENTORY_NAME" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Sub Inventory Detail"
+    }, {
+      "name" : "Subinventory Description",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly.DESCRIPTION" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D.DESCRIPTION" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Sub Inventory Detail"
+    }, {
+      "name" : "Subinventory Organization Key",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly.ORGANIZATION_ID" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D.ORGANIZATION_ID" ]
+          }
+        } ]
+      },
+      "logicalLevel" : "Dim - Sub Inventory Detail"
+    }, {
+      "name" : "--------- Sub Inventory DFF Columns -----------",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "LOGICAL_COLUMNS",
+        "logicalExpression" : {
+          "expressionTemplate" : "'--------- Sub Inventory DFF Columns -----------'"
+        }
+      }
+    }, {
+      "name" : "INV_SEC_INVENTORIES_S_K_5000",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF.S_K_5000" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DW_INV_SEC_INVENTORIES_DFF.S_K_5000" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "INV_SEC_INVENTORIES_S_K_5001",
+      "dataType" : "DOUBLE",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF.S_K_5001" ]
+          }
+        }, {
+          "logicalTableSource" : "Dim_DW_INV_SUBINVENTORY_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DW_INV_SEC_INVENTORIES_DFF.S_K_5001" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly", "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF" ],
+        "logicalTableSourceJoins" : [ {
+          "leftTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D_DimOnly",
+          "rightTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DimOnly_DW_INV_SEC_INVENTORIES_DFF",
+          "joinType" : "LEFT_OUTER",
+          "disable" : false
+        } ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Sub Inventory.Dim - Sub Inventory Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    }, {
+      "name" : "Dim_DW_INV_SUBINVENTORY_D",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D", "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DW_INV_SEC_INVENTORIES_DFF" ],
+        "logicalTableSourceJoins" : [ {
+          "leftTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_INV_SUBINVENTORY_D",
+          "rightTable" : "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Desc_Flex_Dim_DW_INV_SUBINVENTORY_D_DW_INV_SEC_INVENTORIES_DFF",
+          "joinType" : "LEFT_OUTER",
+          "disable" : false
+        } ]
+      },
+      "dataGranularity" : [ "logicalLevel:Core.Dim - Sub Inventory.Dim - Sub Inventory Detail" ],
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ],
+    "hierarchyType" : "LEVEL_BASED",
+    "levelBasedHierarchy" : {
+      "defaultRootLevel" : "Dim - Sub Inventory Total",
+      "ragged" : false,
+      "skipped" : false,
+      "logicalLevels" : [ {
+        "name" : "Dim - Sub Inventory Total",
+        "numberOfElements" : 1,
+        "grandTotalLevel" : true,
+        "disableAggregateToHigherLevel" : false
+      }, {
+        "name" : "Dim - Sub Inventory Detail",
+        "numberOfElements" : 1000,
+        "grandTotalLevel" : false,
+        "disableAggregateToHigherLevel" : false,
+        "primaryKey" : [ "Subinventory Organization Key", "Subinventory" ],
+        "displayKey" : "Subinventory Description",
+        "additionalKeys" : [ [ "Subinventory Description" ] ]
+      } ],
+      "logicalHierarchies" : [ {
+        "name" : "Sub Inventory",
+        "levels" : [ "Dim - Sub Inventory Total", "Dim - Sub Inventory Detail" ]
+      } ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Deposit Application Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Deposit Application Status.Deposit Application Status Code",
+      "localization" : {
+        "localizationKey" : "Deposit Application Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Deposit_Application_Status_Deposit_Application_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Deposit_Application_Status_Deposit_Application_Status_Code)"
+      }
+    }, {
+      "name" : "Deposit Application Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Deposit Application Status.Deposit Application Status",
+      "localization" : {
+        "localizationKey" : "Deposit Application Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Deposit_Application_Status_Deposit_Application_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Deposit_Application_Status_Deposit_Application_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Deposit_Application_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Deposit_Application_Status)"
+    }
+  }
+}

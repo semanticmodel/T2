@@ -1,0 +1,94 @@
+{
+  "presentationTable" : {
+    "name" : "CX Campaign Members",
+    "presentationColumns" : [ {
+      "name" : "CX Campaign Member Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Identifier",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Identifier)"
+      }
+    }, {
+      "name" : "Source System CX Campaign Member Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.Source System CX Campaign Member Identifier",
+      "localization" : {
+        "localizationKey" : "Source System CX Campaign Member Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_Source_System_CX_Campaign_Member_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_Source_System_CX_Campaign_Member_Identifier)"
+      }
+    }, {
+      "name" : "CX Campaign Member Campaign Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Campaign Identifier",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Campaign Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Campaign_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Campaign_Identifier)"
+      }
+    }, {
+      "name" : "CX Campaign Member Lead Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Lead Identifier",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Lead Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Lead_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Lead_Identifier)"
+      }
+    }, {
+      "name" : "CX Campaign Member Contact Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Contact Identifier",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Contact Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Contact_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Contact_Identifier)"
+      }
+    }, {
+      "name" : "CX Campaign Member Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members Status.CX Campaign Member Status Code",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Status_Code)"
+      }
+    }, {
+      "name" : "CX Campaign Member Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members Status.CX Campaign Member Status",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Status)"
+      }
+    }, {
+      "name" : "CX Campaign Member Response Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Response Date",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Response Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Response_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Response_Date)"
+      }
+    }, {
+      "name" : "CX Campaign Member Response Date Time",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Response Date Time",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Response Date Time",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Response_Date_Time)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Response_Date_Time)"
+      }
+    }, {
+      "name" : "CX Campaign Member Active Flag",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Campaign Members.CX Campaign Member Active Flag",
+      "localization" : {
+        "localizationKey" : "CX Campaign Member Active Flag",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Active_Flag)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members_CX_Campaign_Member_Active_Flag)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "CX Campaign Members",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Campaign_Members_CX_Campaign_Members)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Campaign_Members_CX_Campaign_Members)"
+    }
+  }
+}

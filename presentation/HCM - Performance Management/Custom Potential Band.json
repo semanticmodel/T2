@@ -1,0 +1,43 @@
+{
+  "presentationTable" : {
+    "name" : "Custom Potential Band",
+    "presentationColumns" : [ {
+      "name" : "Custom Range Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Potential Rating.Custom Range Identifier",
+      "localization" : {
+        "localizationKey" : "Range Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Range_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Range_Identifier)"
+      }
+    }, {
+      "name" : "Custom Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Potential Rating.Custom Name",
+      "localization" : {
+        "localizationKey" : "Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Name)"
+      }
+    }, {
+      "name" : "Custom Min Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Potential Rating.Custom Min Range",
+      "localization" : {
+        "localizationKey" : "Min Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Min_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Min_Range)"
+      }
+    }, {
+      "name" : "Custom Max Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Potential Rating.Custom Max Range",
+      "localization" : {
+        "localizationKey" : "Max Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Max_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Custom_Potential_Band_Custom_Max_Range)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Custom Potential Band",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Performance_Management_Custom_Potential_Band)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Performance_Management_Custom_Potential_Band)"
+    }
+  }
+}

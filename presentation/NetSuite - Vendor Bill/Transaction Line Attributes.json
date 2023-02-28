@@ -1,0 +1,83 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Line Attributes",
+    "presentationColumns" : [ {
+      "name" : "Vendor Bill Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill Line Number",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Number)"
+      }
+    }, {
+      "name" : "Vendor Bill - Tax Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - Tax Line",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - Tax Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Tax_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Tax_Line)"
+      }
+    }, {
+      "name" : "Vendor Bill - Transaction Discount",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - Transaction Discount",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - Transaction Discount",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Transaction_Discount)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Transaction_Discount)"
+      }
+    }, {
+      "name" : "Vendor Bill - To Be Fulfilled",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - To Be Fulfilled",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - To Be Fulfilled",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_To_Be_Fulfilled)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_To_Be_Fulfilled)"
+      }
+    }, {
+      "name" : "Vendor Bill - Landed Cost Per Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - Landed Cost Per Line",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - Landed Cost Per Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Landed_Cost_Per_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Landed_Cost_Per_Line)"
+      }
+    }, {
+      "name" : "Vendor Bill Line Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill Line Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Line Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Vendor Bill Line Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill Line Memo",
+      "localization" : {
+        "localizationKey" : "Vendor Bill Line Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_Line_Memo)"
+      }
+    }, {
+      "name" : "Vendor Bill - Purchase Order",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - Purchase Order",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - Purchase Order",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Purchase_Order)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Purchase_Order)"
+      }
+    }, {
+      "name" : "Vendor Bill - Main Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Vendor Bill Details.Vendor Bill - Main Line",
+      "localization" : {
+        "localizationKey" : "Vendor Bill - Main Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Main_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes_Vendor_Bill_-_Main_Line)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Line Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Vendor_Bill_Transaction_Line_Attributes)"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "initBlock" : {
+    "name" : "IB_REVERSED_LTS_PRIORITY_SA_VEC",
+    "tags" : [ "Project:Fusion Analytics Warehouse - Accounts Receivable" ],
+    "type" : "SESSION",
+    "connectionPool" : "connectionPool:Oracle_Data_Warehouse.Oracle_Data_Warehouse_Repository_Initblocks_Connection_Pool",
+    "selectStatements" : [ {
+      "databaseType" : "DEFAULT",
+      "query" : "SELECT 'REVERSED_LTS_PRIORITY_SA_VEC','Financials - AR Revenue'\r\nFROM content_activated_modules\r\nWHERE module_code = 'FA_AR_UNACCT_TRANSACTIONS'\r\nand activation_status = 'Y'\r\nUNION ALL\r\nSELECT 'REVERSED_LTS_PRIORITY_SA_VEC','Financials - AR Transactions'\r\nFROM content_activated_modules\r\nWHERE module_code = 'FA_AR_UNACCT_TRANSACTIONS'\r\nand activation_status = 'Y'\r\nUNION ALL\r\nSELECT 'REVERSED_LTS_PRIORITY_SA_VEC','Financials - AR Receipts and Applications'\r\nFROM content_activated_modules\r\nWHERE module_code = 'FA_AR_UNACCT_TRANSACTIONS'\r\nand activation_status = 'Y'"
+    } ],
+    "variables" : [ {
+      "name" : "REVERSED_LTS_PRIORITY_SA_VEC",
+      "value" : "'Default SA'",
+      "enableUsersToSetValue" : false,
+      "securitySensitive" : false
+    } ],
+    "disable" : false,
+    "queryReturnsVariableNamesAndValues" : true,
+    "allowDeferredExecution" : false,
+    "cacheQueryResult" : false
+  }
+}

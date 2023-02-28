@@ -1,0 +1,107 @@
+{
+  "presentationTable" : {
+    "name" : "Time",
+    "presentationColumns" : [ {
+      "name" : "Calendar Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Calendar Type",
+      "localization" : {
+        "localizationKey" : "Calendar Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Calendar_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Calendar_Type)"
+      }
+    }, {
+      "name" : "Driving Dimension Type Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type Code",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Type_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Type_Code)"
+      }
+    }, {
+      "name" : "Driving Dimension Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Driving Dimension Type",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Type)"
+      }
+    }, {
+      "name" : "Descriptor Identifier Indicator",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Driving Dimension Type for Appshell.Descriptor Identifier Indicator",
+      "localization" : {
+        "localizationKey" : "Descriptor Identifier Indicator",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Descriptor_Identifier_Indicator)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Descriptor_Identifier_Indicator)"
+      }
+    }, {
+      "name" : "Driving Dimension Value",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Driving Dimension Value",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Value",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Value)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Value)"
+      }
+    }, {
+      "name" : "Driving Dimension Value Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Driving Dimension Value Name",
+      "localization" : {
+        "localizationKey" : "Driving Dimension Value Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Value_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Driving_Dimension_Value_Name)"
+      }
+    }, {
+      "name" : "Time Level",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Time Level",
+      "localization" : {
+        "localizationKey" : "Time Level",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Level)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Level)"
+      }
+    }, {
+      "name" : "Time Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Time Sequence",
+      "localization" : {
+        "localizationKey" : "Time Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Sequence)"
+      }
+    }, {
+      "name" : "Year Ago Time Sequence",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Year Ago Time Sequence",
+      "localization" : {
+        "localizationKey" : "Year Ago Time Sequence",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Year_Ago_Time_Sequence)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Year_Ago_Time_Sequence)"
+      }
+    }, {
+      "name" : "Time Value",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Time Value",
+      "localization" : {
+        "localizationKey" : "Time Value",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Value)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Time_Value)"
+      }
+    }, {
+      "name" : "Source",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Multiple Calendar Time Filters for Appshell.Source",
+      "localization" : {
+        "localizationKey" : "Source",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Source)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Source)"
+      }
+    }, {
+      "name" : "Record Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Multiple Calendar Time Filters for Appshell.Record Count",
+      "localization" : {
+        "localizationKey" : "Record Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Record_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time_Record_Count)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Time",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Time)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Internal_-_Multiple_Calendar_Dynamic_Time_Filters_Presentation_Table)"
+    }
+  }
+}

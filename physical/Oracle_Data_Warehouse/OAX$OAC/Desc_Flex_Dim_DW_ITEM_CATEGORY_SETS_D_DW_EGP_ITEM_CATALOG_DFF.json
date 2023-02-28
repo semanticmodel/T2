@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "Desc_Flex_Dim_DW_ITEM_CATEGORY_SETS_D_DW_EGP_ITEM_CATALOG_DFF",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_EGP_ITEM_CATALOG_DFF",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "S_K_5000"
+      ]
+    ]
+  }
+}

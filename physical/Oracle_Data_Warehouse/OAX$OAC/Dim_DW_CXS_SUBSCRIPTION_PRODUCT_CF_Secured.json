@@ -1,0 +1,31 @@
+{
+  "physicalTable": {
+    "name": "Dim_DW_CXS_SUBSCRIPTION_PRODUCT_CF_Secured",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_CXS_SUBSCRIPTION_PRODUCT_CF",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU_DimOnly",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXS_SUBSCRIPTION_PRODUCT_CF_Secured.SUBSCRIPTION_BUSINESS_UNIT_ID",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_OBJ_MEMBER_USER_SUBSCRIPTION_BU_DimOnly.BUSINESS_UNIT_ID"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_SUBSCRIPTION_ACCESS_GRP_DimOnly",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_CXS_SUBSCRIPTION_PRODUCT_CF_Secured.SUBSCRIPTION_ID",
+            "rightColumn": "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Security_SEC_SECURE_BY_SUBSCRIPTION_ACCESS_GRP_DimOnly.SUBSCRIPTION_ID"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "SUBSCRIPTION_PRODUCT_ID"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Tenant Metrics",
+    "presentationColumns" : [ {
+      "name" : "Record Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Record Count",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Record Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Record_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Record_Count)"
+      }
+    }, {
+      "name" : "Table Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Table Count",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Table Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Table_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Table_Count)"
+      }
+    }, {
+      "name" : "Object Count",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Object Count",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Object Count",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Object_Count)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Object_Count)"
+      }
+    }, {
+      "name" : "Storage",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Storage",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Storage",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Storage)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Storage)"
+      }
+    }, {
+      "name" : "Total Storage",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Total Storage",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Total Storage",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Total_Storage)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Total_Storage)"
+      }
+    }, {
+      "name" : "Custom Storage In GB",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Custom Storage In GB",
+      "localization" : {
+        "localizationKey" : "Custom Storage In GB",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Custom_Storage_In_GB)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Custom_Storage_In_GB)"
+      }
+    }, {
+      "name" : "Records Added",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - Tenant Metrics.Records Added",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Records Added",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics_Records_Added)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics_Records_Added)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Fact - Tenant Metrics",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Fact_-_Tenant_Metrics)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Fact_-_Tenant_Metrics)"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Performance Goals",
+    "localization" : {
+      "localizationKey" : "Performance Goals",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Goals_and_Career_Development_Performance_Goals)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Goals_and_Career_Development_Performance_Goals)"
+    }
+  }
+}

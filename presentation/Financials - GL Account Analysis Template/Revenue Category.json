@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Revenue Category",
+    "presentationColumns" : [ {
+      "name" : "Revenue Category",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Revenue Category.Revenue Category",
+      "localization" : {
+        "localizationKey" : "Revenue Category",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Revenue_Category_Revenue_Category)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Revenue_Category_Revenue_Category)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Revenue Category",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_GL_Account_Analysis_Template_Revenue_Category)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_GL_Account_Analysis_Template_Revenue_Category)"
+    }
+  }
+}

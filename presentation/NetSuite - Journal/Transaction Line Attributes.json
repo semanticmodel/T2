@@ -1,0 +1,51 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Line Attributes",
+    "presentationColumns" : [ {
+      "name" : "Journal Line Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Details.Journal Line Number",
+      "localization" : {
+        "localizationKey" : "Journal Line Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Number)"
+      }
+    }, {
+      "name" : "Journal - Main Line",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Details.Journal - Main Line",
+      "localization" : {
+        "localizationKey" : "Journal - Main Line",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_-_Main_Line)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_-_Main_Line)"
+      }
+    }, {
+      "name" : "Journal Line Last Modified Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Details.Journal Line Last Modified Date",
+      "localization" : {
+        "localizationKey" : "Journal Line Last Modified Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Last_Modified_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Last_Modified_Date)"
+      }
+    }, {
+      "name" : "Journal Line Memo",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Details.Journal Line Memo",
+      "localization" : {
+        "localizationKey" : "Journal Line Memo",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Memo)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_Line_Memo)"
+      }
+    }, {
+      "name" : "Journal - Eliminate",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Journal Details.Journal - Eliminate",
+      "localization" : {
+        "localizationKey" : "Journal - Eliminate",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_-_Eliminate)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes_Journal_-_Eliminate)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Line Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Journal_Transaction_Line_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Journal_Transaction_Line_Attributes)"
+    }
+  }
+}

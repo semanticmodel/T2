@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Charge",
+    "localization" : {
+      "localizationKey" : "Fact - Charge",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Charge_Fact_-_Charge)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Charge_Fact_-_Charge)"
+    }
+  }
+}

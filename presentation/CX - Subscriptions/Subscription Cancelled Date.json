@@ -1,0 +1,230 @@
+{
+  "presentationTable" : {
+    "name" : "Subscription Cancelled Date",
+    "presentationColumns" : [ {
+      "name" : "Subscription Cancelled Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Date",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Date)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Year",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Year)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Month",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Month",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Month",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Quarter",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Quarter)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Week",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Week",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Week",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Week)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Week)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Day Code",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Day_Code)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Quarter Number",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Quarter_Number)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Month Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Month Number",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Month Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month_Number)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Month Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Month Name",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Month Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Month_Name)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Subscription Cancelled Day Name",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Day_Name)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Enterprise Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Subscription Cancelled Enterprise Date",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Enterprise Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Date)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Enterprise Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Subscription Cancelled Enterprise Period",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Enterprise Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Period)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Enterprise Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Subscription Cancelled Enterprise Quarter",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Enterprise Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Quarter)"
+      }
+    }, {
+      "name" : "Subscription Cancelled Enterprise Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Subscription Cancelled Enterprise Year",
+      "localization" : {
+        "localizationKey" : "Subscription Cancelled Enterprise Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_Subscription_Cancelled_Enterprise_Year)"
+      }
+    } ],
+    "hierarchies" : [ {
+      "name" : "CX - Subscription Cancelled Date Enterprise Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar",
+      "localization" : {
+        "localizationKey" : "CX - Subscription Cancelled Date Enterprise Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Total",
+        "localization" : {
+          "localizationKey" : "Total",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Total)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Total)"
+        }
+      }, {
+        "name" : "Enterprise Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Enterprise Year",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Enterprise Year",
+        "localization" : {
+          "localizationKey" : "Enterprise Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Year)"
+        }
+      }, {
+        "name" : "Enterprise Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Enterprise Quarter",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Enterprise Quarter",
+        "localization" : {
+          "localizationKey" : "Enterprise Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Quarter)"
+        }
+      }, {
+        "name" : "Enterprise Period",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Enterprise Period",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Enterprise Period",
+        "localization" : {
+          "localizationKey" : "Enterprise Period",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Period)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Enterprise_Period)"
+        }
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Enterprise Calendar.Detail",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Enterprise Date",
+        "localization" : {
+          "localizationKey" : "Detail",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Detail)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Enterprise_Calendar_Detail)"
+        }
+      } ]
+    }, {
+      "name" : "CX - Subscription Cancelled Date Gregorian Calendar",
+      "sourceLogicalTable" : "logicalTable:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar",
+      "localization" : {
+        "localizationKey" : "CX - Subscription Cancelled Date Gregorian Calendar",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar)"
+      },
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Total",
+        "localization" : {
+          "localizationKey" : "Total",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Total)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Total)"
+        }
+      }, {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Year",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Year",
+        "localization" : {
+          "localizationKey" : "Year",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Year)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Year)"
+        }
+      }, {
+        "name" : "Quarter",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Quarter",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Quarter",
+        "localization" : {
+          "localizationKey" : "Quarter",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Quarter)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Quarter)"
+        }
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Month",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Month",
+        "localization" : {
+          "localizationKey" : "Month",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Month)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Month)"
+        }
+      }, {
+        "name" : "Day",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim - CX - Date - Subscription Cancelled Date Gregorian Calendar.Day",
+        "displayColumn" : "presentationColumn:CX - Subscriptions.Subscription Cancelled Date.Subscription Cancelled Date",
+        "localization" : {
+          "localizationKey" : "Day",
+          "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Day)",
+          "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date_CX_-_Subscription_Cancelled_Date_Gregorian_Calendar_Day)"
+        }
+      } ]
+    } ],
+    "localization" : {
+      "localizationKey" : "Subscription Cancelled Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_CX_-_Subscriptions_Subscription_Cancelled_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_CX_-_Subscriptions_Subscription_Cancelled_Date)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "presentationTable" : {
+    "name" : "Tenant Metrics Attributes",
+    "presentationColumns" : [ {
+      "name" : "Source Type",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Tenant Metrics Attribute Details.Source Type",
+      "localization" : {
+        "localizationKey" : "Source Type",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Tenant_Metrics_Attributes_Source_Type)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Tenant_Metrics_Attributes_Source_Type)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Tenant Metrics Attributes",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Tenant_Metrics_Tenant_Metrics_Attributes)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Tenant_Metrics_Tenant_Metrics_Attributes)"
+    }
+  }
+}

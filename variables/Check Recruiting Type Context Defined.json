@@ -1,0 +1,23 @@
+{
+  "initBlock" : {
+    "name" : "Check Recruiting Type Context Defined",
+    "description" : "Return values: \r\n1 - Recruiting Type Data Role\r\n0 - None of above functional roles",
+    "tags" : [ "Project:Fusion Analytics Warehouse - Talent Acquisition" ],
+    "type" : "SESSION",
+    "connectionPool" : "connectionPool:Oracle_Data_Warehouse.Oracle_Data_Warehouse_Repository_Initblocks_Connection_Pool",
+    "selectStatements" : [ {
+      "databaseType" : "DEFAULT",
+      "query" : "SELECT CASE \r\n         WHEN (Instr('VALUEOF(NQ_SESSION.ROLES)', 'OA4F_HCM_RECRUITING_TYPE_DATA') > 0)  THEN 1 \r\n         ELSE 0 \r\n       END AS HCM_REC_RECTYPE_SEC_DEFINED\r\nFROM    dual"
+    } ],
+    "variables" : [ {
+      "name" : "HCM_REC_RECTYPE_SEC_DEFINED",
+      "value" : "0",
+      "enableUsersToSetValue" : false,
+      "securitySensitive" : false
+    } ],
+    "disable" : false,
+    "queryReturnsVariableNamesAndValues" : false,
+    "allowDeferredExecution" : true,
+    "cacheQueryResult" : true
+  }
+}

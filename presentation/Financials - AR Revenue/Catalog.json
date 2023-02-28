@@ -1,0 +1,36 @@
+{
+  "presentationTable" : {
+    "name" : "Catalog",
+    "hideIfTrue" : {
+      "expressionTemplate" : "1 = 1"
+    },
+    "presentationColumns" : [ {
+      "name" : "Catalog",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - OM Item Catalog Category.Catalog",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Catalog",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Revenue_Catalog_Catalog)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Revenue_Catalog_Catalog)"
+      }
+    }, {
+      "name" : "Catalog Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - OM Item Catalog Category.Catalog Code",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Catalog Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Revenue_Catalog_Catalog_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Revenue_Catalog_Catalog_Code)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Catalog",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Revenue_Catalog)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Revenue_Catalog)"
+    }
+  }
+}

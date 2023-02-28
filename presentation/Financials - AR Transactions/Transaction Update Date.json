@@ -1,0 +1,94 @@
+{
+  "presentationTable" : {
+    "name" : "Transaction Update Date",
+    "presentationColumns" : [ {
+      "name" : "Transaction Update Fiscal Calendar Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Fiscal Calendar Name",
+      "localization" : {
+        "localizationKey" : "Transaction Update Fiscal Calendar Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Calendar_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Calendar_Name)"
+      }
+    }, {
+      "name" : "Transaction Update Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Date",
+      "localization" : {
+        "localizationKey" : "Transaction Update Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Date)"
+      }
+    }, {
+      "name" : "Transaction Update Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Day Code",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Transaction Update Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Day_Code)"
+      }
+    }, {
+      "name" : "Transaction Update Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Day Name",
+      "localization" : {
+        "localizationKey" : "Transaction Update Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Day_Name)"
+      }
+    }, {
+      "name" : "Transaction Update Fiscal Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Fiscal Period",
+      "localization" : {
+        "localizationKey" : "Transaction Update Fiscal Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Period)"
+      }
+    }, {
+      "name" : "Transaction Update Fiscal Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Fiscal Quarter",
+      "localization" : {
+        "localizationKey" : "Transaction Update Fiscal Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Quarter)"
+      }
+    }, {
+      "name" : "Transaction Update Fiscal Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Fiscal Year",
+      "localization" : {
+        "localizationKey" : "Transaction Update Fiscal Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Transaction_Update_Fiscal_Year)"
+      }
+    }, {
+      "name" : "Transaction Update Date Trailing Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Date Trailing Period Number",
+      "localization" : {
+        "localizationKey" : "Transaction Update Date Trailing Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Period_Number)"
+      }
+    }, {
+      "name" : "Transaction Update Date Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Date Trailing Quarter Number",
+      "localization" : {
+        "localizationKey" : "Transaction Update Date Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Transaction Update Date Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Update Date Fiscal Calendar.Transaction Update Date Trailing Year Number",
+      "localization" : {
+        "localizationKey" : "Transaction Update Date Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date_Trailing_Year_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Transaction Update Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Transactions_Transaction_Update_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Transactions_Transaction_Update_Date)"
+    }
+  }
+}

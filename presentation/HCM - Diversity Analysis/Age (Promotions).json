@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Age (Promotions)",
+    "localization" : {
+      "localizationKey" : "Age (Promotions)",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Diversity_Analysis_Age_(Promotions))",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Diversity_Analysis_Age_(Promotions))"
+    }
+  }
+}

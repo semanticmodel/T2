@@ -1,0 +1,44 @@
+{
+  "presentationTable" : {
+    "name" : "Incumbent - Length Of Service Band",
+    "description" : "Provides the various tenure bands of the incumbents based on their date of hire",
+    "presentationColumns" : [ {
+      "name" : "Range Identifier",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Tenure Band (Role Playing).Range Identifier",
+      "localization" : {
+        "localizationKey" : "Range Identifier",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Range_Identifier)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Range_Identifier)"
+      }
+    }, {
+      "name" : "Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Tenure Band (Role Playing).Name",
+      "localization" : {
+        "localizationKey" : "Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Name)"
+      }
+    }, {
+      "name" : "Min Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Tenure Band (Role Playing).Min Range",
+      "localization" : {
+        "localizationKey" : "Min Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Min_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Min_Range)"
+      }
+    }, {
+      "name" : "Max Range",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - HCM - Tenure Band (Role Playing).Max Range",
+      "localization" : {
+        "localizationKey" : "Max Range",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Max_Range)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band_Max_Range)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Incumbent - Length Of Service Band",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Succession_Management_Incumbent_-_Length_Of_Service_Band)"
+    }
+  }
+}

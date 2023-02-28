@@ -1,0 +1,91 @@
+{
+  "presentationTable" : {
+    "name" : "Report Creation Date",
+    "presentationColumns" : [ {
+      "name" : "Report Creation Fiscal Calendar Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Calendar Name",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Calendar Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Calendar_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Calendar_Name)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Year",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Year)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Quarter",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Quarter)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Quarter Number",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Quarter_Number)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Period",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Period)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Period Number",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Period_Number)"
+      }
+    }, {
+      "name" : "Report Creation Fiscal Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Fiscal Date",
+      "localization" : {
+        "localizationKey" : "Report Creation Fiscal Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Report_Creation_Fiscal_Date)"
+      }
+    }, {
+      "name" : "Report Creation Date Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Date Trailing Year Number",
+      "localization" : {
+        "localizationKey" : "Report Creation Date Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Year_Number)"
+      }
+    }, {
+      "name" : "Report Creation Date Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Date Trailing Quarter Number",
+      "localization" : {
+        "localizationKey" : "Report Creation Date Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Report Creation Date Trailing Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - Report Creation Date Fiscal Calendar.Report Creation Date Trailing Period Number",
+      "localization" : {
+        "localizationKey" : "Report Creation Date Trailing Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date_Trailing_Period_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Report Creation Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_EXM_Employee_Expenses_Report_Creation_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_EXM_Employee_Expenses_Report_Creation_Date)"
+    }
+  }
+}

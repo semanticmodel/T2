@@ -1,0 +1,75 @@
+{
+  "presentationTable" : {
+    "name" : "Fact - Inventory Item Location Quantity",
+    "presentationColumns" : [ {
+      "name" : "Available Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Available Quantity",
+      "localization" : {
+        "localizationKey" : "Available Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Available_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Available_Quantity)"
+      }
+    }, {
+      "name" : "On Hand Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.On Hand Quantity",
+      "localization" : {
+        "localizationKey" : "On Hand Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_On_Hand_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_On_Hand_Quantity)"
+      }
+    }, {
+      "name" : "Backordered Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Backordered Quantity",
+      "localization" : {
+        "localizationKey" : "Backordered Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Backordered_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Backordered_Quantity)"
+      }
+    }, {
+      "name" : "Committed Quantity",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Committed Quantity",
+      "localization" : {
+        "localizationKey" : "Committed Quantity",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Committed_Quantity)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Committed_Quantity)"
+      }
+    }, {
+      "name" : "Quantity In Transit",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Quantity In Transit",
+      "localization" : {
+        "localizationKey" : "Quantity In Transit",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Quantity_In_Transit)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Quantity_In_Transit)"
+      }
+    }, {
+      "name" : "Quantity On Order",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Quantity On Order",
+      "localization" : {
+        "localizationKey" : "Quantity On Order",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Quantity_On_Order)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Quantity_On_Order)"
+      }
+    }, {
+      "name" : "Average Cost",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Average Cost",
+      "localization" : {
+        "localizationKey" : "Average Cost",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Average_Cost)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Average_Cost)"
+      }
+    }, {
+      "name" : "Available Value",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact - NetSuite Inventory Item Location Quantity.Available Value",
+      "localization" : {
+        "localizationKey" : "Available Value",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Available_Value)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity_Available_Value)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Fact - Inventory Item Location Quantity",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Inventory_Item_Location_Quantity_Fact_-_Inventory_Item_Location_Quantity)"
+    }
+  }
+}

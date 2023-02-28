@@ -1,0 +1,94 @@
+{
+  "presentationTable" : {
+    "name" : "Adjustment Date",
+    "presentationColumns" : [ {
+      "name" : "Adjustment Fiscal Calendar Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Calendar Name",
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Calendar Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Calendar_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Calendar_Name)"
+      }
+    }, {
+      "name" : "Adjustment Date",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Date",
+      "localization" : {
+        "localizationKey" : "Adjustment Date",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Date)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Date)"
+      }
+    }, {
+      "name" : "Adjustment Fiscal Day Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Day Code",
+      "hideIfTrue" : {
+        "expressionTemplate" : "1 = 1"
+      },
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Day Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Day_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Day_Code)"
+      }
+    }, {
+      "name" : "Adjustment Fiscal Day Name",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Day Name",
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Day Name",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Day_Name)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Day_Name)"
+      }
+    }, {
+      "name" : "Adjustment Fiscal Period",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Period",
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Period",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Period)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Period)"
+      }
+    }, {
+      "name" : "Adjustment Fiscal Quarter",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Quarter",
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Quarter",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Quarter)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Quarter)"
+      }
+    }, {
+      "name" : "Adjustment Fiscal Year",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Fiscal Year",
+      "localization" : {
+        "localizationKey" : "Adjustment Fiscal Year",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Year)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Adjustment_Fiscal_Year)"
+      }
+    }, {
+      "name" : "Adjustment Date Trailing Period Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Date Trailing Period Number",
+      "localization" : {
+        "localizationKey" : "Adjustment Date Trailing Period Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Period_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Period_Number)"
+      }
+    }, {
+      "name" : "Adjustment Date Trailing Quarter Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Date Trailing Quarter Number",
+      "localization" : {
+        "localizationKey" : "Adjustment Date Trailing Quarter Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Quarter_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Quarter_Number)"
+      }
+    }, {
+      "name" : "Adjustment Date Trailing Year Number",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - AR Adjustment Date Fiscal Calendar.Adjustment Date Trailing Year Number",
+      "localization" : {
+        "localizationKey" : "Adjustment Date Trailing Year Number",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Year_Number)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date_Trailing_Year_Number)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Adjustment Date",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_Financials_-_AR_Adjustments_Adjustment_Date)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_Financials_-_AR_Adjustments_Adjustment_Date)"
+    }
+  }
+}

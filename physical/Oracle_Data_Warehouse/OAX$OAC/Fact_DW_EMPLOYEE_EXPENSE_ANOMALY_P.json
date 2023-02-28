@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "Fact_DW_EMPLOYEE_EXPENSE_ANOMALY_P",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_EMPLOYEE_EXPENSE_ANOMALY_P",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "EXPENSE_DIST_ID"
+      ]
+    ]
+  }
+}

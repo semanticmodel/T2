@@ -1,0 +1,10 @@
+{
+  "presentationTable" : {
+    "name" : "Common-To",
+    "localization" : {
+      "localizationKey" : "Common-To",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_HCM_-_Workforce_Gains_and_Losses_Common-To)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_HCM_-_Workforce_Gains_and_Losses_Common-To)"
+    }
+  }
+}

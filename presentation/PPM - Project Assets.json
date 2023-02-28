@@ -1,0 +1,238 @@
+{
+  "subjectArea" : {
+    "name" : "PPM - Project Assets",
+    "description" : "This is a detailed subject area that provides reporting on Capital projects. Track Capitalizable costs and Retirement costs through the Capitalization process, review asset details, asset assignments to projects and tasks and also the amounts charged to various accounts.",
+    "tags" : [ "Project:Fusion Analytics Warehouse - Project Assets" ],
+    "sourceBusinessModel" : "businessModel:Core",
+    "implicitFactColumn" : "logicalColumn:Core.Fact - PRJ - Project Asset.Number of Records",
+    "hideIfTrue" : {
+      "expressionTemplate" : " VALUEOF(NQ_SESSION.%1) = 'HIDE'",
+      "expressionObjects" : [ "variable:undeclaredVariables.AM_PPM_-_Project_Assets" ]
+    },
+    "tableOrder" : [ {
+      "name" : "presentationTable:PPM - Project Assets.Time",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Fiscal Calendar"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Receiver Fiscal Calendar"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Projects Calendar"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Legal Entity"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Ledger Set"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Ledger",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Ledger Details"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Project Ledger Details"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.GL Account"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.GL Segments",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Natural Account Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Cost Center"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Cost Center Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Balancing Segment"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Balancing Segment Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Natural Account"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment1"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment1 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment2"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment2 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment3"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment3 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment4"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment4 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment5"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment5 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment6"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment6 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment7"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment7 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment8"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment8 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment9"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment9 Hierarchy"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment10"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.GL Segment10 Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Business Unit"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Customer",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Project Customer"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Project",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Project Details"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Project Dates"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Project Classification"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Project Team Members"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Project Organization",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Project Organization Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Project Type"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Task",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Task Details"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Task Dates"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Task Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Task",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Asset Task Details"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Asset Task Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Line Task",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Asset Line Task Details"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Asset Line Task Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Expenditure Type"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Expenditure Category"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Revenue Category"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Expenditure Organization",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Expenditure Organization Hierarchy"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Work Type"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Supplier"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Item"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Employee"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Job"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Nonlabor Resource"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Book"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Category"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Location"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Asset Key"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Expenditure Item",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Expenditure Item Details"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Cost Distributions"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Capital Event"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Project Asset"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Project Asset Lines"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Creation Date"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Created By"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Currency Exchange Details",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Ledger Currency"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.DFF",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Project"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Task Structure"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Asset Task"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Asset Line Task"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Project Types"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Expenditure Categories"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Expenditure Types"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Class Categories"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Class Codes"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.DFF - Project Class Codes"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Currency"
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Facts - Ledger Currency",
+      "children" : [ {
+        "name" : "presentationTable:PPM - Project Assets.Project Costs"
+      }, {
+        "name" : "presentationTable:PPM - Project Assets.Project Assets Costs"
+      } ]
+    }, {
+      "name" : "presentationTable:PPM - Project Assets.Facts - Projects Assets"
+    } ],
+    "permissions" : [ {
+      "accessor" : "role:AuthenticatedUser",
+      "access" : "NO_ACCESS"
+    }, {
+      "accessor" : "role:OA4F_PPM_PROJECTS_ASSETS_DUTY",
+      "access" : "READ"
+    } ],
+    "localization" : {
+      "localizationKey" : "PPM - Project Assets",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_PPM_-_Project_Assets)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_PPM_-_Project_Assets)"
+    }
+  }
+}

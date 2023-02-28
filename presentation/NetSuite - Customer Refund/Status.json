@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Status",
+    "presentationColumns" : [ {
+      "name" : "Customer Refund Status Code",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Customer Refund Status.Customer Refund Status Code",
+      "localization" : {
+        "localizationKey" : "Customer Refund Status Code",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Refund_Status_Customer_Refund_Status_Code)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Refund_Status_Customer_Refund_Status_Code)"
+      }
+    }, {
+      "name" : "Customer Refund Status",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim - NetSuite Customer Refund Status.Customer Refund Status",
+      "localization" : {
+        "localizationKey" : "Customer Refund Status",
+        "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Refund_Status_Customer_Refund_Status)",
+        "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Refund_Status_Customer_Refund_Status)"
+      }
+    } ],
+    "localization" : {
+      "localizationKey" : "Status",
+      "nameVariable" : "VALUEOF(NQ_SESSION.CN_NetSuite_-_Customer_Refund_Status)",
+      "descriptionVariable" : "VALUEOF(NQ_SESSION.CD_NetSuite_-_Customer_Refund_Status)"
+    }
+  }
+}

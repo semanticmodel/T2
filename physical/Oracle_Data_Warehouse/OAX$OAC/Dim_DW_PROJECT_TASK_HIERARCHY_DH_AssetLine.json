@@ -1,0 +1,41 @@
+{
+  "physicalTable": {
+    "name": "Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine",
+    "sourceTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.DW_PROJECT_TASK_HIERARCHY_DH",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "useJoinExpression": true,
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ASSET_LINE_CF_AssetLineDtl",
+        "joinExpression": {
+          "expressionTemplate": "%1 =  CAST (%2 AS VARCHAR ( 38 ))",
+          "expressionObjects": [
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_ELEMENT_ID",
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_ASSET_LINE_CF_AssetLineDtl.TASK_ID"
+          ]
+        },
+        "cardinality": "UNKNOWN",
+        "joinType": "INNER"
+      },
+      {
+        "useJoinExpression": true,
+        "rightTable": "physicalTable:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_PROJECT_ASSET_LINE_CF",
+        "joinExpression": {
+          "expressionTemplate": "%1 =  CAST (%2 AS VARCHAR ( 38 ))",
+          "expressionObjects": [
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Dim_DW_PROJECT_TASK_HIERARCHY_DH_AssetLine.BASE_ELEMENT_ID",
+            "physicalColumn:Oracle_Data_Warehouse.OAX$OAC.Fact_DW_PROJECT_ASSET_LINE_CF.TASK_ID"
+          ]
+        },
+        "cardinality": "UNKNOWN",
+        "joinType": "INNER"
+      }
+    ],
+    "additionalKeys": [
+      [
+        "BASE_ELEMENT_ID"
+      ]
+    ]
+  }
+}
